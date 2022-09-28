@@ -1,0 +1,5 @@
+# GREAT version 3.0.0	Species assembly: hg19	Association rule: Basal+extension: 5000 bp upstream, 1000 bp downstream, 1000000 bp max extension, curated regulatory domains included
+# Term Name 	 Binom Rank 	 Binom Raw P-Value 	  Binom FDR Q-Val  	 Binom Fold Enrichment 	 Binom Observed Region Hits 	 Binom Region Set Coverage 	 Hyper Rank 	  Hyper FDR Q-Val  	 Hyper Fold Enrichment 	 Hyper Observed Gene Hits 	 Hyper Total Genes 	 Hyper Gene Set Coverage
+IFN-gamma pathway	2	0.00005484869	0.0362001354	12.5342	5	0.05681818	1	0.0359674656	14.01352	5	41	0.03184713	
+IL27-mediated signaling events	3	0.00006324393	0.0278273292	19.141	4	0.04545455	3	0.03127376120000001	17.67859	4	26	0.02547771	
+Genes involved in Interleukin-6 signaling	4	0.0001139248	0.037595184000000004	32.93674	3	0.03409091	4	0.0244813701	34.47325	3	10	0.01910828	

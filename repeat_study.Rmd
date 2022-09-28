@@ -1,0 +1,646 @@
+---
+title: "Supplementary scripts"
+author: "Liangxi Wang"
+date: "28/09/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggrepel)
+library(magrittr)
+library(RColorBrewer)
+library(dplyr)
+
+theme_slides <- theme(
+  axis.title.x = element_text(size=18),
+  axis.title.y = element_text(size=18),
+  axis.text.x = element_text(size=16),
+  axis.text.y  = element_text(size=16),
+  plot.title = element_text(size=18,hjust=0.5),
+  legend.text = element_text(size=14),
+  strip.text.x = element_text(size=16),
+  legend.title=element_blank()
+)
+
+theme_set(theme_classic())
+set1 <- brewer.pal(n=8,name="Set1")
+set2 <- brewer.pal(n=8,name="Set2")
+
+```
+
+## Fig 2
+
+```{r}
+###########
+#2A
+###########
+#Steps: downloaded RepeatMasker annotation from UCSC table browser for hg19, mm10 and btau9 (discard simple repeats from the three files); processed RELA ChIP-seq data from human, mouse and cow from Alizada et al. 2021 (see Methods) and use both stimulated and unstimulated data to call RELA peaks (MACS2(v2.0.10) with default parameters; an example code: callpeak -t BAEC_RELA_TNF.bam -f BAM -c BAEC_RELA_basal.bam -g 2660922743 -n BAEC_RELA -q 0.01); used bedtools intersect to determine the intersection between RELA peak summits and RepeatMasker-annotated four TE classes. On the other hand, for genome background, we calculated the overall nucleotides of the four TE classes in the genome. 
+
+# an example code to generate 2A: (note, Supplementary Figure2A was genrated with the "Non-repeat" part from 2A removed)
+species <- c(rep("human",12),rep("mouse",12),rep("cow",12)) %>% factor(levels=c("human","mouse","cow"))
+type <- rep(c(rep("bg",6),rep("rela",6)),3) %>% factor(levels=c("bg","rela"))
+repeats <- rep(c("LINE","SINE","DNA","LTR","Others","Non-repeat"),6) %>% factor(levels=c("LINE","SINE","DNA","LTR","Others","Non-repeat"))
+numbers <- c(631151497 ,391711574, 98550268, 264188900, 36354056,3095693981-1421956295, 4118, 2083 ,966, 3896, 316,59735-11379,547290976, 205854790, 29576817, 319090210, 37721535,2725537669-1139534328,699, 501 ,169, 1443, 91,23623-2903,603084332, 459486158, 55325865, 125528051, 21755080,2660922743-1265179486,5074, 20188, 1118, 2902, 294,93511-29576)
+all.species.rela.repeat.overlap.table <- data.frame(species=species,
+                                                    type=type,
+                                                    repeats=repeats,
+                                                    numbers=numbers) 
+
+
+ggplot(all.species.rela.repeat.overlap.table, aes(x=type,y=numbers,fill=repeats))+
+  geom_bar(stat="identity",position="fill")+
+  facet_grid(~species)+
+  theme_slides+
+  scale_x_discrete(labels=c("rela"="RELA sites","bg"="Whole genome"))+
+  theme(axis.text.x = element_text(size=11))+
+  labs(x="",y="Percentage of elements with TEs")+
+  scale_fill_manual(values=set2[c(1:5,8)])
+
+###########
+#2B
+###########
+#We used gat tool to find sig enriched TE subfamilies for each species. an example code: gat-run.py --segment-file=HAEC_RELA_summits.bed --workspace-file=hg19_ChromInfo_noRand.bed --annotation-file=repeatmasker_hg19_repFamily.bed > HAEC_all_peaks_wholegenome.tsv -n 10000. 
+
+# here we show example code to generate the figure of enriched TE subfamily in human:
+plot_sigTE <- function(TE_table,title,repeat_table="hg19_repeat_form.txt",size=10,log2fold=1,fdr=0.05) {
+  hsap.enrichSummit.table <- read.table(TE_table,header=T)
+  hsap.enrichSummit.table <- hsap.enrichSummit.table[,-1]
+  
+  ALL.hsap.repeat.table <- read.table(repeat_table)
+  colnames(ALL.hsap.repeat.table) <- c("repName","repClass","repFamily")
+  hsap.sig.enrichSummit.table <- hsap.enrichSummit.table  %>% subset(l2fold>log2fold & qvalue< fdr &overlap_nsegments>= size) 
+  hsap.sig.enrichSummit.table <- inner_join(hsap.sig.enrichSummit.table,ALL.hsap.repeat.table,by=c("annotation"="repName"))
+  ## filter out low_complexity repeats
+  hsap.sig.enrichSummit.table %<>% subset(repClass!="Low_complexity")
+  hsap.sig.enrichSummit.table$repClass <- hsap.sig.enrichSummit.table$repClass %>% factor(levels=c("LINE","SINE","DNA","LTR","Unknown","snRNA"))
+  hsap.sig.enrichSummit.table %<>% arrange(desc(repClass),l2fold)
+  hsap.sig.enrichSummit.table %<>% mutate(annotation=fct_inorder(annotation))
+  
+  p1 <- ggplot(hsap.sig.enrichSummit.table,aes(y=l2fold,x=annotation,fill=repClass,label=paste0(observed," / ",annotation_nsegments)))+
+  geom_bar(stat="identity")+
+  coord_flip()+
+  scale_fill_manual(values=set2)+
+  geom_text(size=3)+
+  theme_slides+
+  labs(x="",y="Log2 fold change of observed/expected",title=title)
+  
+  print(p1)
+  
+  return(hsap.sig.enrichSummit.table)
+}
+haec_sigTEs <- plot_sigTE("hg19_repeat_noRand_filtered_repName_HAEC_all_peaks_wholegenome.tsv","HAEC",size=10,log2fold=1, fdr=0.05)
+
+
+###########
+#2C
+###########
+# steps: we calculated the median estimated age for each TE subfamily using RepeatMasker annotations (see details in Methods); obtained two point estimation for human-mouse (90 MYA) and mouse-cow (96 MYA) divergence time from TIMETREE database. 
+
+# code to generate the left panel:
+three.species.repeats.name.table <- read.table("three_species_repeat_table",header=F)
+colnames(three.species.repeats.name.table) <- c("repName","repClass","repFamily")
+three.species.enrich.table <- read.table("three_species_TE_age.tsv",header=T)
+
+
+temp.dt  <- left_join(three.species.enrich.table,three.species.repeats.name.table[,1:2],by=c("annotation"="repName"))
+temp.dt %<>% unique()
+
+temp.dt$annotation <- factor(temp.dt$annotation,levels=temp.dt$annotation %>% unique)
+temp.dt$repClass <- temp.dt$repClass %>% factor(levels=c("LINE","SINE","DNA","LTR","Unknown","snRNA"))
+ggplot(temp.dt,aes(y=annotation,estimated.age,color=repClass))+ 
+  geom_point(stat="identity",size=4)+ 
+  geom_vline(aes(xintercept=90),linetype="dashed",size=2,color="gray")+
+  geom_vline(aes(xintercept=96),linetype="dashed",size=2,color="gray")+
+  theme(
+        axis.title.x = element_text(size=18), 
+        axis.title.y = element_text(size=18), 
+        axis.text.x = element_text(size=15), 
+        axis.text.y  = element_text(size=18), 
+        plot.title = element_text(size=18,hjust=0.5),
+        legend.text = element_text(size=18),
+        strip.text.x = element_text(size=16),
+        legend.title=element_blank()
+          )+
+  labs(x="Estimated age(million years ago)",y="")+
+  scale_color_manual(values=set2)
+
+# code to generate the right panel: we obtained the exact log2 fold change values from Fig 2B
+# Note for Fig 4C, similar steps were taken to generate the heatmap for 4 human cell types (i.e., using gat to identify TE subfamilies for each cell type separately and then extract the log2 fold change values from all four cell types for visualization).
+
+library(gplots)
+heatmap.table <- read.csv("three_species_heatmap.tsv",sep="\t",header = T)
+heatmap.table %<>% column_to_rownames(var="name")
+
+heatmap.table[is.na(heatmap.table)] <- 0 
+heatmap.table<- heatmap.table[rev(1:nrow(heatmap.table)),]
+heatmap.2(heatmap.table %>% as.matrix,col=colorRampPalette(c("white","darkred"),10),trace="none",dendrogram = "none",Rowv = F, Colv = F,cexCol =1.5, density.info = "none",srtCol=360)
+
+
+
+```
+
+## Fig 3
+
+```{r}
+###########
+#3B
+###########
+# note for 3A, we used the bigwig files of all these ChIP-seq and ATAC-seq data and used deepTools suite to plot the signal (see Methods for details).
+# Here, we used Homer to calculate stranded signal from ChRO-seq for regions of interest. Note we only calculated signals for distal peaks (the default 3k as the cutoff). An example code: getDistalPeaks.pl  groupC.bed hg19 > groupC_distal.bed; annotatePeaks.pl groupC_distal.bed hg19 -size 4000 -hist 25 -d telo_tnf -pc 3 >groupC_chroseq_tnf_signal_plus.txt 
+# next, we merged calculated signals for all the four group into one file.
+# note, we followed the same procedure for Fig 6D
+
+# code to generate 3B 
+all_rela_merged_distal_tnf_table <- read.table("merged_chroseq_distal_tnf_signal.txt",skip = 1)
+names(all_rela_merged_distal_tnf_table) <- c("dist","young_TE_plus","young_TE_minus","old_TE_plus","old_TE_minus","species_specific_TE_plus","species_specific_TE_minus","conserved_TE_plus","conserved_TE_minus")
+all_rela_merged_distal_tnf_table %<>% gather("type","value",2:9)
+all_rela_merged_distal_tnf_table$type %<>% fct_inorder()
+
+ggplot(all_rela_merged_distal_tnf_table,aes(dist,value,color=type)) +
+  geom_line(aes(linetype=type),size=1)+
+  labs(x="distance to peak center (bp)", y="signal")+
+  scale_color_manual(values = rep(c("lightblue",set1[2],brewer.pal(n=8,name="RdBu")
+                                    [4],brewer.pal(n=8,name="Set3")
+                                    [6]),each=2))+
+  scale_linetype_manual(values=c(2,1,2,1,2,1,2,1) )+
+  labs(title = "tnf")+
+  ylim(c(0,0.04))+
+  theme_slides
+
+###########
+#3C
+###########
+#We collected instances from each category that reside within 500kb to up-regulated gene TSS. We recorded the distance of instances to the nearest up-regulated gene TSS. Next, we normalized these occurrences by the total number of the corresponding category (i.e., the fraction of elements). 
+
+# we merge information for all groups into one file, and visualize them as follows (we selected up-regulated gene group as an example to show): 
+
+four_group_RELA_with_up_tss_table <- read.table("all_group_RELA_with_up_tss.tsv", header=F, sep = "\t")
+names(four_group_RELA_with_up_tss_table) <- c("distance","type")
+
+four_group_RELA_with_up_tss_table %>% mutate(total_num= case_when(type=="conserved" ~17672,
+                                                                  type=="old" ~1492,
+                                                                  type=="species" ~42063,
+                                                                  type=="young" ~561,
+                                                                  type=="background"~5232241),
+                                             distance= distance/1000) %>%  mutate(distance_bins=cut(distance,breaks=50)) %>% 
+  dplyr::count(distance_bins, type, total_num) %>% mutate(distance=as.numeric(fct_inorder(distance_bins))-0.5, type=factor(type,levels=c("young","old","species","conserved","background"))) %>%
+  ggplot(aes(x=distance,y=n/total_num, color=type)) + 
+  geom_smooth(size=1.5,se=F,span=0.1)+
+  scale_color_manual(values = c("lightblue",set1[2],brewer.pal(n=8,name="RdBu")
+                                    [4],brewer.pal(n=8,name="Set3")
+                                    [6],"lightgray"))+
+  labs(x="Distance relative to induced genes (10kb)", y="Fraction of elements",title="up gene group")+
+  ylim(c(0,0.04))+
+  theme_slides
+
+###########
+#3D
+###########
+# we input the four categories to GREAT tool and selected the top 5 terms (based on binomial FDR) from Biological Processes (BP) and MsigDB pathway for each category. We then merge these terms to get an union list. 
+
+old_group_great_table <- read.table("old_full_GREAT.tsv",sep="\t", header=F,quote="")
+names(old_group_great_table) <- c("desc","fdr","fold","type","GO")
+species_group_great_table <- read.table("species_full_GREAT.tsv",sep="\t", header=F,quote="")
+names(species_group_great_table) <-  c("desc","fdr","fold","type","GO")
+conserved_group_great_table <- read.table("conserved_full_GREAT.tsv",sep="\t", header=F,quote="")
+names(conserved_group_great_table) <-  c("desc","fdr","fold","type","GO")
+
+go_desc_list<- lapply(list(old_group_great_table,species_group_great_table,conserved_group_great_table), function(x) x %>% subset(GO=="BP") %>% arrange(fdr) %>% select(desc) %>% head(5) %>% unlist) %>% unlist
+go_desc_list<- lapply(list(old_group_great_table,species_group_great_table,conserved_group_great_table), function(x) x %>% subset(GO=="Msig") %>% arrange(fdr) %>% select(desc) %>% head(5) %>% unlist) %>% unlist %>% append(go_desc_list,.)
+go_desc_list %<>% unique
+go_desc_list <- setdiff(go_desc_list,c("cellular process", "biological regulation"))
+
+rbind(old_group_great_table,species_group_great_table,conserved_group_great_table, data.frame(desc= rep("immune response",30),
+                                                                                              fdr= rep(NA, 30),
+                                                                                              fold= rep(NA, 30),
+                                                                                              type= rep("young", 30),
+                                                                                              GO = rep("BP", 30))) %>% subset(desc %in% go_desc_list) %>%
+  mutate(type= factor(type, levels=c("young", "old", "species", "conserved") %>% rev)) %>% arrange(GO, fdr) %>% mutate(desc=fct_inorder(desc)) %>% 
+  ggplot(aes(x=type,y=desc,color=-log10(fdr),size=fold))+
+  geom_point()+
+  labs(x="", y="")+
+  scale_colour_gradient2(low = "lightblue",mid="#FF7F00", high="brown", midpoint = 12)+ #low = "lightblue", high="#67000D" high=""#E41A1C""
+  theme_slides
+
+
+```
+
+## Fig 5
+
+```{r}
+###########
+#5A & 5B
+###########
+# steps: We used centrimo from MEME suite for known motif enrichment. For input sequences, we used RELA bound instances for each subfamily. An example code for centrimo: centrimo -oc MER81_centrimoout  -ethresh 1 MER81_sequences.fa JASPAR_all_TFs.meme . We selected top 10 enriched TF motifs (based on E value) for each TE subfamily and made the heatmap.
+# Note we followed the same procedure for Supplementary Figure 6, as well.
+# Here we merged all information for TE-TF into one file and use it as input for visualization. We demonstrate the code with cow endothelial cells as an example:
+
+btau_te_tf.mx <- read.table("TE_TF_evalue_full_table.tsv", header=T, sep="\t",colClasses = "character" )
+rownames(btau_te_tf.mx) <- btau_te_tf.mx$motif_name
+btau_te_tf.mx %<>% select(-motif_name) 
+
+for (i in 1:nrow(btau_te_tf.mx)){
+  for (j in 1:ncol(btau_te_tf.mx)){
+    if (btau_te_tf.mx[i,j]=="0")
+      btau_te_tf.mx[i,j] <- NA
+    else
+      btau_te_tf.mx[i,j] <- -log10(mpfr(btau_te_tf.mx[i,j])) %>% as.numeric()
+  }
+}
+btau_te_tf.mx %<>% mutate_all(as.numeric)
+btau_te_tf.mx %<>% na_replace(0)
+btau_te_tf.mx <- btau_te_tf.mx[rowSums(btau_te_tf.mx) >0,]
+
+
+top_tf_names <- character(0)
+sapply(1:18, function(i){
+  names <- btau_te_tf.mx[order(btau_te_tf.mx[,i]) %>% rev(),] %>% head(5) %>% rownames()
+  top_tf_names <<- union(top_tf_names, names)
+})
+
+top_tf_list_table <- sapply(1:18, function(i){
+  names <- btau_te_tf.mx[order(btau_te_tf.mx[,i]) %>% rev(),] %>% head(5) %>% rownames()
+})
+colnames(top_tf_list_table) <- names(btau_te_tf.mx)
+
+btau_te_tf_top_rank.mx <- lapply(btau_te_tf.mx %>% subset(rownames(.)%in% top_tf_names), rank, ties.method="min") %>% as.data.frame()
+rownames(btau_te_tf_top_rank.mx) <- rownames(btau_te_tf.mx %>% subset(rownames(.)%in% top_tf_names))
+
+##convert to relative rank (spread rank values)
+tmp.mx <- btau_te_tf_top_rank.mx %>% t
+max_val <- max(tmp.mx)
+tmp.mx <- na_if(tmp.mx, 1)
+rank_with_na <- function(x) ifelse(is.na(x), NA, rank(x,ties.method = "first"))
+
+for (i in 1:nrow(tmp.mx)) {
+  num_value <- rank_with_na(tmp.mx[i,]) %>% unique %>% na.omit %>% length
+  tmp.mx[i,] <- max_val/num_value * rank_with_na(tmp.mx[i,])
+}
+tmp.mx %<>% replace_na(0)
+btau_te_tf_top_rank.mx <- tmp.mx %>% t
+
+pheatmap(
+  mat               = btau_te_tf_top_rank.mx %>% t,
+  color             =  colorRampPalette(c("white","darkred"))(100),
+  border_color      = NA,
+  show_colnames     = T,
+  show_rownames     = T,
+  drop_levels       = TRUE,
+  cellheight = 5,
+  fontsize = 5,
+  cellwidth = 5,
+  treeheight_row = 5,
+  treeheight_col =5,
+  main              = "cow endothelial cells"
+) 
+
+
+###########
+#5C
+###########
+# steps: We used fimo from MEME suite to scan RELA motifs from RELA bound instances and all subfamily instances. An example code for fimo: fimo --max-strand --max-stored-scores 1000000 --o RELA_bound_Bov-tA1_RELA_motif_fimo_out   RELA_motif.meme  RELA_bound_Bov-tA1.fa . We then recorded the identified RELA motif location for each instance. With the help of RepeatMasker annotation, we could then convert the position in instance to the corresponding position in consensus sequence. We calculated the occurrences of RELA motifs with the positions in consensus and normalized them by the total number of the corresponding group.
+# Note we followed the same procedure for Fig 5C, Fig 6B and Supplementary Figure 8A.
+
+# Here we show example code for Bov-tA1:
+
+bov_ta1_pos.df <- read.table("bov_ta1_rela_motif_pos_full_table.tsv", header=F, sep="\t")
+names(bov_ta1_pos.df) <- c("type","position")
+
+bov_ta1_pos.df %>% dplyr::count(type, position) %>% mutate(total_num=ifelse(type=="RELA_bound",2927,203808)) %>% 
+  ggplot(aes(x=position, y= n/total_num, color=type)) +
+  geom_line(size=1)+
+  xlim(c(0,227))+
+  ylim(c(0,0.25))+
+  labs(x="Motif position in consensus sequence", y="Normalized RELA motif counts", title = "Bov-tA1")+
+  scale_color_manual(labels=c("background","RELA bound"),values=c("#C0C0C0",set2[2]))+
+  theme_slides
+
+
+
+
+###########
+#5D
+###########
+# steps: We used fimo to scan all three word-motifs (consensus-word, RELA-word1, RELA-word2) for RELA bound and all subfamily instances. Here the input motif for word-motifs in fimo code is the corresponding matrix of exact match. We further required the match to be at the investigated location (130-140 bp in consensus). We calculated the percentage of word-motif matched instances for each category (RELA bound and background).
+# Note, we followed the same procedure for Supplementary Figure 8B.
+# Here we show example code for Bov-tA1/2/3:
+
+bov_ta_sub_pop_df <- data.frame(name=c("Bov-tA1","Bov-tA2","Bov-tA3","Bov-tA1","Bov-tA2","Bov-tA3"), 
+                                category=rep(c("background","RELA_bound"),each=3),
+                                pop1=c(23.6, 10.2, 10.6,9.63, 4.1, 3.1 )/100,
+                                pop2=c(4.4, 3.0, 25.5, 17.5, 11.9, 54.4)/100,
+                                pop3=c(4, 6.7, 4.5, 22, 34.8, 13.9)/100)
+bov_ta_sub_pop_df %<>% mutate(others=1-pop1-pop2-pop3)
+
+bov_ta_sub_pop_df %>% gather("type","perc",3:6) %>% mutate(type=factor(type, levels=c("pop1","pop2","pop3","others") %>% rev)) %>% 
+  mutate(group=factor(paste0(name,"|",category), levels=c("Bov-tA1|background","Bov-tA1|RELA_bound","Bov-tA2|background","Bov-tA2|RELA_bound","Bov-tA3|background","Bov-tA3|RELA_bound") %>% rev)) %>%   ggplot(aes(x=perc, y=group, fill=type))+
+  geom_bar(stat="identity",position="fill",width=0.5)+ 
+  scale_fill_manual(values=c("lightgray",brewer.pal(3,"Set3")))+
+  labs(x="Fraction of the sub-populations", y="",fill="")+
+  theme_slides
+
+
+```
+
+##Fig 6
+
+```{r}
+###########
+#6C
+###########
+# for this figure, we used PhastCons scores (https://www.google.com/url?q=http://hgdownload.cse.ucsc.edu/goldenpath/hg38/phastCons100way/hg38.phastCons100way.bw&sa=D&source=docs&ust=1664395580928663&usg=AOvVaw0y6IqnpDO-PfJyzBlEiAPs) and deepTools to visualize the difference between RELA bound and no RELA bound MER81 elements (see Methods for more details).
+
+###########
+#6E & 6F
+###########
+# we hard coded all the values obtained from experiments and visualized them.
+# here, we show example code for the native MER81 sequence (6F left panel)
+
+# we removed rep3, because it is clearly an outlier (although the trend from this replicate is still correct).
+luc_color <- brewer.pal(n=8,name="Dark2")
+luc_native_full_table <- rbind(data.frame(construct=c("empty_vec", "native", "mutant"),
+                        rep1=c(1,1.65,1.77),
+                        rep2=c(1,0.95,0.4),
+                       # rep3=c(1,23.3,8.3),
+                        rep4=c(1,0.61,0.32),
+                        rep5=c(1,0.62,0.77),
+                        rep6=c(1,0.48,0.28)) %>%  gather("batch", "value", 2:6) %>% mutate(condition="basal"),
+
+ data.frame(construct=c("empty_vec", "native", "mutant"),
+                        rep1=c(1.09,2.21,1.83),
+                        rep2=c(0.83,1.4,0.53),
+                        #rep3=c(0.96,25.2,8.2),
+                        rep4=c(0.89,1.98,0.34),
+                        rep5=c(0.93,1,0.87),
+                        rep6=c(1.065,0.74,0.3))%>%  gather("batch", "value", 2:6) %>% mutate(condition="tnf"))
+
+
+luc_native_full_table$construct %<>% factor(levels=c("native","mutant","empty_vec"))
+
+luc_native_full_table %>% arrange(construct, condition) %>% group_by(construct, condition) %>% summarise(n=n(),mean=mean(value), sd=sd(value)) %>% mutate(se=sd/sqrt(n)) %>% ggplot() +
+  geom_bar(aes(x=construct,y=mean, fill=condition), stat="identity",position=position_dodge(width=0.8),width=0.75)+
+  geom_errorbar(aes(x=construct, ymin=mean-se, ymax=mean +se, fill=condition ),position=position_dodge(width=0.8), width=0.4, size =1.5)+
+  geom_point(data=luc_native_full_table,aes(x=construct,y=value, fill=condition,shape=batch),size=4, position=position_dodge(width=0.8))+
+  scale_fill_manual(values=luc_color[3:2])+
+  scale_shape_manual(values=c(7,10,15,16,17,18))+
+  labs(y="Normalized luciferase signal", x="")+
+  theme_slides
+
+
+```
+
+##Fig 7
+
+```{r}
+###########
+#7B
+###########
+# We extracted valid MER81 sequences from all the 11 nodes (see Methods for more details) and used fimo to scan RELA motifs over all these sequences. We recorded the total number of MER81 elements and number of MER81 elements containing RELA motifs.
+# We hard-coded all the values and made the bar plot.
+
+mer81_evo_table <- read.table("frac_with_motif_table" , header=F)
+mer81_evo_table %<>% set_colnames(c("motifs","total")) 
+mer81_evo_table %<>%  mutate(perc= motifs/total)
+mer81_evo_table$age <- c(0,6.6,9.1,15.2,20.2,29.4,43.2,74,82,90,96)
+
+mer81_evo_table$genomes <- c("human","chimpanzee","gorilla","orangutan","gibbon","green monkey","squirrel monkey","bushbaby","tree shrew","pika","starnosed mole")#c("hs0_human","hs1_chimp","hs2_gorilla","hs3_orang","hs4_gibbon","hs5_gmonkey","hs6_sqmonkey","hs7_bushaby","hs8_cushrew","hs9_pika","hs10_snmole")
+mer81_evo_table$genomes %<>% fct_inorder() 
+mer81_evo_table %<>% mutate(total=total-motifs) 
+mer81_evo_table %<>% gather("type","num",1:2)
+mer81_evo_table$type %<>% factor(levels=c("total","motifs"))
+
+ggplot(mer81_evo_table,aes(y=num,x=genomes, fill=type))+
+  geom_bar(stat="identity",position="stack")+
+  scale_fill_manual(values=c("#C0C0C0",set2[2]),labels=c("total number", "with motifs"))+
+  labs(x="",y="number of MER81 copies", fill="")+
+  theme(
+  axis.title.x = element_text(size=26),
+  axis.title.y = element_text(size=22),
+  axis.text.x = element_text(size=22),
+  axis.text.y  = element_text(size=24),
+  plot.title = element_text(size=22,hjust=0.5),
+  legend.text = element_text(size=22),
+  strip.text.x = element_text(size=22),
+  legend.title=element_blank()
+)+
+  coord_flip()
+
+###########
+#7C
+###########
+# We firstly developed a neutral model for MER81 sequence evolution by taking into account nucleotide substitution. We used the primate nucleotide substitution rate 2.2*e-9/ (year*site) from Bulmer et al. 1991 and Pace et al. 2008.
+# We started with the actual MER81 sequences identified from the common ancestor of human and star-nosed mole, or node 10 (n=2766). We extracted these sequences and calculated the estimated sequence divergence using the product of substitution rate and "evolved time" from 96 MYA. We used this value as a likelyhood to decide whether a nucleotide from the original sequence needs to be substituted. We simulated the sequences for the following 10 nodes for all the 2766 original/real sequences (i.e., in our simulation, node 10 was observed value and the other 10 nodes were all simulated values). We performed the simulation for 1000 iterations. We then used fimo to scan RELA motifs over all the simulated sequences. We recorded the mean counts of RELA motifs for each node (from the 1000 simulations) and then calculated the fraction value by dividing 2766.
+
+##########################################
+# set.seed(20220214)
+# 
+# nucleotides <- c("a","t","c","g")
+# div_perc <- (96-c(0,6.6,9.1,15.2,20.2,29.4,43.2,74,82,90,96) %>% rev()) * 2.2 /1000
+# 
+# hs10_mer81_seq <- read.table("~/neutral_model/hs10_mer81_seq.txt",header = F)
+# # simulate each seq for 1000 times
+# mer81_simulated_mx <- matrix(nrow=nrow(hs10_mer81_seq),ncol=101)
+# mer81_simulated_mx[,1] <- hs10_mer81_seq$V1
+# sapply(2:11, function(x){
+#   sapply(1:nrow(hs10_mer81_seq), function(j){
+#   temp_seq <- mer81_simulated_mx[j,1]%>% strsplit("") %>% unlist()
+#   sapply(1:1000, function(i){
+#   choices <- runif(length(temp_seq),0,1)< div_perc[x]
+#   evolved_seq <- sapply(1:length(temp_seq), function(.) ifelse(choices[.]==T,setdiff(nucleotides,temp_seq[.]) %>% sample(1),temp_seq[.]) )
+#   #mer81_simulated_mx[j,i+1] <<- evolved_seq%>%paste0(collapse = "")
+#   write(paste0(">seq_",j,"_",i),file=paste0("~/neutral_model/hs", 11-x, "_mer81_simulated.fa"), append=T)
+#   write(evolved_seq %>%paste0(collapse = "") ,file=paste0("~/neutral_model/hs", 11-x, "_mer81_simulated.fa"), append=T)
+# })
+# })
+# })
+###################################################
+
+## We hard-coded the fraction values that contain RELA motifs for each node from our simulation.
+simulated_motif_num <- c(0.459,0.441,0.416,0.392,0.310,0.278,0.259,0.249,0.238,0.234,0.221) ## 
+
+mer81_evo_model.df <- mer81_evo_table %>% subset(type=="motifs") %>% select(age,perc) %>% mutate(type="observed")
+
+mer81_evo_model.df <- rbind( mer81_evo_model.df, 
+       mer81_evo_model.df %>% mutate(perc=rev(simulated_motif_num),type="simulated")
+)
+
+
+ggplot(mer81_evo_model.df, aes(age, perc*100,color=type))+
+  geom_point(size=2.5)+
+  geom_line(size=1.2)+
+  #geom_smooth(se=F,size=1.2)+
+  scale_x_reverse()+
+  labs(x="Age of Genome (MYA)", y="% of MER81 hits with RELA motifs")+
+  theme(
+  axis.title.x = element_text(size=12),
+  axis.title.y = element_text(size=12),
+  axis.text.x = element_text(size=12),
+  axis.text.y  = element_text(size=12),
+  plot.title = element_text(size=12,hjust=0.5),
+  legend.text = element_text(size=12),
+  strip.text.x = element_text(size=12),
+  legend.title=element_blank()
+)+
+  coord_fixed(0.9)+
+  scale_color_manual(values = c(set2[2],"gray"))
+
+
+###########
+#7D
+###########
+# We extracted MER81 sequences that contain a RELA motif. We then looked at the RELA motif distribution within these motif containing MER81 sequences. We used in-house RepeatMasker outputs from these reconstructed genomes (see Methods for details) to convert the RELA motif position in instances to consensus. We then normalize these motif counts by the total number of its corresponding group.
+
+#Here we merged all the information for the 11 nodes into one file and use it as input for visualization
+mer81_rela_motifs_table <- read.table("RELA_motifs_relative_pos_in_MER81_of_ten_species",sep="\t",header = F)
+names(mer81_rela_motifs_table) <- c("species","pos")
+mer81_rela_motifs_table %<>% subset(species!="hs11_armadillo" & pos<=114) 
+
+mer81_rela_motifs_table$species %<>% factor(levels=c("hs0_human","hs1_chimp","hs2_gorilla","hs3_orang","hs4_gibbon","hs5_gmonkey","hs6_sqmonkey","hs7_bushaby","hs8_ctshrew","hs9_pika","hs10_snmole"))
+
+mer81_rela_motifs_table %>% dplyr::count(species, pos, sort=T) %>% 
+  mutate(total_num=case_when(species=="hs0_human" ~ 575,
+                                               species=="hs1_chimp" ~ 587,
+                                               species=="hs2_gorilla" ~ 595,
+                                               species=="hs3_orang" ~ 610,
+                                               species=="hs4_gibbon" ~ 623,
+                                               species=="hs5_gmonkey" ~ 642,
+                                               species=="hs6_sqmonkey" ~ 675,
+                                               species=="hs7_bushaby" ~ 1031,
+                                               species=="hs8_ctshrew" ~ 1116,
+                                               species=="hs9_pika" ~ 1132,
+                                               species=="hs10_snmole" ~ 1271
+                                                  )) %>% 
+  ggplot(aes(x=pos,y=n/total_num,color=species))+
+  geom_line()+
+  scale_color_manual(values=colorRampPalette(brewer.pal(n=8,name="Blues")[4:8])(11) %>% rev)+
+  labs(x="Motif position in consensus sequence", y="Normalized RELA motif counts")+
+  theme_slides
+
+```
+
+## Supplementary Figure 1
+
+```{r}
+## Steps: For each TF, we calculated the fraction of TF peak summits overlapping a TE. (We obtained TF peak summits from GTRD, TE annotation from RepeatMasker, as described before; We used bedtools intersect to find the overlap).
+## We put overlapping results into two files (human and mouse separately).
+
+#1A. human
+hsap.tf <- read.table("tf_te_overlap_V2",comment.char = "",sep = ":")
+colnames(hsap.tf) <- c("tf","total","overlap")
+hsap.tf %<>% subset(total>10000) # We removed TFs with peak number <= 1000; 435 TF remained.   
+ggplot(hsap.tf,aes(total/1000))+
+  geom_histogram(bins=80)
+
+ggplot(hsap.tf,aes(x=overlap/total))+
+  geom_line(stat="density",color=set2[3],size=1.5) + 
+  geom_vline(xintercept=c(0.483),linetype="dashed",size=1.5,color="gray") +
+  geom_vline(xintercept=c(0.326),linetype="dashed",size=1.5,color=set2[2]) +
+  labs(x="Fraction of TF binding sites that overlap with repeat elements",y="Density")+
+  xlim(c(0,1))+
+  theme_slides+
+  coord_fixed(10e-2)
+
+
+## 1B. mouse
+mmus.tf <- read.table("mmus_tf_te_overlap_V2",comment.char = "",sep = ":")
+colnames(mmus.tf) <- c("tf","total","overlap")
+mmus.tf %<>% subset(total>10000) # We removed TFs with peak number <= 1000; 266 TF remained.
+ggplot(mmus.tf,aes(total/1000))+
+  geom_histogram(bins=80) 
+
+ggplot(mmus.tf,aes(overlap/total))+
+  geom_line(stat="density" ,color=set2[3],size=1.5)+
+  geom_vline(xintercept=c(0.416),linetype="dashed",color="gray",size=1.5)+
+  geom_vline(xintercept=c(0.2139),linetype="dashed",color=set2[2],size=1.5)+
+  labs(x="Fraction of TF binding sites that overlap with repeat elements",y="Density")+
+  xlim(c(0,1))+
+  theme_slides+
+  coord_fixed(8e-2)
+```
+
+## Supplementary Figure 2
+
+```{r}
+# 2A has been discussed in previous section.
+# 2B. We intersected TE derived RELA peaks with previously identified conserved/ human specific RELA peaks (Alizada et al. 2021)
+# We hard-coded the values here for the plot.
+
+## the plot shows the most of TE-derived peaks are species-specific implying TE's role in innovating new genome regions
+species <- c(rep("human",4),rep("mouse",4),rep("cow",4)) %>% factor(levels=c("human","mouse","cow"))
+type <- rep(c("bg","bg","TE_RELA","TE_RELA"),3)
+conservation <- rep(c("sspe","con"),6)
+numbers <- c(59735-17672,17672,11379-1122,1122,23623-7939,7939,2903-243,243,93423-17883,17883,29576-1402,1402)
+TE_RELA_into_conserv <- data.frame(species=species,
+                                   type=type,
+                                   conservation=conservation,
+                                   numbers=numbers)
+
+
+ggplot(TE_RELA_into_conserv,aes(x=type,y=numbers,fill=conservation))+
+  geom_bar(stat="identity",position="fill")+
+  facet_grid(~species)+
+  scale_x_discrete(labels=c("TE_RELA"="TE derived sites","bg"="All RELA sites"))+
+  labs(x="",y="Percentage")+
+  scale_fill_manual(values=brewer.pal(9,"Set3")[c(3,5)],labels=c("conserved","species specific"))+
+  theme(axis.text.x = element_text(angle=45, vjust=0.5, hjust=0.5))+
+  theme_slides
+
+```
+
+## Supplementary Figure 3 & 4
+
+```{r}
+## We aimed to investigate the epigenetic profiles of TE-derived RELA bound regions in general. The purpose of Supp Figure 3 using heatmaps was to confirm the observed pattern on population level (not driven by a subset of outliers). We used deepTools suite to make the plots (see Methods for details).
+```
+
+## Supplementary Figure 5
+
+```{r}
+## We investigated all RELA bound TEs with observed overlap > 15 from HAEC. We searched the genomic coordinates of these TE-derived RELA peaks in the other three human cell types to see if they are shared across cell types. We then calculated the fraction of these RELA peaks that are shared across cell types for each TE. With the same logic for conservation (and defined conserved/ human-specific peaks as described before), we recorded the fraction of RELA peaks that are found to be shared across species for each TE subfamily. Then we generated the scatterplot and highlighted all the significant TE subfamilies in HAEC (with name labels).
+
+```
+
+## Supplementary Figure 7
+
+```{r}
+# 7B.
+# elbow plot to show the word choice:
+bov_ta_word_df <- data.frame(name=c("Bov-tA1","Bov-tA2","Bov-tA3"),
+           word1=c(4161+4120, 15143+13845, 9800+9763),
+           word2=c((3589+3566+3427+3242)/2, 7189+6461,(2014+1731+1906+1616)/2),
+           word3=c((743+723+667+666)/2,(1758+1587+1683+1488)/2,376+345),
+           word4=c(601+548,670+620, 298+281),
+           total_num=c(203808, 463757, 91571))
+
+bov_ta_word_df %>% mutate(word1=word1/total_num, word2=word2/total_num, word3=word3/total_num, word4=word4/total_num) %>% 
+  select(-total_num) %>% gather("type","perc",2:5) %>% ggplot(aes(x=type, y=perc,group=name, color=name)) +
+  geom_line(size=2)+
+  scale_color_manual(values=brewer.pal(3,"Set2"))+
+  labs(x="",y="Fraction of each word from the corresponding instances")+
+  theme_slides
+
+
+```
+
+## Supplementary Figure 9
+
+```{r}
+# 9A. We used deepTools suite to plot the heatmap for MER81-derived RELA-bound regions in human aortic endothelial cells (n=87).
+# 9B. We input all 87 sequences in GREAT and plotted all significant terms from Mouse Phenotypes (MP) and MSigDB pathway.
+mer81_great_msigdb <- read.table("MER81_GREAT_MsigDB.tsv",sep="\t", header=F)
+mer81_great_msigdb %<>% select(V1,V3) %>% set_colnames(c("term","binomial_p"))
+
+mer81_great_mp <- read.table("MER81_GREAT_MP.tsv",sep="\t", header=F)
+mer81_great_mp %<>% select(V1,V3) %>% set_colnames(c("term","binomial_p"))
+
+mer81_great_table <- rbind(mer81_great_msigdb %>% mutate(ontology="MSigDB Pathway"), mer81_great_mp %>% mutate(ontology="Mouse Phenotype"))
+
+ggplot(mer81_great_table, aes(-log10(binomial_p), reorder(term,-binomial_p), fill=ontology))+
+  geom_bar(stat="identity")+
+  labs(x="-log10(Binomial p value)",y="")+
+  scale_fill_manual(values=brewer.pal(n=8,name="Set3")[c(5,3)])+
+  theme_slides
+
+```
+

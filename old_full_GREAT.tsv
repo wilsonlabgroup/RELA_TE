@@ -1,0 +1,999 @@
+response to organic substance	2.548775e-15	1.483796e+0	old	BP
+immune system process	6.096897e-13	1.531258e+0	old	BP
+cellular process	4.897787e-13	1.076965e+0	old	BP
+cellular response to organic substance	5.292153e-12	1.505744e+0	old	BP
+cellular response to chemical stimulus	4.248892e-12	1.453519e+0	old	BP
+response to stimulus	9.173576e-12	1.178601e+0	old	BP
+response to wounding	2.563863e-11	1.659408e+0	old	BP
+primary metabolic process	2.619795e-11	1.155881e+0	old	BP
+response to stress	2.713238e-11	1.358042e+0	old	BP
+single-organism process	8.860581e-11	1.092915e+0	old	BP
+organic substance metabolic process	8.183591e-11	1.147136e+0	old	BP
+response to cytokine stimulus	2.637563e-10	1.974221e+0	old	BP
+wound healing	2.970470e-10	1.799921e+0	old	BP
+cellular metabolic process	3.508873e-10	1.149095e+0	old	BP
+positive regulation of biological process	3.395368e-10	1.243461e+0	old	BP
+metabolic process	7.043052e-10	1.130819e+0	old	BP
+signal transduction	6.755613e-10	1.229961e+0	old	BP
+cellular response to stimulus	8.221077e-10	1.198653e+0	old	BP
+regulation of response to stimulus	1.080063e-9	1.305043e+0	old	BP
+intracellular transport	1.582405e-9	1.622146e+0	old	BP
+immune response	1.768868e-9	1.621559e+0	old	BP
+negative regulation of phosphorylation	2.259982e-9	2.177499e+0	old	BP
+regulation of signaling	2.366756e-9	1.318061e+0	old	BP
+regulation of biological process	2.445524e-9	1.114571e+0	old	BP
+response to chemical stimulus	3.065375e-9	1.277180e+0	old	BP
+regulation of response to stress	3.005245e-9	1.648892e+0	old	BP
+cellular response to cytokine stimulus	3.581290e-9	2.049072e+0	old	BP
+positive regulation of response to stimulus	4.774257e-9	1.460300e+0	old	BP
+regulation of immune system process	4.620359e-9	1.554686e+0	old	BP
+negative regulation of protein modification process	4.734818e-9	1.996538e+0	old	BP
+regulation of cell communication	5.034757e-9	1.310878e+0	old	BP
+biological regulation	4.910408e-9	1.105827e+0	old	BP
+single-organism cellular process	5.507217e-9	1.096041e+0	old	BP
+single-organism metabolic process	6.413725e-9	1.304302e+0	old	BP
+regulation of signal transduction	6.875611e-9	1.336485e+0	old	BP
+negative regulation of protein phosphorylation	7.681001e-9	2.171216e+0	old	BP
+negative regulation of protein kinase activity	8.793598e-9	2.475240e+0	old	BP
+cell activation	8.745176e-9	1.745080e+0	old	BP
+regulation of defense response	1.053185e-8	1.939688e+0	old	BP
+transport	1.514355e-8	1.277305e+0	old	BP
+protein metabolic process	1.891158e-8	1.261438e+0	old	BP
+positive regulation of cellular process	2.286697e-8	1.233913e+0	old	BP
+negative regulation of biological process	2.527779e-8	1.235557e+0	old	BP
+response to endogenous stimulus	2.836361e-8	1.457844e+0	old	BP
+negative regulation of cellular process	5.045787e-8	1.243961e+0	old	BP
+cytokine-mediated signaling pathway	5.937573e-8	2.212121e+0	old	BP
+vasculature development	6.813399e-8	1.644881e+0	old	BP
+regulation of biological quality	7.001608e-8	1.269788e+0	old	BP
+regulation of immune response	6.969774e-8	1.680891e+0	old	BP
+establishment of localization	7.555555e-8	1.260948e+0	old	BP
+negative regulation of phosphate metabolic process	8.977426e-8	1.917986e+0	old	BP
+negative regulation of kinase activity	9.796137e-8	2.314670e+0	old	BP
+negative regulation of transferase activity	1.394221e-7	2.261045e+0	old	BP
+cellular localization	1.373667e-7	1.384843e+0	old	BP
+cell communication	1.608996e-7	1.175693e+0	old	BP
+cellular protein metabolic process	1.794456e-7	1.275172e+0	old	BP
+regulation of protein metabolic process	1.788747e-7	1.379830e+0	old	BP
+regulation of cellular process	1.933987e-7	1.105527e+0	old	BP
+defense response	2.440306e-7	1.503947e+0	old	BP
+negative regulation of cellular protein metabolic process	2.497131e-7	1.773148e+0	old	BP
+blood vessel development	3.009931e-7	1.633441e+0	old	BP
+localization	3.049873e-7	1.207264e+0	old	BP
+single organism signaling	3.321829e-7	1.174353e+0	old	BP
+negative regulation of protein metabolic process	3.465819e-7	1.704532e+0	old	BP
+multi-organism process	3.539441e-7	1.465342e+0	old	BP
+establishment of localization in cell	5.112383e-7	1.413859e+0	old	BP
+hemostasis	5.978176e-7	1.733603e+0	old	BP
+single-organism transport	6.581365e-7	1.282968e+0	old	BP
+negative regulation of response to stimulus	7.308520e-7	1.457664e+0	old	BP
+regulation of cellular protein metabolic process	7.554654e-7	1.388916e+0	old	BP
+blood coagulation	7.713297e-7	1.728509e+0	old	BP
+regulation of localization	7.669992e-7	1.321570e+0	old	BP
+organic substance catabolic process	8.376836e-7	1.397171e+0	old	BP
+regulation of homeostatic process	1.103698e-6	1.845541e+0	old	BP
+positive regulation of organelle organization	1.094948e-6	2.076927e+0	old	BP
+regulation of protein modification process	1.091178e-6	1.426082e+0	old	BP
+organic substance transport	1.123008e-6	1.381773e+0	old	BP
+macromolecule metabolic process	1.381175e-6	1.137651e+0	old	BP
+positive regulation of immune system process	1.463329e-6	1.636990e+0	old	BP
+phosphate-containing compound metabolic process	1.584073e-6	1.314439e+0	old	BP
+small molecule metabolic process	1.676719e-6	1.299109e+0	old	BP
+organelle organization	1.821928e-6	1.300442e+0	old	BP
+homeostatic process	1.847015e-6	1.446645e+0	old	BP
+response to oxygen-containing compound	2.156898e-6	1.433791e+0	old	BP
+negative regulation of multicellular organismal process	2.439128e-6	1.763494e+0	old	BP
+cytoplasmic transport	2.459256e-6	1.686777e+0	old	BP
+positive regulation of molecular function	2.508308e-6	1.366302e+0	old	BP
+intracellular signal transduction	3.385099e-6	1.345853e+0	old	BP
+catabolic process	3.404256e-6	1.350729e+0	old	BP
+regulation of molecular function	3.384827e-6	1.277126e+0	old	BP
+regulation of body fluid levels	3.388224e-6	1.616620e+0	old	BP
+regulation of apoptotic signaling pathway	3.582614e-6	2.179541e+0	old	BP
+regulation of catalytic activity	3.547602e-6	1.316228e+0	old	BP
+regulation of metabolic process	3.889759e-6	1.148213e+0	old	BP
+response to nitrogen compound	4.149447e-6	1.542717e+0	old	BP
+multicellular organismal development	4.107532e-6	1.159876e+0	old	BP
+negative regulation of signaling	4.106151e-6	1.464207e+0	old	BP
+developmental process	5.601899e-6	1.148388e+0	old	BP
+positive regulation of catalytic activity	6.011112e-6	1.394255e+0	old	BP
+negative regulation of signal transduction	6.307086e-6	1.471946e+0	old	BP
+cellular protein modification process	6.798279e-6	1.274994e+0	old	BP
+blood vessel morphogenesis	6.982631e-6	1.616138e+0	old	BP
+negative regulation of cell communication	7.976659e-6	1.451202e+0	old	BP
+positive regulation of defense response	9.209461e-6	1.993703e+0	old	BP
+regulation of organelle organization	9.939366e-6	1.573568e+0	old	BP
+response to other organism	1.037387e-5	1.663423e+0	old	BP
+phosphorus metabolic process	1.034697e-5	1.287465e+0	old	BP
+regulation of protein phosphorylation	1.077342e-5	1.437847e+0	old	BP
+cellular component organization or biogenesis	1.170330e-5	1.169467e+0	old	BP
+macromolecular complex subunit organization	1.205330e-5	1.403163e+0	old	BP
+response to growth factor stimulus	1.225292e-5	1.519463e+0	old	BP
+angiogenesis	1.323197e-5	1.729596e+0	old	BP
+leukocyte activation	1.327991e-5	1.734625e+0	old	BP
+cellular response to endogenous stimulus	1.330252e-5	1.438662e+0	old	BP
+positive regulation of signaling	1.453795e-5	1.402696e+0	old	BP
+cellular catabolic process	1.464740e-5	1.370828e+0	old	BP
+macromolecule modification	1.547179e-5	1.259777e+0	old	BP
+innate immune response	1.592787e-5	1.565969e+0	old	BP
+regulation of phosphorylation	1.650377e-5	1.408847e+0	old	BP
+enzyme linked receptor protein signaling pathway	1.839046e-5	1.426388e+0	old	BP
+positive regulation of cell communication	1.969000e-5	1.397313e+0	old	BP
+positive regulation of immune response	2.006755e-5	1.732455e+0	old	BP
+regulation of transport	2.015774e-5	1.340252e+0	old	BP
+regulation of innate immune response	2.043693e-5	2.010900e+0	old	BP
+cellular response to growth factor stimulus	2.032754e-5	1.517824e+0	old	BP
+immune response-regulating signaling pathway	2.119784e-5	1.691885e+0	old	BP
+regulation of multicellular organismal process	2.108575e-5	1.240090e+0	old	BP
+regulation of cell death	2.120187e-5	1.359736e+0	old	BP
+regulation of cell migration	2.113470e-5	1.549748e+0	old	BP
+response to biotic stimulus	2.129428e-5	1.624954e+0	old	BP
+cellular component organization	2.204326e-5	1.166754e+0	old	BP
+regulation of cytokine production	2.220187e-5	1.731027e+0	old	BP
+single-multicellular organism process	2.249430e-5	1.120217e+0	old	BP
+regulation of locomotion	2.455035e-5	1.508749e+0	old	BP
+positive regulation of signal transduction	2.491843e-5	1.406450e+0	old	BP
+cardiovascular system development	2.744579e-5	1.395115e+0	old	BP
+immune response-activating signal transduction	3.204730e-5	1.845607e+0	old	BP
+response to lipopolysaccharide	3.512944e-5	1.948730e+0	old	BP
+regulation of cellular metabolic process	3.858426e-5	1.143788e+0	old	BP
+single-organism developmental process	4.087000e-5	1.165972e+0	old	BP
+cell surface receptor signaling pathway	4.065926e-5	1.222178e+0	old	BP
+leukocyte migration	4.645490e-5	1.991341e+0	old	BP
+regulation of intracellular protein kinase cascade	4.851345e-5	1.433331e+0	old	BP
+unsaturated fatty acid biosynthetic process	4.958373e-5	3.657164e+0	old	BP
+cellular macromolecule metabolic process	5.013584e-5	1.128044e+0	old	BP
+system development	5.112025e-5	1.158127e+0	old	BP
+positive regulation of metabolic process	5.332084e-5	1.230855e+0	old	BP
+positive regulation of macromolecule metabolic process	5.578050e-5	1.240293e+0	old	BP
+regulation of cellular component movement	5.788607e-5	1.479257e+0	old	BP
+response to molecule of bacterial origin	6.209680e-5	1.911123e+0	old	BP
+negative regulation of macromolecule metabolic process	6.188038e-5	1.291200e+0	old	BP
+protein complex subunit organization	7.143536e-5	1.401818e+0	old	BP
+regulation of programmed cell death	7.122693e-5	1.347518e+0	old	BP
+regulation of cell motility	7.325728e-5	1.507049e+0	old	BP
+positive regulation of cellular metabolic process	8.093842e-5	1.234910e+0	old	BP
+vesicle-mediated transport	8.271639e-5	1.430800e+0	old	BP
+multicellular organismal process	8.219631e-5	1.109432e+0	old	BP
+cell chemotaxis	9.516496e-5	2.278621e+0	old	BP
+negative regulation of molecular function	9.648090e-5	1.444508e+0	old	BP
+nucleocytoplasmic transport	9.986689e-5	2.002277e+0	old	BP
+cell death	1.011338e-4	1.350470e+0	old	BP
+cellular response to oxygen-containing compound	1.059492e-4	1.471925e+0	old	BP
+regulation of interferon-gamma-mediated signaling pathway	1.072909e-4	4.950966e+0	old	BP
+response to organonitrogen compound	1.081457e-4	1.475452e+0	old	BP
+regulation of response to interferon-gamma	1.080212e-4	4.942742e+0	old	BP
+regulation of cellular localization	1.166011e-4	1.402245e+0	old	BP
+anatomical structure development	1.173991e-4	1.141146e+0	old	BP
+nitrogen compound metabolic process	1.276220e-4	1.143510e+0	old	BP
+death	1.275034e-4	1.345140e+0	old	BP
+regulation of primary metabolic process	1.310374e-4	1.136549e+0	old	BP
+negative regulation of metabolic process	1.342548e-4	1.268546e+0	old	BP
+regulation of protein kinase activity	1.433841e-4	1.468632e+0	old	BP
+positive regulation of inflammatory response	1.454880e-4	2.611694e+0	old	BP
+leukocyte chemotaxis	1.489380e-4	2.477751e+0	old	BP
+regulation of epithelial cell migration	1.592609e-4	1.978459e+0	old	BP
+regulation of vascular endothelial growth factor production	1.584290e-4	3.778554e+0	old	BP
+negative regulation of intracellular protein kinase cascade	1.700872e-4	2.002420e+0	old	BP
+platelet activation	1.855271e-4	1.890992e+0	old	BP
+activation of immune response	1.979874e-4	1.728020e+0	old	BP
+regulation of phosphate metabolic process	2.126176e-4	1.273301e+0	old	BP
+Fc-gamma receptor signaling pathway	2.171482e-4	2.652161e+0	old	BP
+regulation of apoptotic process	2.218030e-4	1.329118e+0	old	BP
+regulation of phosphorus metabolic process	2.336930e-4	1.270954e+0	old	BP
+regulation of kinase activity	2.461998e-4	1.435620e+0	old	BP
+nuclear transport	2.463240e-4	1.931162e+0	old	BP
+regulation of cellular component organization	2.915398e-4	1.273675e+0	old	BP
+regulation of response to biotic stimulus	3.023022e-4	2.600943e+0	old	BP
+Fc receptor signaling pathway	3.013701e-4	1.780345e+0	old	BP
+endocytosis	3.106293e-4	1.655259e+0	old	BP
+immune response-regulating cell surface receptor signaling pathway	3.148102e-4	1.683469e+0	old	BP
+regulation of intracellular transport	3.194660e-4	1.637579e+0	old	BP
+phosphorylation	3.244161e-4	1.361096e+0	old	BP
+cellular macromolecule catabolic process	3.301102e-4	1.514285e+0	old	BP
+regulation of hormone secretion	3.296756e-4	1.734074e+0	old	BP
+regulation of transferase activity	3.324703e-4	1.420465e+0	old	BP
+inositol phosphate-mediated signaling	3.439997e-4	4.122079e+0	old	BP
+negative regulation of cellular metabolic process	3.554463e-4	1.264538e+0	old	BP
+regulation of developmental process	3.565831e-4	1.232603e+0	old	BP
+positive regulation of protein modification process	3.687015e-4	1.395233e+0	old	BP
+positive regulation of chemokine production	3.843239e-4	3.854482e+0	old	BP
+regulation of inflammatory response	3.860271e-4	1.895101e+0	old	BP
+heterocycle catabolic process	3.887196e-4	1.484922e+0	old	BP
+prostaglandin metabolic process	4.007156e-4	5.027073e+0	old	BP
+positive regulation of response to external stimulus	4.007898e-4	1.904177e+0	old	BP
+regulation of angiogenesis	4.079666e-4	1.915671e+0	old	BP
+chemical homeostasis	4.109018e-4	1.446793e+0	old	BP
+regulation of protein import into nucleus, translocation	4.451985e-4	4.963665e+0	old	BP
+immune system development	4.448532e-4	1.484960e+0	old	BP
+immune effector process	4.703945e-4	1.726382e+0	old	BP
+cellular nitrogen compound catabolic process	4.701931e-4	1.480207e+0	old	BP
+Fc-gamma receptor signaling pathway involved in phagocytosis	4.984105e-4	2.563794e+0	old	BP
+Fc receptor mediated stimulatory signaling pathway	5.032380e-4	2.561721e+0	old	BP
+response to bacterium	5.114762e-4	1.673223e+0	old	BP
+positive regulation of insulin secretion involved in cellular response to glucose stimulus	5.113214e-4	5.960605e+0	old	BP
+regulation of I-kappaB kinase/NF-kappaB cascade	5.100377e-4	1.952517e+0	old	BP
+regulation of response to cytokine stimulus	5.253940e-4	2.377390e+0	old	BP
+negative regulation of collagen biosynthetic process	5.262554e-4	1.254938e+1	old	BP
+organic cyclic compound catabolic process	5.522779e-4	1.458897e+0	old	BP
+regulation of anatomical structure morphogenesis	5.497823e-4	1.376848e+0	old	BP
+protein transport	5.484735e-4	1.365498e+0	old	BP
+protein targeting	6.024045e-4	1.657325e+0	old	BP
+positive regulation of oxidoreductase activity	6.183857e-4	3.222751e+0	old	BP
+regulation of sequence-specific DNA binding transcription factor activity	6.164258e-4	1.592784e+0	old	BP
+unsaturated fatty acid metabolic process	6.143987e-4	2.693929e+0	old	BP
+organ development	6.254585e-4	1.177087e+0	old	BP
+response to lipid	6.305293e-4	1.415660e+0	old	BP
+macromolecule localization	6.862796e-4	1.267483e+0	old	BP
+regulation of cellular catabolic process	6.902108e-4	1.416657e+0	old	BP
+positive regulation of cytokine production	7.135170e-4	1.811626e+0	old	BP
+nucleobase-containing compound catabolic process	7.142757e-4	1.479489e+0	old	BP
+inflammatory response	7.171209e-4	1.652641e+0	old	BP
+aromatic compound catabolic process	7.164220e-4	1.460834e+0	old	BP
+establishment of protein localization	7.311347e-4	1.352018e+0	old	BP
+programmed cell death	7.601980e-4	1.338779e+0	old	BP
+negative regulation of collagen metabolic process	7.627006e-4	1.157526e+1	old	BP
+cellular response to histamine	7.601037e-4	1.635138e+1	old	BP
+protein phosphorylation	7.841074e-4	1.399138e+0	old	BP
+prostaglandin biosynthetic process	7.823920e-4	5.044610e+0	old	BP
+actin cytoskeleton organization	8.096290e-4	1.591920e+0	old	BP
+positive regulation of protein metabolic process	8.081926e-4	1.336806e+0	old	BP
+regulation of catabolic process	8.059437e-4	1.381341e+0	old	BP
+apoptotic process	8.093951e-4	1.340112e+0	old	BP
+regulation of macromolecule metabolic process	8.203125e-4	1.129355e+0	old	BP
+regulation of cytokine-mediated signaling pathway	8.569054e-4	2.378224e+0	old	BP
+positive regulation of cellular protein metabolic process	8.537014e-4	1.356236e+0	old	BP
+negative regulation of multicellular organismal metabolic process	8.763642e-4	6.220781e+0	old	BP
+negative regulation of cytokine secretion	8.867237e-4	3.943061e+0	old	BP
+regulation of interleukin-6 production	8.934830e-4	2.558510e+0	old	BP
+icosanoid biosynthetic process	9.173758e-4	3.223382e+0	old	BP
+macromolecular complex assembly	9.164499e-4	1.363621e+0	old	BP
+multi-organism cellular process	9.308495e-4	1.537270e+0	old	BP
+symbiosis, encompassing mutualism through parasitism	9.379027e-4	1.511880e+0	old	BP
+positive regulation of cell proliferation	9.436109e-4	1.365436e+0	old	BP
+intracellular protein transport	9.853009e-4	1.503141e+0	old	BP
+regulation of response to external stimulus	9.823373e-4	1.503106e+0	old	BP
+negative regulation of sequence-specific DNA binding transcription factor activity	1.038908e-3	1.997079e+0	old	BP
+positive regulation of hydrolase activity	1.044827e-3	1.408824e+0	old	BP
+response to antibiotic	1.073257e-3	2.955339e+0	old	BP
+positive regulation of type B pancreatic cell apoptotic process	1.086222e-3	2.424879e+1	old	BP
+glucagon secretion	1.086222e-3	2.424879e+1	old	BP
+actin filament organization	1.095321e-3	2.009560e+0	old	BP
+cellular component biogenesis	1.181589e-3	1.258777e+0	old	BP
+regulation of cellular response to stress	1.215299e-3	1.574153e+0	old	BP
+protein complex assembly	1.245004e-3	1.391861e+0	old	BP
+transmembrane receptor protein tyrosine kinase signaling pathway	1.249943e-3	1.395210e+0	old	BP
+granulocyte chemotaxis	1.248484e-3	2.747225e+0	old	BP
+positive regulation of leukocyte migration	1.252086e-3	2.608820e+0	old	BP
+macromolecule catabolic process	1.257107e-3	1.422172e+0	old	BP
+viral process	1.258291e-3	1.525990e+0	old	BP
+protein complex biogenesis	1.341067e-3	1.389073e+0	old	BP
+platelet-derived growth factor receptor signaling pathway	1.341384e-3	2.897112e+0	old	BP
+monocarboxylic acid biosynthetic process	1.336827e-3	1.969540e+0	old	BP
+actin filament-based process	1.336123e-3	1.538294e+0	old	BP
+positive regulation of I-kappaB kinase/NF-kappaB cascade	1.347505e-3	2.093004e+0	old	BP
+regulation of peptide hormone secretion	1.357644e-3	1.758280e+0	old	BP
+regulation of transcription from RNA polymerase II promoter	1.368439e-3	1.240746e+0	old	BP
+regulation of vasculature development	1.378098e-3	1.766589e+0	old	BP
+positive regulation of actin filament bundle assembly	1.379263e-3	3.222034e+0	old	BP
+establishment of protein localization to organelle	1.389465e-3	1.687997e+0	old	BP
+positive regulation of myosin light chain kinase activity	1.392873e-3	4.860097e+1	old	BP
+negative regulation of adiponectin secretion	1.392873e-3	4.860097e+1	old	BP
+positive regulation of cell adhesion molecule production	1.392873e-3	4.860097e+1	old	BP
+carboxylic acid metabolic process	1.378737e-3	1.413384e+0	old	BP
+interaction with host	1.439474e-3	1.625083e+0	old	BP
+regulation of cysteine-type endopeptidase activity involved in apoptotic process	1.444432e-3	1.852304e+0	old	BP
+regulation of smooth muscle cell proliferation	1.493047e-3	2.249756e+0	old	BP
+positive regulation of acute inflammatory response	1.558234e-3	3.687658e+0	old	BP
+carboxylic acid biosynthetic process	1.559140e-3	1.702734e+0	old	BP
+Fc-epsilon receptor signaling pathway	1.570278e-3	1.765100e+0	old	BP
+immune response-activating cell surface receptor signaling pathway	1.571448e-3	1.871542e+0	old	BP
+negative regulation of MAPK cascade	1.637587e-3	2.022263e+0	old	BP
+positive regulation of chromosome organization	1.663568e-3	2.675964e+0	old	BP
+actin polymerization or depolymerization	1.670148e-3	3.035702e+0	old	BP
+hematopoietic or lymphoid organ development	1.693538e-3	1.449131e+0	old	BP
+regulation of chemokine production	1.797249e-3	2.817403e+0	old	BP
+regulation of peptide secretion	1.795645e-3	1.726307e+0	old	BP
+positive regulation of epithelial cell migration	1.797105e-3	2.032629e+0	old	BP
+negative regulation of chemokine biosynthetic process	1.812566e-3	2.047624e+1	old	BP
+positive regulation of acetylcholine secretion, neurotransmission	1.811200e-3	2.046242e+1	old	BP
+formation of primary germ layer	1.902202e-3	2.048322e+0	old	BP
+regulation of peptide transport	1.959611e-3	1.719658e+0	old	BP
+mRNA catabolic process	2.022931e-3	2.115847e+0	old	BP
+nucleobase-containing compound metabolic process	2.028016e-3	1.137070e+0	old	BP
+phagocytosis	2.030462e-3	1.997160e+0	old	BP
+regulation of hydrolase activity	2.173155e-3	1.307221e+0	old	BP
+response to abiotic stimulus	2.181829e-3	1.338715e+0	old	BP
+positive regulation of intracellular protein kinase cascade	2.188246e-3	1.414957e+0	old	BP
+regulation of nitric oxide biosynthetic process	2.387721e-3	2.837871e+0	old	BP
+regulation of cysteine-type endopeptidase activity	2.407661e-3	1.795460e+0	old	BP
+modulation by virus of host morphology or physiology	2.427145e-3	1.629504e+0	old	BP
+regulation of insulin secretion involved in cellular response to glucose stimulus	2.428749e-3	2.743709e+0	old	BP
+homeostasis of number of cells	2.475512e-3	1.817035e+0	old	BP
+small molecule biosynthetic process	2.468559e-3	1.566047e+0	old	BP
+positive regulation of retinoic acid receptor signaling pathway	2.469054e-3	7.119237e+0	old	BP
+regulation of insulin secretion	2.475176e-3	1.748426e+0	old	BP
+positive regulation of secretion	2.524970e-3	1.660622e+0	old	BP
+positive regulation of cellular component organization	2.522976e-3	1.376113e+0	old	BP
+positive regulation vascular endothelial growth factor production	2.527589e-3	3.486524e+0	old	BP
+regulation of endopeptidase activity	2.520090e-3	1.675337e+0	old	BP
+negative regulation of multicellular organism growth	2.571973e-3	5.216198e+0	old	BP
+cellular component disassembly	2.650880e-3	1.656786e+0	old	BP
+positive regulation of cellular catabolic process	2.692632e-3	2.027941e+0	old	BP
+organ or tissue specific immune response	2.776963e-3	6.952352e+0	old	BP
+modification of morphology or physiology of other organism involved in symbiotic interaction	2.800721e-3	1.594980e+0	old	BP
+organic acid metabolic process	2.808136e-3	1.341127e+0	old	BP
+oxoacid metabolic process	2.801002e-3	1.343921e+0	old	BP
+amino acid import	2.885840e-3	5.843295e+0	old	BP
+actin filament polymerization	2.891016e-3	3.431157e+0	old	BP
+inositol trisphosphate biosynthetic process	2.895948e-3	1.145993e+1	old	BP
+translational initiation	2.993293e-3	2.288344e+0	old	BP
+negative regulation of hormone secretion	3.040444e-3	2.425463e+0	old	BP
+hemopoiesis	3.082818e-3	1.455305e+0	old	BP
+positive regulation of cytoskeleton organization	3.090255e-3	2.009961e+0	old	BP
+leukocyte homeostasis	3.106928e-3	2.420442e+0	old	BP
+cellular response to stress	3.162544e-3	1.302228e+0	old	BP
+microtubule-based transport	3.167807e-3	2.416289e+0	old	BP
+regulation of circadian sleep/wake cycle, non-REM sleep	3.187639e-3	1.116717e+1	old	BP
+neural fold formation	3.203903e-3	8.337505e+0	old	BP
+tissue development	3.215850e-3	1.220029e+0	old	BP
+positive regulation of leukocyte chemotaxis	3.213668e-3	2.593698e+0	old	BP
+regulation of nucleocytoplasmic transport	3.422015e-3	1.750981e+0	old	BP
+lipopolysaccharide-mediated signaling pathway	3.461220e-3	3.357764e+0	old	BP
+blood circulation	3.483758e-3	1.559145e+0	old	BP
+regulation of cellular component biogenesis	3.494414e-3	1.448985e+0	old	BP
+modification by symbiont of host morphology or physiology	3.510219e-3	1.602879e+0	old	BP
+cellular nitrogen compound metabolic process	3.553788e-3	1.124152e+0	old	BP
+response to light stimulus	3.551501e-3	1.627734e+0	old	BP
+regulation of primitive erythrocyte differentiation	3.544176e-3	1.650287e+1	old	BP
+regulation of cell proliferation	3.562307e-3	1.235168e+0	old	BP
+response to dsRNA	3.603816e-3	3.035042e+0	old	BP
+heterocycle metabolic process	3.596363e-3	1.126991e+0	old	BP
+response to inorganic substance	3.592793e-3	1.582834e+0	old	BP
+cellular homeostasis	3.640688e-3	1.422460e+0	old	BP
+transforming growth factor beta receptor signaling pathway	3.716038e-3	1.923959e+0	old	BP
+modification of morphology or physiology of other organism	3.715890e-3	1.574995e+0	old	BP
+interferon-gamma-mediated signaling pathway	3.739382e-3	2.708185e+0	old	BP
+icosanoid metabolic process	3.744533e-3	2.555121e+0	old	BP
+fibroblast growth factor receptor signaling pathway	3.829348e-3	1.728827e+0	old	BP
+intracellular protein kinase cascade	3.839352e-3	1.484760e+0	old	BP
+negative regulation of DNA damage response, signal transduction by p53 class mediator	3.871674e-3	4.859078e+0	old	BP
+single-organism biosynthetic process	4.007300e-3	1.526033e+0	old	BP
+cellular carbohydrate metabolic process	4.015510e-3	1.952887e+0	old	BP
+hepatic immune response	4.009751e-3	1.579976e+1	old	BP
+inflammatory cell apoptotic process	4.019486e-3	6.416533e+0	old	BP
+positive regulation of insulin secretion	4.011614e-3	2.474185e+0	old	BP
+regulation of intrinsic apoptotic signaling pathway	4.043475e-3	2.472272e+0	old	BP
+protein K48-linked ubiquitination	4.036056e-3	2.685177e+0	old	BP
+myeloid cell apoptotic process	4.063489e-3	7.851698e+0	old	BP
+circulatory system process	4.066295e-3	1.547476e+0	old	BP
+positive regulation of nitrogen compound metabolic process	4.084247e-3	1.225252e+0	old	BP
+regulation of MAPK cascade	4.169539e-3	1.380842e+0	old	BP
+regulation of actin filament polymerization	4.243290e-3	2.088686e+0	old	BP
+positive regulation of histone modification	4.235637e-3	2.759398e+0	old	BP
+response to lead ion	4.279261e-3	6.322195e+0	old	BP
+negative regulation of catalytic activity	4.300943e-3	1.400152e+0	old	BP
+regulation of chromosome organization	4.292659e-3	1.886614e+0	old	BP
+glycosyl compound metabolic process	4.292081e-3	1.470855e+0	old	BP
+pattern recognition receptor signaling pathway	4.397245e-3	1.901375e+0	old	BP
+regulation of endothelial cell migration	4.481402e-3	1.881815e+0	old	BP
+regulation of vascular permeability	4.501209e-3	2.953041e+0	old	BP
+positive regulation of cell motility	4.608772e-3	1.525397e+0	old	BP
+embryo development ending in birth or egg hatching	4.661332e-3	1.337648e+0	old	BP
+toll-like receptor 5 signaling pathway	4.655392e-3	2.243548e+0	old	BP
+toll-like receptor 10 signaling pathway	4.655392e-3	2.243548e+0	old	BP
+T cell receptor signaling pathway	4.688726e-3	2.166381e+0	old	BP
+positive regulation of organic acid transport	4.684266e-3	3.621469e+0	old	BP
+regulation of cell migration involved in sprouting angiogenesis	4.687147e-3	4.236369e+0	old	BP
+positive regulation of nucleobase-containing compound metabolic process	4.690175e-3	1.224538e+0	old	BP
+response to organic cyclic compound	4.688685e-3	1.359031e+0	old	BP
+cellular response to fibroblast growth factor stimulus	4.681467e-3	1.671543e+0	old	BP
+fatty acid biosynthetic process	4.709599e-3	2.099000e+0	old	BP
+negative regulation of MAP kinase activity	4.744144e-3	2.237340e+0	old	BP
+protein localization to nucleus	4.736500e-3	1.826148e+0	old	BP
+glucose homeostasis	4.791075e-3	1.871871e+0	old	BP
+innate immune response-activating signal transduction	4.781065e-3	1.889054e+0	old	BP
+positive regulation of angiogenesis	4.770663e-3	2.066777e+0	old	BP
+response to arsenic-containing substance	4.771219e-3	4.660171e+0	old	BP
+cytoskeleton-dependent intracellular transport	4.836792e-3	2.320089e+0	old	BP
+protein localization to organelle	4.838338e-3	1.511935e+0	old	BP
+response to fibroblast growth factor stimulus	4.935160e-3	1.666259e+0	old	BP
+response to cold	4.931468e-3	3.042087e+0	old	BP
+positive regulation of stress fiber assembly	4.958829e-3	3.039766e+0	old	BP
+response to external stimulus	5.064967e-3	1.239660e+0	old	BP
+positive regulation of erythrocyte differentiation	5.203386e-3	3.172385e+0	old	BP
+regulation of leukocyte migration	5.255171e-3	2.111262e+0	old	BP
+regulation of tyrosine phosphorylation of STAT protein	5.370812e-3	2.462590e+0	old	BP
+release of cytochrome c from mitochondria	5.391547e-3	3.805065e+0	old	BP
+anatomical structure homeostasis	5.403312e-3	1.694532e+0	old	BP
+regulation of actin cytoskeleton organization	5.429744e-3	1.650074e+0	old	BP
+superoxide metabolic process	5.500429e-3	3.150152e+0	old	BP
+positive regulation of vascular permeability	5.530256e-3	5.127719e+0	old	BP
+cellular aromatic compound metabolic process	5.520996e-3	1.120998e+0	old	BP
+apoptotic mitochondrial changes	5.698683e-3	2.761775e+0	old	BP
+urinary bladder smooth muscle contraction	5.698480e-3	5.099052e+0	old	BP
+cellular lipid metabolic process	5.712056e-3	1.347307e+0	old	BP
+regulation of cellular ketone metabolic process by regulation of transcription from RNA polymerase II promoter	5.731977e-3	5.917013e+0	old	BP
+mesoderm formation	5.727314e-3	2.163101e+0	old	BP
+ribosome biogenesis	5.729924e-3	2.065895e+0	old	BP
+hormonal regulation of the force of heart contraction	5.747053e-3	1.383251e+1	old	BP
+regulation of actin filament-based process	5.781943e-3	1.563599e+0	old	BP
+positive regulation of cellular component movement	5.809570e-3	1.508799e+0	old	BP
+regulation of actin polymerization or depolymerization	5.799677e-3	1.984657e+0	old	BP
+lactate metabolic process	5.834205e-3	9.318991e+0	old	BP
+positive regulation of cell migration	5.937538e-3	1.511718e+0	old	BP
+positive regulation of transcription from RNA polymerase II promoter in response to hypoxia	5.961594e-3	9.265352e+0	old	BP
+interleukin-6-mediated signaling pathway	5.975060e-3	4.474570e+0	old	BP
+visual learning	5.998543e-3	2.568661e+0	old	BP
+interleukin-1 beta production	5.985913e-3	7.096454e+0	old	BP
+lipid metabolic process	6.031378e-3	1.297629e+0	old	BP
+activation of innate immune response	6.038081e-3	1.858344e+0	old	BP
+protein import into nucleus	6.042117e-3	1.954746e+0	old	BP
+positive regulation of transport	6.051539e-3	1.374573e+0	old	BP
+positive regulation of cellular biosynthetic process	6.043075e-3	1.213957e+0	old	BP
+positive regulation of biosynthetic process	6.177127e-3	1.211466e+0	old	BP
+positive regulation of innate immune response	6.208570e-3	1.766882e+0	old	BP
+regulation of nitrogen compound metabolic process	6.285309e-3	1.118607e+0	old	BP
+regulation of protein polymerization	6.283174e-3	1.948898e+0	old	BP
+regulation of histone H4 acetylation	6.438393e-3	1.326450e+1	old	BP
+regulation of stress fiber assembly	6.640544e-3	2.541486e+0	old	BP
+positive regulation of apoptotic signaling pathway	6.677006e-3	2.406922e+0	old	BP
+positive regulation of vascular endothelial growth factor receptor signaling pathway	6.704523e-3	3.672019e+0	old	BP
+in utero embryonic development	6.729114e-3	1.441175e+0	old	BP
+response to calcium ion	6.770432e-3	1.961515e+0	old	BP
+regulation of chemokine biosynthetic process	6.812380e-3	4.911004e+0	old	BP
+neutrophil apoptotic process	6.885738e-3	8.886091e+0	old	BP
+regulation of actin filament length	6.871238e-3	1.959066e+0	old	BP
+toll-like receptor 4 signaling pathway	6.862532e-3	2.034828e+0	old	BP
+renal system process	6.881994e-3	2.063012e+0	old	BP
+positive regulation of peptide hormone secretion	6.999006e-3	2.287773e+0	old	BP
+positive regulation of monooxygenase activity	7.014021e-3	3.402552e+0	old	BP
+positive regulation of transcription from RNA polymerase II promoter	7.105520e-3	1.273605e+0	old	BP
+positive regulation of RNA metabolic process	7.204850e-3	1.227489e+0	old	BP
+response to mechanical stimulus	7.292983e-3	1.737789e+0	old	BP
+cellular protein localization	7.369141e-3	1.320043e+0	old	BP
+proteolysis	7.399968e-3	1.328418e+0	old	BP
+regulation of nucleobase-containing compound metabolic process	7.493598e-3	1.117903e+0	old	BP
+negative regulation of transport	7.526155e-3	1.500106e+0	old	BP
+regulation of adaptive immune response	7.587117e-3	2.019207e+0	old	BP
+regulation of peptidase activity	7.580056e-3	1.554196e+0	old	BP
+leukocyte differentiation	7.644865e-3	1.547958e+0	old	BP
+cellular macromolecule localization	7.703660e-3	1.318215e+0	old	BP
+inositol trisphosphate metabolic process	7.788837e-3	8.576392e+0	old	BP
+regulation of chromatin organization	7.878750e-3	2.041190e+0	old	BP
+chordate embryonic development	7.865217e-3	1.320148e+0	old	BP
+regulation of transforming growth factor beta production	7.885615e-3	3.345170e+0	old	BP
+positive regulation of gene expression	7.888070e-3	1.218042e+0	old	BP
+response to purine-containing compound	7.902982e-3	1.937937e+0	old	BP
+cellular component assembly	8.028496e-3	1.223913e+0	old	BP
+regulation of cell adhesion	8.118082e-3	1.449352e+0	old	BP
+positive regulation of macromolecule biosynthetic process	8.174895e-3	1.214956e+0	old	BP
+interleukin-1 production	8.280226e-3	6.551690e+0	old	BP
+response to histamine	8.334172e-3	8.408937e+0	old	BP
+regulation of tyrosine phosphorylation of Stat3 protein	8.464597e-3	2.730655e+0	old	BP
+protein localization	8.589094e-3	1.234102e+0	old	BP
+regulation of immune effector process	8.737333e-3	1.676469e+0	old	BP
+nuclear import	8.744509e-3	1.903004e+0	old	BP
+negative regulation of signal transduction by p53 class mediator	8.971072e-3	4.161937e+0	old	BP
+positive regulation of protein phosphorylation	8.958394e-3	1.339310e+0	old	BP
+regulation of protein localization	8.944375e-3	1.416541e+0	old	BP
+regulation of extrinsic apoptotic signaling pathway	8.974672e-3	1.992333e+0	old	BP
+regulation of lipopolysaccharide-mediated signaling pathway	9.253163e-3	3.271937e+0	old	BP
+organophosphate metabolic process	9.460063e-3	1.293110e+0	old	BP
+commissural neuron axon guidance	9.449527e-3	4.124316e+0	old	BP
+smooth muscle adaptation	9.531849e-3	2.090140e+1	old	BP
+positive regulation of metalloenzyme activity	9.571243e-3	1.161177e+1	old	BP
+nucleobase-containing small molecule metabolic process	9.648379e-3	1.351844e+0	old	BP
+positive regulation of locomotion	9.654659e-3	1.471724e+0	old	BP
+negative regulation of insulin receptor signaling pathway	1.000620e-2	2.911799e+0	old	BP
+Golgi vesicle transport	1.002817e-2	1.796990e+0	old	BP
+organic cyclic compound metabolic process	1.008580e-2	1.110176e+0	old	BP
+apoptotic signaling pathway	1.008252e-2	1.611261e+0	old	BP
+positive regulation of histone phosphorylation	1.031588e-2	7.945948e+0	old	BP
+monocarboxylic acid metabolic process	1.032031e-2	1.479753e+0	old	BP
+positive regulation of focal adhesion assembly	1.037947e-2	4.057024e+0	old	BP
+response to hormone stimulus	1.055772e-2	1.314434e+0	old	BP
+negative regulation of cytokine production	1.060818e-2	1.877185e+0	old	BP
+purine ribonucleoside metabolic process	1.063174e-2	1.458254e+0	old	BP
+MyD88-dependent toll-like receptor signaling pathway	1.078174e-2	2.019460e+0	old	BP
+positive regulation of peptide secretion	1.111629e-2	2.193480e+0	old	BP
+positive regulation of transcription, DNA-dependent	1.114921e-2	1.220874e+0	old	BP
+IFN-gamma pathway	2.243566e-7	4.287838e+0	old	Msig
+Genes involved in Immune System	1.978081e-7	1.636764e+0	old	Msig
+Genes involved in Interleukin-6 signaling	5.015921e-7	9.065697e+0	old	Msig
+Renal cell carcinoma	7.319014e-7	3.110305e+0	old	Msig
+IL 6 signaling pathway	1.064081e-6	6.342331e+0	old	Msig
+IL27-mediated signaling events	1.612298e-6	5.362559e+0	old	Msig
+Genes involved in Cytokine Signaling in Immune system	3.780489e-6	2.102813e+0	old	Msig
+IL-10 Anti-inflammatory Signaling Pathway	3.891761e-6	1.007438e+1	old	Msig
+Genes involved in Signaling by Interleukins	5.437939e-6	2.663901e+0	old	Msig
+Pathways in cancer	6.748965e-6	1.724957e+0	old	Msig
+VEGF signaling pathway	7.095560e-6	3.194927e+0	old	Msig
+IL6-mediated signaling events	9.040452e-6	3.221680e+0	old	Msig
+STAT3 Pathway	2.751866e-5	7.868940e+0	old	Msig
+Genes involved in Hemostasis	2.951445e-5	1.674770e+0	old	Msig
+Genes involved in Regulation of IFNG signaling	3.076901e-5	6.181005e+0	old	Msig
+Signaling events mediated by Hepatocyte Growth Factor Receptor (c-Met)	6.994997e-5	2.605394e+0	old	Msig
+IL23-mediated signaling events	8.092027e-5	4.046384e+0	old	Msig
+Integrin Signaling Pathway	7.842399e-5	2.577581e+0	old	Msig
+VEGFR1 specific signals	9.345503e-5	3.638579e+0	old	Msig
+Signaling events mediated by TCPTP	1.098612e-4	3.132694e+0	old	Msig
+Genes involved in Signalling by NGF	1.493173e-4	1.854741e+0	old	Msig
+ErbB1 downstream signaling	1.633404e-4	2.329417e+0	old	Msig
+Genes involved in Adaptive Immune System	1.916167e-4	1.612844e+0	old	Msig
+IL12-mediated signaling events	2.140031e-4	2.977024e+0	old	Msig
+PDGFR-beta signaling pathway	2.121575e-4	2.208330e+0	old	Msig
+Genes involved in Regulation of IFNA signaling	2.056130e-4	6.658867e+0	old	Msig
+BCR signaling pathway	2.175054e-4	2.682918e+0	old	Msig
+HIF-1-alpha transcription factor network	2.232098e-4	2.569864e+0	old	Msig
+Genes involved in PPARA Activates Gene Expression	2.288919e-4	2.360096e+0	old	Msig
+Signaling events mediated by VEGFR1 and VEGFR2	2.355541e-4	2.655722e+0	old	Msig
+Regulation of cytoplasmic and nuclear SMAD2/3 signaling	2.385074e-4	4.783103e+0	old	Msig
+Class I PI3K signaling events	2.925785e-4	3.037923e+0	old	Msig
+Genes involved in Downstream signal transduction	2.979104e-4	2.385705e+0	old	Msig
+Genes involved in NGF signalling via TRKA from the plasma membrane	3.395492e-4	2.033219e+0	old	Msig
+PDGFR-alpha signaling pathway	3.338620e-4	4.011764e+0	old	Msig
+Jak-STAT signaling pathway	4.095164e-4	2.050078e+0	old	Msig
+VEGF, Hypoxia, and Angiogenesis	4.197753e-4	3.708174e+0	old	Msig
+Focal adhesion	4.591891e-4	1.792079e+0	old	Msig
+Genes related to PIP3 signaling in B lymphocytes	5.209952e-4	2.974520e+0	old	Msig
+ATF-2 transcription factor network	5.348188e-4	2.600464e+0	old	Msig
+Chemokine signaling pathway	5.227776e-4	1.982148e+0	old	Msig
+NOD-like receptor signaling pathway	5.135881e-4	2.962226e+0	old	Msig
+Genes involved in Toll Receptor Cascades	5.640725e-4	2.110936e+0	old	Msig
+Genes involved in Interferon Signaling	5.596680e-4	2.276970e+0	old	Msig
+AP-1 transcription factor network	5.562550e-4	2.346050e+0	old	Msig
+Genes involved in Platelet activation, signaling and aggregation	5.943885e-4	1.848963e+0	old	Msig
+IL22 Soluble Receptor Signaling Pathway	5.979763e-4	7.200370e+0	old	Msig
+Fas Signaling Pathway	6.007738e-4	2.997232e+0	old	Msig
+Toll-like receptor signaling pathway	5.968116e-4	2.451144e+0	old	Msig
+Adhesion and Diapedesis of Granulocytes	7.819141e-4	8.254147e+0	old	Msig
+Genes involved in TCR signaling	7.849364e-4	2.756236e+0	old	Msig
+Cytokine-cytokine receptor interaction	7.854518e-4	1.777559e+0	old	Msig
+Genes involved in TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation	7.794784e-4	2.359697e+0	old	Msig
+Genes involved in Signaling by PDGF	8.626420e-4	2.026052e+0	old	Msig
+Genes involved in Fatty acid, triacylglycerol, and ketone body metabolism	1.097686e-3	1.882100e+0	old	Msig
+Genes involved in Signaling by EGFR in Cancer	1.151263e-3	2.083819e+0	old	Msig
+IL 5 Signaling Pathway	1.720656e-3	7.118611e+0	old	Msig
+Jak-STAT Pathway	1.764647e-3	5.976152e+0	old	Msig
+Genes involved in Interferon gamma signaling	2.103741e-3	2.774359e+0	old	Msig
+Neurotrophin signaling pathway	2.098574e-3	1.932100e+0	old	Msig
+Fc Epsilon Receptor I Signaling in Mast Cells	2.271718e-3	2.667266e+0	old	Msig
+Cytokine Network	2.273823e-3	4.119753e+0	old	Msig
+T Cell Receptor Signaling Pathway	2.312730e-3	2.583493e+0	old	Msig
+Genes involved in Signaling by FGFR	2.400032e-3	1.992564e+0	old	Msig
+Apoptosis	2.472453e-3	2.387325e+0	old	Msig
+Validated transcriptional targets of AP1 family members Fra1 and Fra2	2.464776e-3	3.029661e+0	old	Msig
+Genes involved in MyD88:Mal cascade initiated on plasma membrane	2.489790e-3	2.173901e+0	old	Msig
+Genes involved in Innate Immune System	2.454055e-3	1.741957e+0	old	Msig
+Links between Pyk2 and Map Kinases	2.423993e-3	3.321383e+0	old	Msig
+Genes involved in Signaling by SCF-KIT	2.405264e-3	2.286728e+0	old	Msig
+JNK MAPK Pathway	2.418445e-3	2.623718e+0	old	Msig
+Genes involved in Factors involved in megakaryocyte development and platelet production	2.429156e-3	2.104815e+0	old	Msig
+Arachidonic acid metabolism	2.427362e-3	3.302575e+0	old	Msig
+Genes involved in Metabolism of RNA	2.408035e-3	1.899382e+0	old	Msig
+IL 17 Signaling Pathway	2.649048e-3	4.780552e+0	old	Msig
+mTOR signaling pathway	3.393873e-3	2.541993e+0	old	Msig
+Genes involved in ERKs are inactivated	3.365076e-3	5.208120e+0	old	Msig
+Genes involved in Metabolism of mRNA	3.424442e-3	2.001427e+0	old	Msig
+Signal transduction through IL1R	3.614081e-3	3.149737e+0	old	Msig
+Endothelins	3.627137e-3	2.133819e+0	old	Msig
+Genes involved in Influenza Life Cycle	3.625429e-3	2.289907e+0	old	Msig
+TGF-beta receptor signaling	3.735991e-3	2.331366e+0	old	Msig
+NF-kB Signaling Pathway	4.037133e-3	3.470253e+0	old	Msig
+Genes involved in Metabolism of lipids and lipoproteins	4.148529e-3	1.467742e+0	old	Msig
+IL1-mediated signaling events	4.160879e-3	2.942732e+0	old	Msig
+Keratinocyte Differentiation	4.244506e-3	2.543520e+0	old	Msig
+PDGF Signaling Pathway	4.206706e-3	2.814370e+0	old	Msig
+Genes involved in Activated TLR4 signalling	4.237981e-3	2.068762e+0	old	Msig
+Genes involved in VEGF ligand-receptor interactions	4.427897e-3	3.407398e+0	old	Msig
+Genes involved in Signaling by ERBB2	4.464215e-3	2.003609e+0	old	Msig
+Cells and Molecules involved in local acute inflammatory response	4.539967e-3	4.322139e+0	old	Msig
+Graft-versus-host disease	5.419972e-3	3.835114e+0	old	Msig
+HIF-2-alpha transcription factor network	5.494706e-3	2.728246e+0	old	Msig
+Genes involved in Signaling by FGFR in disease	5.591423e-3	1.846148e+0	old	Msig
+Role of ERBB2 in Signal Transduction and Oncology	5.667238e-3	2.824837e+0	old	Msig
+Leishmania infection	5.824640e-3	2.389736e+0	old	Msig
+Erythropoietin mediated neuroprotection through NF-kB	5.884020e-3	5.313472e+0	old	Msig
+Genes involved in 3' -UTR-mediated translational regulation	6.529059e-3	2.427087e+0	old	Msig
+BCR Signaling Pathway	6.682408e-3	2.767995e+0	old	Msig
+Interleukin 4 (IL-4) Pathway	6.661116e-3	4.041468e+0	old	Msig
+Fc gamma R-mediated phagocytosis	6.699886e-3	1.991614e+0	old	Msig
+Genes involved in Nonsense Mediated Decay Enhanced by the Exon Junction Complex	6.903318e-3	2.477416e+0	old	Msig
+ATM Signaling Pathway	7.169225e-3	3.982715e+0	old	Msig
+B Cell Antigen Receptor	7.310570e-3	2.849400e+0	old	Msig
+Type I Interferon (alpha/beta IFN) Pathway	7.551505e-3	5.979327e+0	old	Msig
+Genes involved in Interleukin-1 signaling	7.747334e-3	2.608199e+0	old	Msig
+CXCR4-mediated signaling events	7.809704e-3	1.991694e+0	old	Msig
+IL4-mediated signaling events	7.823012e-3	2.310070e+0	old	Msig
+Epithelial cell signaling in Helicobacter pylori infection	8.284009e-3	2.423397e+0	old	Msig
+Genes involved in Signaling by NOTCH	8.432284e-3	1.840590e+0	old	Msig
+Interleukin 13 (IL-13) Pathway	8.729801e-3	5.750643e+0	old	Msig
+Interleukin 13 (IL-13) Pathway	8.729801e-3	5.750643e+0	old	Msig
+Signaling events mediated by PTP1B	9.314976e-3	2.169407e+0	old	Msig
+Signaling of Hepatocyte Growth Factor Receptor	9.791339e-3	2.377738e+0	old	Msig
+ErbB2/ErbB3 signaling events	9.973727e-3	2.525232e+0	old	Msig
+EPHB forward signaling	9.903076e-3	2.308088e+0	old	Msig
+CDC42 signaling events	9.843952e-3	2.073918e+0	old	Msig
+Natural killer cell mediated cytotoxicity	9.816356e-3	1.975864e+0	old	Msig
+Genes involved in Sema3A PAK dependent Axon repulsion	1.002227e-2	3.184186e+0	old	Msig
+Role of Calcineurin-dependent NFAT signaling in lymphocytes	1.004619e-2	2.298379e+0	old	Msig
+EGF receptor (ErbB1) signaling pathway	1.021370e-2	2.599243e+0	old	Msig
+Genes involved in Interleukin receptor SHC signaling	1.051346e-2	3.155083e+0	old	Msig
+Genes involved in Downstream TCR signaling	1.116412e-2	2.676219e+0	old	Msig
+EGF Signaling Pathway	1.112640e-2	2.674861e+0	old	Msig
+VEGF and VEGFR signaling network	1.104539e-2	3.350481e+0	old	Msig
+Members of the BCR signaling pathway	1.136799e-2	2.324476e+0	old	Msig
+Type II diabetes mellitus	1.142004e-2	2.207253e+0	old	Msig
+a6b1 and a6b4 Integrin signaling	1.138664e-2	2.388952e+0	old	Msig
+Wnt/Ca2+/cyclic GMP signaling.	1.170495e-2	3.591679e+0	old	Msig
+Cytokines and Inflammatory Response	1.173451e-2	2.910733e+0	old	Msig
+TRAIL signaling pathway	1.180409e-2	3.081042e+0	old	Msig
+Adhesion and Diapedesis of Lymphocytes	1.241652e-2	4.425433e+0	old	Msig
+Genes involved in GAB1 signalosome	1.290481e-2	2.612340e+0	old	Msig
+MAPK signaling pathway	1.371321e-2	1.473692e+0	old	Msig
+Interferon gamma pathway.	1.383809e-2	4.323927e+0	old	Msig
+Notch-mediated HES/HEY network	1.397441e-2	2.110388e+0	old	Msig
+Genes involved in Downstream signaling of activated FGFR	1.393762e-2	1.836281e+0	old	Msig
+G alpha 12 Pathway	1.474029e-2	3.436967e+0	old	Msig
+Osteopontin-mediated events	1.571679e-2	2.652537e+0	old	Msig
+PTEN dependent cell cycle arrest and apoptosis	1.563359e-2	3.142234e+0	old	Msig
+Genes involved in PI3K/AKT activation	1.558347e-2	2.446589e+0	old	Msig
+Canonical NF-kappaB pathway	1.570980e-2	3.133979e+0	old	Msig
+Fc epsilon RI signaling pathway	1.576034e-2	2.038731e+0	old	Msig
+G alpha q Pathway	1.633213e-2	2.916210e+0	old	Msig
+B cell receptor signaling pathway	1.687639e-2	2.024863e+0	old	Msig
+Genes involved in Semaphorin interactions	1.701623e-2	1.986487e+0	old	Msig
+Genes involved in Signaling by TGF-beta Receptor Complex	1.699436e-2	2.152138e+0	old	Msig
+Pancreatic cancer	1.705157e-2	1.983977e+0	old	Msig
+Genes involved in MAP kinase activation in TLR cascade	1.720767e-2	2.099210e+0	old	Msig
+Genes involved in Antiviral mechanism by IFN-stimulated genes	1.811374e-2	2.315019e+0	old	Msig
+Direct p53 effectors	1.803150e-2	1.721156e+0	old	Msig
+PPAR signaling pathway	1.833812e-2	2.385571e+0	old	Msig
+Erythrocyte Differentiation Pathway	1.911419e-2	3.559560e+0	old	Msig
+TNF receptor signaling pathway	1.963311e-2	2.364843e+0	old	Msig
+Genes involved in Influenza Viral RNA Transcription and Replication	2.116739e-2	2.270436e+0	old	Msig
+LPA receptor mediated events	2.119706e-2	1.940603e+0	old	Msig
+ErbB signaling pathway	2.113378e-2	1.807694e+0	old	Msig
+Genes involved in Interferon alpha/beta signaling	2.124145e-2	2.782939e+0	old	Msig
+p38 MAPK signaling pathway	2.333732e-2	2.607012e+0	old	Msig
+EPO signaling pathway	2.342447e-2	2.392809e+0	old	Msig
+Genes involved in TRIF mediated TLR3 signaling	2.345448e-2	1.952099e+0	old	Msig
+Leukocyte transendothelial migration	2.369006e-2	1.730929e+0	old	Msig
+Erk and PI-3 Kinase Are Necessary for Collagen Binding in Corneal Epithelia	2.423415e-2	2.586498e+0	old	Msig
+TPO Signaling Pathway	2.409561e-2	2.722868e+0	old	Msig
+Genes involved in Peptide chain elongation	2.416682e-2	2.375947e+0	old	Msig
+Genes related to PIP3 signaling in cardiac myocytes	2.440154e-2	1.908148e+0	old	Msig
+Role of Ran in mitotic spindle regulation	2.433099e-2	6.815729e+0	old	Msig
+Phosphatidylinositol signaling system	2.422712e-2	1.877874e+0	old	Msig
+Genes involved in HDL-mediated lipid transport	2.454458e-2	4.291712e+0	old	Msig
+Growth Hormone Signaling Pathway	2.475222e-2	2.565885e+0	old	Msig
+Role of MAL in Rho-Mediated Activation of SRF	2.524761e-2	3.710915e+0	old	Msig
+Hypoxia-Inducible Factor in the Cardiovascular System	2.517078e-2	3.334902e+0	old	Msig
+G alpha i Pathway	2.546561e-2	2.348919e+0	old	Msig
+Genes involved in Spry regulation of FGF signaling	2.536133e-2	3.695979e+0	old	Msig
+Tumor Necrosis Factor Pathway.	2.539111e-2	2.843218e+0	old	Msig
+Genes involved in Signaling by ERBB4	2.544562e-2	1.789258e+0	old	Msig
+Genes involved in Translation	2.595027e-2	1.919433e+0	old	Msig
+Genes involved in GPVI-mediated activation cascade	2.664705e-2	2.419554e+0	old	Msig
+T cell receptor signaling pathway	2.678914e-2	1.739491e+0	old	Msig
+Notch signaling pathway	2.669056e-2	2.415801e+0	old	Msig
+Genes involved in MAPK targets/ Nuclear events mediated by MAP kinases	2.676320e-2	2.323305e+0	old	Msig
+Genes involved in ERK/MAPK targets	2.713185e-2	2.642168e+0	old	Msig
+Genes involved in Smooth Muscle Contraction	2.717499e-2	2.996814e+0	old	Msig
+Glucocorticoid receptor regulatory network	2.773192e-2	1.871320e+0	old	Msig
+Bladder cancer	2.800798e-2	2.393635e+0	old	Msig
+Glioma	2.825896e-2	1.966859e+0	old	Msig
+AKT Signaling Pathway	2.830503e-2	2.617267e+0	old	Msig
+Signaling events mediated by focal adhesion kinase	2.820860e-2	1.895494e+0	old	Msig
+Genes involved in Regulation of Hypoxia-inducible Factor (HIF) by Oxygen	2.829642e-2	2.962965e+0	old	Msig
+Non-small cell lung cancer	2.925864e-2	2.041126e+0	old	Msig
+Genes involved in Metabolism of steroid hormones and vitamins A and D	2.962832e-2	2.745094e+0	old	Msig
+Genes involved in trans-Golgi Network Vesicle Budding	3.122178e-2	2.266134e+0	old	Msig
+Role of nicotinic acetylcholine receptors in the regulation of apoptosis	3.120309e-2	2.908103e+0	old	Msig
+CD40/CD40L signaling	3.280696e-2	2.432611e+0	old	Msig
+Alpha9 beta1 integrin signaling events	3.275055e-2	2.550470e+0	old	Msig
+Vascular smooth muscle contraction	3.301904e-2	1.638573e+0	old	Msig
+Genes involved in TRAF6 mediated NF-kB activation	3.286623e-2	3.440470e+0	old	Msig
+Inhibition of Cellular Proliferation by Gleevec	3.420197e-2	2.529793e+0	old	Msig
+Genes involved in Interleukin-2 signaling	3.412152e-2	2.412066e+0	old	Msig
+Stabilization and expansion of the E-cadherin adherens junction	3.427930e-2	2.099269e+0	old	Msig
+Genes involved in SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion	3.416675e-2	2.848154e+0	old	Msig
+Small cell lung cancer	3.405482e-2	1.773462e+0	old	Msig
+Genes involved in NFkB and MAP kinases activation mediated by TLR4 signaling repertoire	3.436819e-2	1.849864e+0	old	Msig
+Nephrin/Neph1 signaling in the kidney podocyte	3.590911e-2	2.293142e+0	old	Msig
+Genes involved in Interleukin-3, 5 and GM-CSF signaling	3.604553e-2	2.290648e+0	old	Msig
+Genes involved in PIP3 activates AKT signaling	3.598588e-2	2.813600e+0	old	Msig
+Angiotensin II mediated activation of JNK Pathway via Pyk2 dependent signaling	3.606168e-2	2.207865e+0	old	Msig
+Nongenotropic Androgen signaling	3.627309e-2	2.284676e+0	old	Msig
+FAS (CD95) signaling pathway	3.669511e-2	2.279978e+0	old	Msig
+Glycosaminoglycan biosynthesis - chondroitin sulfate	3.680528e-2	2.371197e+0	old	Msig
+IL8- and CXCR1-mediated signaling events	3.675104e-2	2.620061e+0	old	Msig
+Genes involved in Opioid Signalling	3.760895e-2	1.774991e+0	old	Msig
+METS affect on Macrophage Differentiation	3.761214e-2	2.778783e+0	old	Msig
+Colorectal cancer	3.790040e-2	1.797498e+0	old	Msig
+Genes involved in Signaling by NOTCH1	3.775275e-2	1.749104e+0	old	Msig
+HIV-I Nef: negative effector of Fas and TNF	3.764114e-2	2.185333e+0	old	Msig
+IL-2 Receptor Beta Chain in T cell Activation	3.871871e-2	2.345014e+0	old	Msig
+Circadian rhythm - mammal	3.992073e-2	3.672445e+0	old	Msig
+Genes related to chemotaxis	4.004368e-2	2.099932e+0	old	Msig
+GnRH signaling pathway	4.066101e-2	1.713848e+0	old	Msig
+Genes involved in Lipid digestion, mobilization, and transport	4.082953e-2	2.429804e+0	old	Msig
+Chaperones modulate interferon Signaling Pathway	4.064815e-2	3.229263e+0	old	Msig
+IL8- and CXCR2-mediated signaling events	4.113985e-2	2.424089e+0	old	Msig
+SHP2 signaling	4.117566e-2	1.803515e+0	old	Msig
+Arf1 pathway	4.118205e-2	4.260648e+0	old	Msig
+Signaling events mediated by HDAC Class I	4.119758e-2	2.085360e+0	old	Msig
+Notch signaling pathway	4.127011e-2	1.861448e+0	old	Msig
+Validated targets of C-MYC transcriptional repression	4.109444e-2	1.829748e+0	old	Msig
+Genes involved in NOD1/2 Signaling Pathway	4.105477e-2	2.545159e+0	old	Msig
+T Cell Signal Transduction	4.129137e-2	2.144539e+0	old	Msig
+FGF signaling pathway	4.140888e-2	1.857671e+0	old	Msig
+Genes involved in Steroid hormones	4.156398e-2	2.696629e+0	old	Msig
+Insulin signaling pathway	4.290420e-2	1.601443e+0	old	Msig
+Map Kinase Inactivation of SMRT Corepressor	4.286995e-2	2.885401e+0	old	Msig
+Genes involved in Synthesis and interconversion of nucleotide di- and triphosphates	4.299088e-2	3.556235e+0	old	Msig
+Neuropeptides VIP and PACAP inhibit the apoptosis of activated T cells	4.312162e-2	2.285373e+0	old	Msig
+Genes involved in Formation of the ternary complex, and subsequently, the 43S complex	4.331554e-2	2.385502e+0	old	Msig
+Class I PI3K signaling events mediated by Akt	4.346615e-2	2.382876e+0	old	Msig
+Signaling events regulated by Ret tyrosine kinase	4.489183e-2	1.949952e+0	old	Msig
+Genes involved in Nuclear Events (kinase and transcription factor activation)	4.486946e-2	2.369152e+0	old	Msig
+Genes involved in PI3K events in ERBB4 signaling	4.505090e-2	2.109581e+0	old	Msig
+fMLP induced chemokine gene expression in HMC-1 cells	4.502999e-2	2.180047e+0	old	Msig
+NO2-dependent IL 12 Pathway in NK cells	4.555234e-2	3.103707e+0	old	Msig
+Cytosolic DNA-sensing pathway	4.538153e-2	2.835191e+0	old	Msig
+Attenuation of GPCR Signaling	4.548585e-2	3.481234e+0	old	Msig
+amb2 Integrin signaling	4.569412e-2	2.476642e+0	old	Msig
+NFAT and Hypertrophy of the heart (Transcription in the broken heart)	4.576515e-2	1.897545e+0	old	Msig
+Genes involved in CRMPs in Sema3A signaling	4.609959e-2	2.470198e+0	old	Msig
+Integrin Signaling Pathway	4.595811e-2	2.249167e+0	old	Msig
+Netrin-mediated signaling events	4.585913e-2	2.034914e+0	old	Msig
+Oxidative Stress Induced Gene Expression Via Nrf2	4.576508e-2	3.458314e+0	old	Msig
+Endocytosis	4.694434e-2	1.525788e+0	old	Msig
+Genes involved in The role of Nef in HIV-1 replication and disease pathogenesis	4.683855e-2	2.801032e+0	old	Msig
+Genes involved in PI3K events in ERBB2 signaling	4.805522e-2	2.019777e+0	old	Msig
+Genes involved in Host Interactions of HIV factors	4.837881e-2	1.811483e+0	old	Msig
+Genes involved in p130Cas linkage to MAPK signaling for integrins	4.845471e-2	3.400571e+0	old	Msig
+Genes involved in Oxygen-dependent Proline Hydroxylation of Hypoxia-inducible Factor Alpha	4.874371e-2	3.029219e+0	old	Msig
+Genes involved in Association of TriC/CCT with target proteins during biosynthesis	4.991097e-2	2.759455e+0	old	Msig
+Genes involved in DAG and IP3 signaling	5.134957e-2	2.124064e+0	old	Msig
+Cytokines can induce activation of matrix metalloproteinases, which degrade extracellular matrix.	5.128230e-2	3.346897e+0	old	Msig
+The 4-1BB-dependent immune response	5.167009e-2	2.985324e+0	old	Msig
+Thromboxane A2 receptor signaling	5.232204e-2	1.991808e+0	old	Msig
+Acute myeloid leukemia	5.228915e-2	1.897208e+0	old	Msig
+Signaling events mediated by HDAC Class II	5.324148e-2	2.042642e+0	old	Msig
+Genes involved in Metabolism of proteins	5.331708e-2	1.342785e+0	old	Msig
+Neurotrophic factor-mediated Trk receptor signaling	5.443858e-2	1.782410e+0	old	Msig
+Endometrial cancer	5.427530e-2	1.847679e+0	old	Msig
+Genes involved in Lipoprotein metabolism	5.494375e-2	2.693129e+0	old	Msig
+Genes involved in DARPP-32 events	5.563375e-2	2.368723e+0	old	Msig
+Hematopoietic cell lineage	5.554355e-2	1.840812e+0	old	Msig
+FAS signaling pathway ( CD95 )	5.686041e-2	2.248224e+0	old	Msig
+Genes involved in Thrombin signalling through proteinase activated receptors (PARs)	5.737982e-2	2.664623e+0	old	Msig
+CXCR3-mediated signaling events	5.745074e-2	2.152920e+0	old	Msig
+Insulin Pathway	5.891544e-2	1.905095e+0	old	Msig
+Myocyte Adrenergic Pathway is a specific case of the generalized Adrenergic Pathway.	5.944725e-2	2.228508e+0	old	Msig
+Transcription factor CREB and its extracellular signals	6.046129e-2	2.221674e+0	old	Msig
+Genes involved in Metabolism of nucleotides	6.026403e-2	1.856162e+0	old	Msig
+Ribosome	6.021802e-2	1.943873e+0	old	Msig
+CD40L Signaling Pathway	6.012562e-2	3.180145e+0	old	Msig
+Actions of Nitric Oxide in the Heart	6.244544e-2	2.120077e+0	old	Msig
+Genes involved in Generation of second messenger molecules	6.242963e-2	2.832048e+0	old	Msig
+Prostate cancer	6.235671e-2	1.634876e+0	old	Msig
+Genes involved in CD28 co-stimulation	6.218915e-2	2.308566e+0	old	Msig
+TNFR2 Signaling Pathway	6.272802e-2	2.823245e+0	old	Msig
+Genes related to the insulin receptor pathway	6.348568e-2	1.839141e+0	old	Msig
+Genes involved in SRP-dependent cotranslational protein targeting to membrane	6.342296e-2	1.878954e+0	old	Msig
+TNFR1 Signaling Pathway	6.468825e-2	2.416611e+0	old	Msig
+Genes involved in Protein folding	6.675162e-2	2.174831e+0	old	Msig
+Genes related to IL4 rceptor signaling in B lymphocytes	6.694940e-2	2.172715e+0	old	Msig
+Calcium signaling in the CD4+ TCR pathway	6.674560e-2	2.273570e+0	old	Msig
+IL2-mediated signaling events	6.747641e-2	1.861199e+0	old	Msig
+NFkB activation by Nontypeable Hemophilus influenzae	6.799942e-2	2.264236e+0	old	Msig
+Regulation of nuclear SMAD2/3 signaling	6.940223e-2	1.596471e+0	old	Msig
+Genes involved in Processing of Capped Intron-Containing Pre-mRNA	6.972168e-2	1.812794e+0	old	Msig
+Regulation of hematopoiesis by cytokines	7.033977e-2	3.475979e+0	old	Msig
+Arf6 signaling events	7.043716e-2	1.999386e+0	old	Msig
+Effects of calcineurin in Keratinocyte Differentiation	7.027870e-2	2.245991e+0	old	Msig
+EPHA2 forward signaling	7.251382e-2	2.508307e+0	old	Msig
+Tight junction	7.277112e-2	1.519311e+0	old	Msig
+Fatty acid metabolism	7.374485e-2	2.344238e+0	old	Msig
+Genes involved in Signaling by GPCR	7.461632e-2	1.203633e+0	old	Msig
+Genes involved in Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S	7.473962e-2	2.122156e+0	old	Msig
+Genes involved in Downregulation of TGF-beta receptor signaling	7.467045e-2	2.335061e+0	old	Msig
+Genes involved in G alpha (q) signalling events	7.551062e-2	1.388575e+0	old	Msig
+Genes involved in Cleavage of Growing Transcript in the Termination Region	7.540038e-2	2.679314e+0	old	Msig
+Genes involved in Costimulation by the CD28 family	7.524744e-2	1.972139e+0	old	Msig
+IL12 signaling mediated by STAT4	7.550310e-2	2.325177e+0	old	Msig
+Angiopoietin receptor Tie2-mediated signaling	7.559038e-2	1.823144e+0	old	Msig
+Basal cell carcinoma	7.540474e-2	1.671786e+0	old	Msig
+Signaling mediated by p38-alpha and p38-beta	7.631404e-2	1.909356e+0	old	Msig
+Genes involved in Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways	7.623571e-2	2.028962e+0	old	Msig
+Corticosteroids and cardioprotection	7.903903e-2	2.185507e+0	old	Msig
+Calcium signaling pathway	7.977773e-2	1.366021e+0	old	Msig
+Ephrin B reverse signaling	7.994729e-2	1.948502e+0	old	Msig
+Genes involved in Transport of Mature Transcript to Cytoplasm	8.185287e-2	2.169453e+0	old	Msig
+Regulation of actin cytoskeleton	8.180839e-2	1.377816e+0	old	Msig
+RAC1 signaling pathway	8.466883e-2	1.930237e+0	old	Msig
+S1P2 pathway	8.503316e-2	2.262638e+0	old	Msig
+Genes involved in Glucose transport	8.544731e-2	2.259413e+0	old	Msig
+Genes involved in TAK1 activates NFkB by phosphorylation and activation of IKKs complex	8.580736e-2	2.396371e+0	old	Msig
+Genes involved in mRNA 3'-end processing	8.606650e-2	2.836839e+0	old	Msig
+ADP-Ribosylation Factor	8.600425e-2	3.222476e+0	old	Msig
+Genes involved in Platelet Aggregation (Plug Formation)	8.614593e-2	2.142108e+0	old	Msig
+Nectin adhesion pathway	8.656865e-2	1.979173e+0	old	Msig
+Genes involved in CD28 dependent Vav1 pathway	8.651325e-2	3.853335e+0	old	Msig
+Validated transcriptional targets of TAp63 isoforms	8.805817e-2	1.860304e+0	old	Msig
+Human Cytomegalovirus and Map Kinase Pathways	8.834386e-2	2.372982e+0	old	Msig
+Genes involved in Gastrin-CREB signalling pathway via PKC and MAPK	8.839859e-2	1.353016e+0	old	Msig
+Adherens junction	9.004144e-2	1.556988e+0	old	Msig
+Genes involved in TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)	9.082402e-2	2.783132e+0	old	Msig
+IL3-mediated signaling events	9.096816e-2	2.353970e+0	old	Msig
+Genes involved in Circadian Clock	9.353480e-2	1.668307e+0	old	Msig
+Pantothenate and CoA biosynthesis	9.455373e-2	2.508069e+0	old	Msig
+Ubiquitin mediated proteolysis	9.493263e-2	1.493803e+0	old	Msig
+Genes involved in Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	9.482994e-2	2.011453e+0	old	Msig
+Genes involved in Antigen Activates B Cell Receptor Leading to Generation of Second Messengers	9.669333e-2	2.004245e+0	old	Msig
+Regulation of PGC-1a	9.674440e-2	2.003124e+0	old	Msig
+Genes involved in Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase	9.730989e-2	3.077638e+0	old	Msig
+Genes involved in Mitochondrial Protein Import	9.712051e-2	2.183819e+0	old	Msig
+Genes involved in TGF-beta receptor signaling activates SMADs	9.738461e-2	2.181571e+0	old	Msig
+Genes related to Wnt-mediated signal transduction	9.761693e-2	1.539428e+0	old	Msig
+Hypoxia and p53 in the Cardiovascular system	1.009635e-1	2.458949e+0	old	Msig
+Purine metabolism	1.018716e-1	1.459711e+0	old	Msig
+Genes involved in Apoptosis	1.032964e-1	1.515466e+0	old	Msig
+Genes involved in Tie2 Signaling	1.032105e-1	2.277745e+0	old	Msig
+Genes involved in Signaling by the B Cell Receptor (BCR)	1.039167e-1	1.527776e+0	old	Msig
+Beta3 integrin cell surface interactions	1.047147e-1	1.848009e+0	old	Msig
+Signaling events mediated by Stem cell factor receptor (c-Kit)	1.067546e-1	1.687546e+0	old	Msig
+Genes involved in Cell surface interactions at the vascular wall	1.069833e-1	1.658414e+0	old	Msig
+Circadian rhythm pathway	1.070262e-1	2.639220e+0	old	Msig
+EPO Signaling Pathway	1.070428e-1	2.968625e+0	old	Msig
+Validated targets of C-MYC transcriptional activation	1.087885e-1	1.681166e+0	old	Msig
+Aspirin Blocks Signaling Pathway Involved in Platelet Activation	1.086149e-1	2.028410e+0	old	Msig
+Genes involved in Membrane Trafficking	1.083106e-1	1.605483e+0	old	Msig
+Genes involved in PI-3K cascade	1.103640e-1	1.707237e+0	old	Msig
+Genes involved in p75 NTR receptor-mediated signalling	1.103891e-1	1.600979e+0	old	Msig
+Genes involved in Pyrimidine catabolism	1.108443e-1	2.604512e+0	old	Msig
+Genes involved in Transcriptional Regulation of White Adipocyte Differentiation	1.141427e-1	1.573725e+0	old	Msig
+Endocytotic role of NDK, Phosphins and Dynamin	1.142149e-1	2.368801e+0	old	Msig
+RXR and RAR heterodimerization with other nuclear receptor	1.146397e-1	2.211608e+0	old	Msig
+Mechanism of Gene Regulation by Peroxisome Proliferators via PPARa(alpha)	1.148455e-1	1.637443e+0	old	Msig
+Genes involved in IRAK1 recruits IKK complex	1.159262e-1	3.393936e+0	old	Msig
+Trka Receptor Signaling Pathway	1.181091e-1	2.554252e+0	old	Msig
+Genes involved in NOTCH1 Intracellular Domain Regulates Transcription	1.180028e-1	1.630347e+0	old	Msig
+Genes involved in Transport of Ribonucleoproteins into the Host Nucleus	1.178292e-1	2.344067e+0	old	Msig
+Genes involved in Integrin alphaIIb beta3 signaling	1.180804e-1	2.191125e+0	old	Msig
+Aldosterone-regulated sodium reabsorption	1.226456e-1	1.709382e+0	old	Msig
+Ceramide signaling pathway	1.241075e-1	1.836460e+0	old	Msig
+Adipocytokine signaling pathway	1.260656e-1	1.640155e+0	old	Msig
+Genes involved in Golgi Associated Vesicle Biogenesis	1.292638e-1	1.881184e+0	old	Msig
+Regulation of RAC1 activity	1.298945e-1	1.693282e+0	old	Msig
+Bone Remodelling	1.303807e-1	2.766505e+0	old	Msig
+Genes involved in Cell death signalling via NRAGE, NRIF and NADE	1.310377e-1	1.658024e+0	old	Msig
+Inositol phosphate metabolism	1.310420e-1	1.725605e+0	old	Msig
+Rac 1 cell motility signaling pathway	1.321364e-1	2.023610e+0	old	Msig
+Roles of fl-arrestin-dependent Recruitment of Src Kinases in GPCR Signaling	1.334915e-1	2.740063e+0	old	Msig
+Genes involved in GRB2:SOS provides linkage to MAPK signaling for Intergrins	1.341278e-1	2.734367e+0	old	Msig
+E-cadherin signaling in keratinocytes	1.350687e-1	2.117702e+0	old	Msig
+Nerve growth factor pathway (NGF)	1.350219e-1	2.255008e+0	old	Msig
+Genes involved in Phosphorylation of the APC/C	1.357012e-1	2.719349e+0	old	Msig
+Genes involved in Glycolysis	1.353765e-1	2.719176e+0	old	Msig
+Genes involved in Processing of Capped Intronless Pre-mRNA	1.354171e-1	3.170538e+0	old	Msig
+Signaling Pathway from G-Protein Families	1.354967e-1	1.799417e+0	old	Msig
+CXCR4 Signaling Pathway	1.362710e-1	1.920003e+0	old	Msig
+Influence of Ras and Rho proteins on G1 to S Transition	1.362596e-1	2.242433e+0	old	Msig
+Genes involved in Pre-NOTCH Expression and Processing	1.369978e-1	1.849538e+0	old	Msig
+IL12 and Stat4 Dependent Signaling Pathway in Th1 Development	1.390869e-1	2.229429e+0	old	Msig
+Stress Induction of HSP Regulation	1.409119e-1	2.674784e+0	old	Msig
+Genes involved in Synthesis of substrates in N-glycan biosythesis	1.418516e-1	3.943207e+0	old	Msig
+Genes involved in Regulation of KIT signaling	1.417375e-1	2.216018e+0	old	Msig
+Genes involved in Growth hormone receptor signaling	1.416155e-1	1.980843e+0	old	Msig
+Phosphoinositides and their downstream targets.	1.421599e-1	2.211950e+0	old	Msig
+Genes involved in Processing of Intronless Pre-mRNAs	1.418798e-1	3.926514e+0	old	Msig
+Ca++/ Calmodulin-dependent Protein Kinase Activation	1.429078e-1	2.387433e+0	old	Msig
+Genes involved in Glucose metabolism	1.428352e-1	1.729555e+0	old	Msig
+p73 transcription factor network	1.430711e-1	1.655133e+0	old	Msig
+Genes involved in Metabolism of polyamines	1.455757e-1	3.056477e+0	old	Msig
+BMP receptor signaling	1.468189e-1	1.591974e+0	old	Msig
+Genes involved in Regulation of signaling by CBL	1.481919e-1	2.182230e+0	old	Msig
+S1P3 pathway	1.491125e-1	1.952372e+0	old	Msig
+Genes involved in AKT phosphorylates targets in the cytosol	1.491781e-1	3.815215e+0	old	Msig
+Genes involved in BMAL1:CLOCK/NPAS2 Activates Circadian Expression	1.490299e-1	1.675234e+0	old	Msig
+Toll-Like Receptor Pathway	1.507580e-1	1.868538e+0	old	Msig
+Genes involved in RIG-I/MDA5 mediated induction of IFN-alpha/beta pathways	1.525193e-1	1.801549e+0	old	Msig
+Genes involved in APC/C:Cdc20 mediated degradation of Cyclin B	1.543129e-1	2.574586e+0	old	Msig
+Activation of Src by Protein-tyrosine phosphatase alpha	1.541895e-1	2.976023e+0	old	Msig
+Genes involved in Chemokine receptors bind chemokines	1.538492e-1	1.933820e+0	old	Msig
+Genes involved in Transport of Mature mRNA Derived from an Intronless Transcript	1.542802e-1	2.151045e+0	old	Msig
+Genes involved in Nephrin interactions	1.547570e-1	1.929713e+0	old	Msig
+Genes involved in G alpha (12/13) signalling events	1.552802e-1	1.551158e+0	old	Msig
+Genes involved in Purine salvage	1.587210e-1	2.935101e+0	old	Msig
+Wnt signaling pathway	1.603207e-1	1.320405e+0	old	Msig
+Genes involved in Formation of tubulin folding intermediates by CCT/TriC	1.615859e-1	2.912673e+0	old	Msig
+Regulation of Androgen receptor activity	1.627804e-1	1.586405e+0	old	Msig
+Fructose and mannose metabolism	1.638320e-1	1.993834e+0	old	Msig
+Vibrio cholerae infection	1.714076e-1	1.707697e+0	old	Msig
+Pertussis toxin-insensitive CCR5 Signaling in Macrophage	1.711325e-1	1.973154e+0	old	Msig
+Thyroid cancer	1.713814e-1	1.882710e+0	old	Msig
+Phospholipids as signalling intermediaries	1.717104e-1	1.753115e+0	old	Msig
+alpha-Linolenic acid metabolism	1.720068e-1	2.835362e+0	old	Msig
+G alpha 13 Pathway	1.723453e-1	1.807758e+0	old	Msig
+Homologous recombination	1.724597e-1	2.079419e+0	old	Msig
+TNF/Stress Related Signaling	1.735920e-1	2.075054e+0	old	Msig
+Genes involved in Activated NOTCH1 Transmits Signal to the Nucleus	1.736662e-1	2.073691e+0	old	Msig
+Genes involved in mRNA Processing	1.744661e-1	1.520262e+0	old	Msig
+Genes involved in Nuclear signaling by ERBB4	1.742087e-1	1.621517e+0	old	Msig
+Validated nuclear estrogen receptor alpha network	1.751327e-1	1.499531e+0	old	Msig
+Genes involved in Signaling by constitutively active EGFR	1.763260e-1	2.214669e+0	old	Msig
+Genes involved in mRNA Splicing	1.764756e-1	1.737237e+0	old	Msig
+Glutathione metabolism	1.769675e-1	2.057625e+0	old	Msig
+Ceramide Signaling Pathway	1.774316e-1	2.207017e+0	old	Msig
+Genes involved in MHC class II antigen presentation	1.797474e-1	1.554680e+0	old	Msig
+Cadmium induces DNA synthesis and proliferation in macrophages	1.821125e-1	2.189318e+0	old	Msig
+Genes involved in Metabolism of carbohydrates	1.820363e-1	1.261588e+0	old	Msig
+Spliceosome	1.826854e-1	1.575184e+0	old	Msig
+Genes involved in Nucleotide-like (purinergic) receptors	1.852760e-1	2.728804e+0	old	Msig
+Genes involved in JNK (c-Jun kinases) phosphorylation and  activation mediated by activated human TAK1	1.849388e-1	2.028324e+0	old	Msig
+fl-arrestins in GPCR Desensitization	1.847274e-1	2.727294e+0	old	Msig
+CARM1 and Regulation of the Estrogen Receptor	1.847712e-1	1.632258e+0	old	Msig
+Genes involved in NRAGE signals death through JNK	1.844272e-1	1.599082e+0	old	Msig
+IL 2 signaling pathway	1.841010e-1	2.384939e+0	old	Msig
+Genes involved in Extrinsic Pathway for Apoptosis	1.854825e-1	3.345856e+0	old	Msig
+Granule Cell Survival Pathway is a specific case of more general PAC1 Receptor Pathway.	1.851552e-1	1.914103e+0	old	Msig
+Regulation of transcriptional activity by PML	1.847968e-1	2.377467e+0	old	Msig
+Linoleic acid metabolism	1.846262e-1	2.376531e+0	old	Msig
+Genes involved in Signaling by BMP	1.877561e-1	1.705862e+0	old	Msig
+Hypoxic and oxygen homeostasis regulation of HIF-1-alpha	1.875098e-1	2.362405e+0	old	Msig
+Internalization of ErbB1	1.916225e-1	1.617064e+0	old	Msig
+Role of MEF2D in T-cell Apoptosis	1.913044e-1	1.998846e+0	old	Msig
+Genes related to CD40 signaling	1.926138e-1	1.810975e+0	old	Msig
+IL-7 Signal Transduction	1.923696e-1	1.994024e+0	old	Msig
+Genes involved in cGMP effects	1.939035e-1	1.806813e+0	old	Msig
+Role of Erk5 in Neuronal Survival	1.954296e-1	1.984288e+0	old	Msig
+Genes involved in Integrin cell surface interactions	1.970106e-1	1.522915e+0	old	Msig
+Genes involved in Platelet homeostasis	1.976851e-1	1.447660e+0	old	Msig
+Genes involved in Inhibition of replication initiation of damaged DNA by RB1/E2F1	1.987183e-1	2.621929e+0	old	Msig
+Beta1 integrin cell surface interactions	1.987608e-1	1.478864e+0	old	Msig
+Genes involved in Synthesis of PIPs at the plasma membrane	1.987148e-1	1.792703e+0	old	Msig
+IL2 signaling events mediated by PI3K	1.997114e-1	1.790016e+0	old	Msig
+Urokinase-type plasminogen activator (uPA) and uPAR-mediated signaling	2.006408e-1	1.787467e+0	old	Msig
+Genes involved in SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	2.007839e-1	1.962896e+0	old	Msig
+Regulation of Telomerase	2.007345e-1	1.514763e+0	old	Msig
+Genes involved in Activation of BH3-only proteins	2.005200e-1	2.290848e+0	old	Msig
+C-MYB transcription factor network	2.008314e-1	1.390690e+0	old	Msig
+Genes involved in Nitric oxide stimulates guanylate cyclase	2.022304e-1	1.669830e+0	old	Msig
+Control of skeletal myogenesis by HDAC and calcium/calmodulin-dependent kinase (CaMK)	2.018836e-1	1.628005e+0	old	Msig
+Coregulation of Androgen receptor activity	2.027101e-1	1.470394e+0	old	Msig
+Genes involved in Regulation of Glucokinase by Glucokinase Regulatory Protein	2.043999e-1	2.079384e+0	old	Msig
+Genes involved in Pre-NOTCH Transcription and Translation	2.045647e-1	1.848270e+0	old	Msig
+Genes involved in Androgen biosynthesis	2.059166e-1	3.116893e+0	old	Msig
+Genes involved in activated TAK1 mediates p38 MAPK activation	2.055842e-1	2.072546e+0	old	Msig
+Caspase cascade in apoptosis	2.081878e-1	1.656181e+0	old	Msig
+Nuclear receptors coordinate the activities of chromatin remodeling complexes and coactivators to facilitate initiation of transcription in carcinoma cells	2.079192e-1	2.251047e+0	old	Msig
+Signaling events mediated by PRL	2.087784e-1	2.060329e+0	old	Msig
+Genes involved in Ca-dependent events	2.101320e-1	1.699507e+0	old	Msig
+Genes involved in Antigen processing: Ubiquitination &amp; Proteasome degradation	2.097671e-1	1.315239e+0	old	Msig
+Genes involved in Intrinsic Pathway for Apoptosis	2.101473e-1	1.924818e+0	old	Msig
+Syndecan-3-mediated signaling events	2.099525e-1	1.924264e+0	old	Msig
+Trk receptor signaling mediated by PI3K and PLC-gamma	2.101396e-1	1.755113e+0	old	Msig
+Genes involved in Signaling by NODAL	2.100539e-1	2.049883e+0	old	Msig
+Bioactive Peptide Induced Signaling Pathway	2.098546e-1	1.754069e+0	old	Msig
+Genes involved in p75NTR signals via NF-kB	2.100515e-1	2.521292e+0	old	Msig
+Genes involved in Class B/2 (Secretin family receptors)	2.098806e-1	1.456323e+0	old	Msig
+Differentiation Pathway in PC12 Cells; this is a specific case of PAC1 Receptor Pathway.	2.125129e-1	1.602360e+0	old	Msig
+Genes involved in Activation of the AP-1 family of transcription factors	2.131341e-1	2.502703e+0	old	Msig
+PI3K Pathway	2.148397e-1	1.741480e+0	old	Msig
+Genes involved in Prolonged ERK activation events	2.151763e-1	2.207609e+0	old	Msig
+VEGFR3 signaling in lymphatic endothelium	2.173508e-1	1.735629e+0	old	Msig
+Genes involved in Mitotic G1-G1/S phases	2.179275e-1	1.430056e+0	old	Msig
+Genes involved in Interleukin-7 signaling	2.193353e-1	2.014294e+0	old	Msig
+N-cadherin signaling events	2.238658e-1	1.522618e+0	old	Msig
+ErbB4 signaling events	2.235980e-1	1.497836e+0	old	Msig
+Role of fl-arrestins in the activation and targeting of MAP kinases	2.244057e-1	2.442514e+0	old	Msig
+Genes involved in Sema4D in semaphorin signaling	2.265515e-1	1.991847e+0	old	Msig
+CBL mediated ligand-induced downregulation of EGF receptors	2.313130e-1	2.147645e+0	old	Msig
+uCalpain and friends in Cell spread	2.316335e-1	2.145360e+0	old	Msig
+IL 4 signaling pathway	2.336130e-1	2.878890e+0	old	Msig
+ALK1 signaling events	2.334640e-1	1.768375e+0	old	Msig
+Wnt signaling network	2.332658e-1	1.647611e+0	old	Msig

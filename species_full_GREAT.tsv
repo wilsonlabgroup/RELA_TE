@@ -1,0 +1,998 @@
+immune system process	2.187452e-18	1.631597e+0	species	BP
+regulation of response to stimulus	2.664936e-16	1.401989e+0	species	BP
+immune response	1.175857e-15	1.820429e+0	species	BP
+regulation of response to stress	2.086918e-12	1.775730e+0	species	BP
+response to stress	3.424915e-12	1.374603e+0	species	BP
+regulation of immune system process	1.029529e-11	1.647701e+0	species	BP
+biological regulation	1.062523e-11	1.121758e+0	species	BP
+regulation of signal transduction	9.316447e-12	1.395129e+0	species	BP
+response to organic substance	1.530146e-11	1.410768e+0	species	BP
+positive regulation of immune system process	2.430941e-11	1.879080e+0	species	BP
+cellular response to chemical stimulus	3.375214e-11	1.431496e+0	species	BP
+regulation of biological process	4.163781e-11	1.125223e+0	species	BP
+cellular response to organic substance	5.382398e-11	1.475369e+0	species	BP
+regulation of cellular process	5.620077e-11	1.129323e+0	species	BP
+cellular response to stimulus	1.025360e-10	1.207467e+0	species	BP
+response to stimulus	1.334135e-10	1.167699e+0	species	BP
+regulation of cell communication	1.680800e-10	1.338019e+0	species	BP
+cell activation	2.088895e-10	1.824402e+0	species	BP
+regulation of signaling	5.805157e-10	1.328909e+0	species	BP
+regulation of cytokine production	1.355898e-9	2.037563e+0	species	BP
+regulation of defense response	2.199917e-9	1.990732e+0	species	BP
+cytokine-mediated signaling pathway	3.893703e-9	2.327036e+0	species	BP
+positive regulation of response to stimulus	5.812139e-9	1.460300e+0	species	BP
+cellular process	1.146946e-8	1.063029e+0	species	BP
+single-organism process	1.478853e-8	1.082779e+0	species	BP
+signal transduction	1.610340e-8	1.212831e+0	species	BP
+cellular response to cytokine stimulus	1.632997e-8	2.010410e+0	species	BP
+response to wounding	2.390791e-8	1.553488e+0	species	BP
+response to chemical stimulus	2.379660e-8	1.263569e+0	species	BP
+regulation of immune response	3.539480e-8	1.702440e+0	species	BP
+regulation of metabolic process	4.274153e-8	1.173728e+0	species	BP
+negative regulation of cytokine secretion	7.123391e-8	5.914592e+0	species	BP
+activation of immune response	8.252744e-8	2.034251e+0	species	BP
+positive regulation of biological process	9.144378e-8	1.211117e+0	species	BP
+immune response-activating signal transduction	9.303630e-8	2.085296e+0	species	BP
+response to cytokine stimulus	9.286322e-8	1.824658e+0	species	BP
+defense response	9.168335e-8	1.524739e+0	species	BP
+leukocyte activation	1.210969e-7	1.890741e+0	species	BP
+regulation of molecular function	2.381409e-7	1.308200e+0	species	BP
+cell communication	4.176480e-7	1.172679e+0	species	BP
+single-organism cellular process	4.174490e-7	1.086207e+0	species	BP
+lymphocyte activation	4.652223e-7	1.945500e+0	species	BP
+negative regulation of tumor necrosis factor production	5.698647e-7	5.161716e+0	species	BP
+positive regulation of immune response	6.651234e-7	1.857477e+0	species	BP
+regulation of cellular metabolic process	6.863026e-7	1.171166e+0	species	BP
+single organism signaling	8.468449e-7	1.171287e+0	species	BP
+innate immune response	1.005377e-6	1.644268e+0	species	BP
+cell surface receptor signaling pathway	1.118650e-6	1.261774e+0	species	BP
+negative regulation of protein secretion	1.983116e-6	4.193815e+0	species	BP
+lymphocyte activation involved in immune response	2.103727e-6	3.468961e+0	species	BP
+positive regulation of cellular process	3.384013e-6	1.202476e+0	species	BP
+regulation of primary metabolic process	4.287863e-6	1.162659e+0	species	BP
+regulation of cell activation	5.163273e-6	1.748401e+0	species	BP
+immune effector process	5.209616e-6	1.942180e+0	species	BP
+regulation of macromolecule metabolic process	5.672745e-6	1.170214e+0	species	BP
+blood coagulation	5.669757e-6	1.686691e+0	species	BP
+hemostasis	7.290844e-6	1.678128e+0	species	BP
+positive regulation of defense response	7.869532e-6	2.022185e+0	species	BP
+immune response-regulating signaling pathway	7.761062e-6	1.740690e+0	species	BP
+positive regulation of molecular function	7.787976e-6	1.356879e+0	species	BP
+regulation of catalytic activity	7.692603e-6	1.312413e+0	species	BP
+negative regulation of interleukin-1 production	8.647720e-6	9.318309e+0	species	BP
+virion attachment, binding of host cell surface receptor	1.159594e-5	2.086253e+1	species	BP
+wound healing	1.183566e-5	1.573584e+0	species	BP
+regulation of intracellular protein kinase cascade	1.241362e-5	1.472070e+0	species	BP
+regulation of leukocyte activation	1.249155e-5	1.751820e+0	species	BP
+regulation of body fluid levels	1.315896e-5	1.593526e+0	species	BP
+activation of innate immune response	1.513068e-5	2.334843e+0	species	BP
+cellular response to oxygen-containing compound	1.587083e-5	1.529647e+0	species	BP
+pattern recognition receptor signaling pathway	1.853887e-5	2.340154e+0	species	BP
+negative regulation of response to stimulus	2.105197e-5	1.407400e+0	species	BP
+innate immune response-activating signal transduction	2.169081e-5	2.324989e+0	species	BP
+regulation of endothelial cell apoptotic process	2.246718e-5	4.189422e+0	species	BP
+regulation of cytokine secretion	2.255046e-5	2.809328e+0	species	BP
+regulation of response to external stimulus	2.259791e-5	1.641006e+0	species	BP
+intracellular signal transduction	2.391962e-5	1.324005e+0	species	BP
+regulation of protein metabolic process	2.569868e-5	1.319650e+0	species	BP
+cellular metabolic process	2.628726e-5	1.106660e+0	species	BP
+regulation of inflammatory response	2.599713e-5	2.064307e+0	species	BP
+positive regulation of innate immune response	2.576053e-5	2.159523e+0	species	BP
+cellular response to stress	2.788402e-5	1.415755e+0	species	BP
+negative regulation of interleukin-6 production	3.061533e-5	6.392731e+0	species	BP
+programmed cell death	3.453900e-5	1.412412e+0	species	BP
+regulation of protein secretion	3.508292e-5	2.321052e+0	species	BP
+apoptotic process	3.673524e-5	1.414941e+0	species	BP
+response to oxygen-containing compound	3.674501e-5	1.390716e+0	species	BP
+metabolic process	3.652105e-5	1.093743e+0	species	BP
+response to other organism	3.746247e-5	1.634989e+0	species	BP
+negative regulation of signal transduction	4.020107e-5	1.441439e+0	species	BP
+negative regulation of cytokine production	4.422263e-5	2.374087e+0	species	BP
+regulation of protein modification process	4.970562e-5	1.368810e+0	species	BP
+regulation of innate immune response	5.740838e-5	1.979480e+0	species	BP
+primary metabolic process	5.815986e-5	1.101630e+0	species	BP
+regulation of cell death	6.022414e-5	1.349113e+0	species	BP
+endocytosis	6.270431e-5	1.731363e+0	species	BP
+cellular response to growth factor stimulus	6.686485e-5	1.498239e+0	species	BP
+regulation of cellular protein metabolic process	7.201139e-5	1.326222e+0	species	BP
+negative regulation of defense response	7.199225e-5	2.548783e+0	species	BP
+adhesion to other organism involved in symbiotic interaction	7.433546e-5	1.154026e+1	species	BP
+T cell activation	7.580767e-5	1.969961e+0	species	BP
+regulation of lymphocyte activation	7.506600e-5	1.745972e+0	species	BP
+regulation of programmed cell death	7.437567e-5	1.353041e+0	species	BP
+T cell activation involved in immune response	7.368048e-5	4.152339e+0	species	BP
+viral attachment to host cell	7.323602e-5	1.466577e+1	species	BP
+response to biotic stimulus	7.542132e-5	1.597644e+0	species	BP
+response to endogenous stimulus	8.875805e-5	1.341217e+0	species	BP
+regulation of apoptotic process	9.185018e-5	1.351456e+0	species	BP
+cellular response to molecule of bacterial origin	1.042037e-4	2.393083e+0	species	BP
+vesicle-mediated transport	1.183831e-4	1.430800e+0	species	BP
+response to growth factor stimulus	1.207003e-4	1.472274e+0	species	BP
+leukocyte migration	1.226071e-4	1.958696e+0	species	BP
+leukocyte activation involved in immune response	1.326454e-4	2.543531e+0	species	BP
+toll-like receptor signaling pathway	1.357890e-4	2.276739e+0	species	BP
+negative regulation of cellular process	1.348146e-4	1.182189e+0	species	BP
+regulation of biological quality	1.357775e-4	1.203087e+0	species	BP
+regulation of tumor necrosis factor production	1.682920e-4	2.877169e+0	species	BP
+cellular response to lipopolysaccharide	1.692349e-4	2.366773e+0	species	BP
+cellular response to external stimulus	1.682523e-4	2.065154e+0	species	BP
+regulation of angiogenesis	1.690729e-4	1.986622e+0	species	BP
+organic substance metabolic process	1.721709e-4	1.093076e+0	species	BP
+regulation of vascular wound healing	1.903750e-4	1.666239e+1	species	BP
+negative regulation of protein transport	1.891261e-4	2.264811e+0	species	BP
+positive regulation of metabolic process	1.994178e-4	1.219485e+0	species	BP
+negative regulation of inflammatory response	2.087905e-4	2.518335e+0	species	BP
+hydroxyproline transport	2.094183e-4	2.443312e+1	species	BP
+threonine transport	2.094183e-4	2.443312e+1	species	BP
+positive regulation of macromolecule metabolic process	2.071853e-4	1.228192e+0	species	BP
+cellular response to biotic stimulus	2.120747e-4	2.276161e+0	species	BP
+regulation of transferase activity	2.219106e-4	1.438110e+0	species	BP
+regulation of protein phosphorylation	2.215598e-4	1.382008e+0	species	BP
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	2.237153e-4	2.545937e+0	species	BP
+inflammatory response	2.297686e-4	1.715399e+0	species	BP
+MyD88-dependent toll-like receptor signaling pathway	2.422458e-4	2.452201e+0	species	BP
+negative regulation of endothelial cell apoptotic process	2.596913e-4	4.659448e+0	species	BP
+positive regulation of catalytic activity	2.649274e-4	1.332413e+0	species	BP
+response to molecule of bacterial origin	2.648944e-4	1.853211e+0	species	BP
+negative regulation of signaling	2.680593e-4	1.384865e+0	species	BP
+positive regulation of cellular metabolic process	2.838061e-4	1.222891e+0	species	BP
+regulation of leukocyte proliferation	2.844039e-4	1.915149e+0	species	BP
+regulation of phosphorus metabolic process	3.054701e-4	1.270954e+0	species	BP
+toll-like receptor 5 signaling pathway	3.049647e-4	2.588709e+0	species	BP
+toll-like receptor 10 signaling pathway	3.049647e-4	2.588709e+0	species	BP
+response to tumor necrosis factor	3.009973e-4	2.456681e+0	species	BP
+negative regulation of cell communication	3.249506e-4	1.379360e+0	species	BP
+regulation of vasculature development	3.871293e-4	1.857965e+0	species	BP
+response to nitrogen compound	3.903367e-4	1.439243e+0	species	BP
+regulation of protein kinase activity	3.949281e-4	1.449050e+0	species	BP
+immune system development	3.996791e-4	1.496652e+0	species	BP
+regulation of phosphorylation	4.038730e-4	1.350949e+0	species	BP
+response to bacterium	4.124655e-4	1.694403e+0	species	BP
+regulation of kinase activity	4.517640e-4	1.426534e+0	species	BP
+response to lipopolysaccharide	4.845174e-4	1.830625e+0	species	BP
+production of molecular mediator of immune response	5.991610e-4	2.995599e+0	species	BP
+cell death	6.030897e-4	1.321613e+0	species	BP
+regulation of phosphate metabolic process	6.117255e-4	1.260979e+0	species	BP
+negative regulation of biological process	6.414021e-4	1.157961e+0	species	BP
+regulation of response to cytokine stimulus	7.228350e-4	2.377390e+0	species	BP
+toll-like receptor 4 signaling pathway	7.196788e-4	2.306139e+0	species	BP
+death	7.565264e-4	1.316397e+0	species	BP
+response to muramyl dipeptide	7.704948e-4	5.877524e+0	species	BP
+phagocytosis	8.328228e-4	2.099579e+0	species	BP
+adaptive immune response	9.096997e-4	2.245180e+0	species	BP
+regulation of T cell activation	9.589127e-4	1.765898e+0	species	BP
+positive regulation of cytokine production	9.963134e-4	1.811626e+0	species	BP
+regulation of localization	1.007526e-3	1.232033e+0	species	BP
+tumor necrosis factor-mediated signaling pathway	1.179947e-3	3.984115e+0	species	BP
+establishment of protein localization to plasma membrane	1.173837e-3	3.261874e+0	species	BP
+positive regulation of protein secretion	1.194535e-3	2.425790e+0	species	BP
+angiogenesis	1.216035e-3	1.575474e+0	species	BP
+regulation of macromolecule biosynthetic process	1.222565e-3	1.154800e+0	species	BP
+regulation of cytokine-mediated signaling pathway	1.222719e-3	2.378224e+0	species	BP
+negative regulation of nucleotide-binding oligomerization domain containing 1 signaling pathway	1.229329e-3	1.579427e+1	species	BP
+negative regulation of CD40 signaling pathway	1.229329e-3	1.579427e+1	species	BP
+negative regulation of toll-like receptor 5 signaling pathway	1.229329e-3	1.579427e+1	species	BP
+negative regulation of nucleotide-binding oligomerization domain containing 2 signaling pathway	1.229329e-3	1.579427e+1	species	BP
+regulation of protein localization	1.214547e-3	1.515698e+0	species	BP
+negative regulation of phosphorylation	1.320482e-3	1.673236e+0	species	BP
+regulation of CD40 signaling pathway	1.314923e-3	1.545908e+1	species	BP
+platelet activation	1.321874e-3	1.797993e+0	species	BP
+interleukin-18-mediated signaling pathway	1.362204e-3	5.685892e+1	species	BP
+negative regulation of intracellular protein kinase cascade	1.399544e-3	1.889075e+0	species	BP
+cellular response to nutrient levels	1.417162e-3	2.277259e+0	species	BP
+exocytosis	1.531107e-3	1.731018e+0	species	BP
+amyloid precursor protein metabolic process	1.571721e-3	6.935156e+0	species	BP
+proline transmembrane transport	1.600405e-3	1.470913e+1	species	BP
+cellular glucose homeostasis	1.666245e-3	2.621636e+0	species	BP
+positive regulation of metalloenzyme activity	1.685870e-3	1.451471e+1	species	BP
+negative regulation of extrinsic apoptotic signaling pathway via death domain receptors	1.712905e-3	6.829229e+0	species	BP
+regulation of protein transport	1.715775e-3	1.603113e+0	species	BP
+response to organonitrogen compound	1.707615e-3	1.407054e+0	species	BP
+regulation of establishment of protein localization	1.782513e-3	1.541214e+0	species	BP
+negative regulation of oligodendrocyte apoptotic process	1.804667e-3	2.297647e+1	species	BP
+macrophage cytokine production	1.804667e-3	2.297647e+1	species	BP
+negative regulation of renal albumin absorption	1.804667e-3	2.297647e+1	species	BP
+cellular response to vitamin K	1.804667e-3	2.297647e+1	species	BP
+negative regulation of protein metabolic process	1.815976e-3	1.466398e+0	species	BP
+UDP-galactose transmembrane transport	1.829778e-3	4.991396e+1	species	BP
+cell chemotaxis	2.016204e-3	2.061609e+0	species	BP
+regulation of leukocyte migration	2.026674e-3	2.256866e+0	species	BP
+negative regulation of interleukin-1 beta production	2.029241e-3	7.902932e+0	species	BP
+regulation of tumor necrosis factor-mediated signaling pathway	2.050292e-3	7.883561e+0	species	BP
+tolerance induction to lipopolysaccharide	2.068631e-3	1.367146e+1	species	BP
+protein metabolic process	2.062331e-3	1.160072e+0	species	BP
+positive regulation of cellular protein metabolic process	2.068074e-3	1.341414e+0	species	BP
+regulation of osteoclast proliferation	2.083149e-3	9.892235e+0	species	BP
+positive regulation of protein transport	2.087828e-3	1.800637e+0	species	BP
+cellular response to extracellular stimulus	2.225358e-3	2.094544e+0	species	BP
+regulation of protein import into nucleus, translocation	2.252563e-3	4.550026e+0	species	BP
+regulation of toll-like receptor 3 signaling pathway	2.261972e-3	9.710482e+0	species	BP
+T cell proliferation involved in immune response	2.329388e-3	1.322017e+1	species	BP
+positive regulation of lymphocyte activation	2.341336e-3	1.722084e+0	species	BP
+multi-organism process	2.428113e-3	1.303906e+0	species	BP
+negative regulation of toll-like receptor 3 signaling pathway	2.446355e-3	1.304315e+1	species	BP
+regulation of gene expression	2.452633e-3	1.141499e+0	species	BP
+positive regulation of hepatocyte proliferation	2.450896e-3	1.301200e+1	species	BP
+positive regulation of protein metabolic process	2.457811e-3	1.316754e+0	species	BP
+regulation of biosynthetic process	2.494587e-3	1.140566e+0	species	BP
+negative regulation of sequence-specific DNA binding transcription factor activity	2.522255e-3	1.950635e+0	species	BP
+positive regulation of transport	2.603309e-3	1.418210e+0	species	BP
+sequestering of BMP in extracellular matrix	2.625649e-3	1.275911e+1	species	BP
+cellular response to nitrogen compound	2.705285e-3	1.499116e+0	species	BP
+regulation of cellular biosynthetic process	2.891798e-3	1.139722e+0	species	BP
+cellular protein metabolic process	2.926249e-3	1.174640e+0	species	BP
+beta-amyloid formation	2.957095e-3	1.239074e+1	species	BP
+glutamine transport	2.958703e-3	9.120635e+0	species	BP
+positive regulation of hormone biosynthetic process	3.225770e-3	5.301307e+0	species	BP
+regulation of cellular macromolecule biosynthetic process	3.220679e-3	1.145066e+0	species	BP
+cellular response to tumor necrosis factor	3.246430e-3	2.374443e+0	species	BP
+positive regulation of signal transduction	3.279217e-3	1.307404e+0	species	BP
+regulation of endopeptidase activity	3.495256e-3	1.675337e+0	species	BP
+enzyme linked receptor protein signaling pathway	3.555246e-3	1.315061e+0	species	BP
+positive regulation of hydrolase activity	3.627289e-3	1.379876e+0	species	BP
+regulation of cellular response to stress	3.636537e-3	1.538377e+0	species	BP
+regulation of chronic inflammatory response	3.645483e-3	8.713689e+0	species	BP
+T cell proliferation	3.655245e-3	2.901255e+0	species	BP
+hematopoietic stem cell migration to bone marrow	3.697189e-3	1.806939e+1	species	BP
+macrophage differentiation	3.699327e-3	5.172275e+0	species	BP
+negative regulation of chronic inflammatory response	3.725210e-3	1.163892e+1	species	BP
+leukocyte chemotaxis	3.871162e-3	2.186251e+0	species	BP
+positive regulation of cell activation	3.932904e-3	1.643469e+0	species	BP
+cellular response to starvation	3.934140e-3	2.384156e+0	species	BP
+single-multicellular organism process	3.925485e-3	1.090278e+0	species	BP
+apoptotic signaling pathway	3.915513e-3	1.697579e+0	species	BP
+regulation of sequence-specific DNA binding transcription factor activity	3.979061e-3	1.523533e+0	species	BP
+negative regulation of protein phosphorylation	3.989225e-3	1.634511e+0	species	BP
+antigen receptor-mediated signaling pathway	3.980238e-3	2.015176e+0	species	BP
+L-serine transport	4.017257e-3	1.136005e+1	species	BP
+serine transport	4.184691e-3	1.125063e+1	species	BP
+regulation of renal albumin absorption	4.290987e-3	1.713617e+1	species	BP
+L-cystine transport	4.282814e-3	1.117511e+1	species	BP
+positive regulation of leukocyte activation	4.370022e-3	1.648836e+0	species	BP
+positive regulation of response to external stimulus	4.402685e-3	1.765692e+0	species	BP
+negative regulation of protein modification process	4.493141e-3	1.528881e+0	species	BP
+regulation of circadian sleep/wake cycle, sleep	4.538745e-3	6.672927e+0	species	BP
+T cell antigen processing and presentation	4.633084e-3	1.322298e+2	species	BP
+response to sulfur dioxide	4.633084e-3	1.322298e+2	species	BP
+negative regulation of protein kinase activity	4.628068e-3	1.783629e+0	species	BP
+toll-like receptor TLR6:TLR2 signaling pathway	4.611757e-3	2.223232e+0	species	BP
+toll-like receptor TLR1:TLR2 signaling pathway	4.611757e-3	2.223232e+0	species	BP
+negative regulation of dendritic cell apoptotic process	4.619796e-3	1.661798e+1	species	BP
+blood vessel development	4.607292e-3	1.385324e+0	species	BP
+regulation of cell migration	4.657348e-3	1.396956e+0	species	BP
+negative regulation of toll-like receptor 4 signaling pathway	4.683297e-3	6.600877e+0	species	BP
+establishment of protein localization to membrane	4.701484e-3	1.990317e+0	species	BP
+regulation of interleukin-1 production	4.795297e-3	2.913636e+0	species	BP
+cell proliferation	4.821969e-3	1.351963e+0	species	BP
+amyloid precursor protein catabolic process	4.963794e-3	8.030393e+0	species	BP
+cellular response to organonitrogen compound	5.167999e-3	1.481031e+0	species	BP
+regulation of cysteine-type endopeptidase activity	5.149854e-3	1.760255e+0	species	BP
+regulation of cellular localization	5.269834e-3	1.313682e+0	species	BP
+negative regulation of response to cytokine stimulus	5.287116e-3	2.781894e+0	species	BP
+regulation of cysteine-type endopeptidase activity involved in apoptotic process	5.469389e-3	1.778211e+0	species	BP
+regulation of interleukin-6 production	5.451091e-3	2.361702e+0	species	BP
+positive regulation of immunoglobulin secretion	5.591287e-3	7.816279e+0	species	BP
+regulation of cellular component movement	5.617293e-3	1.357546e+0	species	BP
+negative regulation of cellular protein metabolic process	5.692966e-3	1.455999e+0	species	BP
+toll-like receptor 2 signaling pathway	5.683566e-3	2.184995e+0	species	BP
+regulation of locomotion	5.673359e-3	1.363677e+0	species	BP
+regulation of necrotic cell death	5.660426e-3	5.414913e+0	species	BP
+receptor internalization	5.797213e-3	2.753187e+0	species	BP
+regulation of small GTPase mediated signal transduction	5.786628e-3	1.423693e+0	species	BP
+negative regulation of kinase activity	5.855963e-3	1.736002e+0	species	BP
+immune response-activating cell surface receptor signaling pathway	5.934834e-3	1.793561e+0	species	BP
+regulation of immunoglobulin secretion	5.935269e-3	6.268218e+0	species	BP
+cellular response to endogenous stimulus	5.941243e-3	1.303343e+0	species	BP
+regulation of toll-like receptor 4 signaling pathway	6.021620e-3	5.345429e+0	species	BP
+negative regulation of innate immune response	6.067273e-3	4.714092e+0	species	BP
+negative regulation of tumor necrosis factor-mediated signaling pathway	6.052481e-3	7.629804e+0	species	BP
+single-organism transport	6.209611e-3	1.174589e+0	species	BP
+response to vitamin K	6.254269e-3	1.490956e+1	species	BP
+regulation of cell migration involved in sprouting angiogenesis	6.233423e-3	4.236369e+0	species	BP
+phosphate-containing compound metabolic process	6.429127e-3	1.199201e+0	species	BP
+positive regulation of angiogenesis	6.447723e-3	2.066777e+0	species	BP
+fusion of virus membrane with host plasma membrane	6.450084e-3	1.473526e+1	species	BP
+protein branching point deglutamylation	6.435375e-3	1.041713e+2	species	BP
+vasculature development	6.463206e-3	1.360943e+0	species	BP
+cellular response to hydrogen peroxide	6.472118e-3	2.714532e+0	species	BP
+interleukin-4-mediated signaling pathway	6.544125e-3	2.810532e+1	species	BP
+developmental process	6.563178e-3	1.099459e+0	species	BP
+toll-like receptor 9 signaling pathway	6.693081e-3	2.151928e+0	species	BP
+sprouting angiogenesis	6.688266e-3	2.225665e+0	species	BP
+positive regulation of transcription from RNA polymerase II promoter in response to stress	6.896871e-3	7.378994e+0	species	BP
+inactivation of MAPK activity	6.918781e-3	3.025229e+0	species	BP
+regulation of cell proliferation	6.936776e-3	1.226218e+0	species	BP
+intracellular protein kinase cascade	6.984757e-3	1.468964e+0	species	BP
+positive regulation of calcium-independent cell-cell adhesion	7.312074e-3	9.590171e+1	species	BP
+B-1 B cell homeostasis	7.294312e-3	7.279032e+0	species	BP
+regulation of mononuclear cell proliferation	7.292750e-3	1.723445e+0	species	BP
+positive regulation of steroid hormone biosynthetic process	7.308899e-3	5.970890e+0	species	BP
+regulation of catabolic process	7.324691e-3	1.323441e+0	species	BP
+Notch receptor processing	7.320609e-3	4.115948e+0	species	BP
+macromolecule metabolic process	7.320809e-3	1.086749e+0	species	BP
+regulation of nucleobase-containing compound metabolic process	7.365160e-3	1.121568e+0	species	BP
+immune response-regulating cell surface receptor signaling pathway	7.354963e-3	1.539758e+0	species	BP
+DNA replication-dependent nucleosome assembly	7.345604e-3	2.650559e+1	species	BP
+heterocycle metabolic process	7.349354e-3	1.121494e+0	species	BP
+hemopoiesis	7.355003e-3	1.428103e+0	species	BP
+negative regulation of toll-like receptor signaling pathway	7.375299e-3	4.525399e+0	species	BP
+positive regulation of cell communication	7.357912e-3	1.273108e+0	species	BP
+regulation of cell motility	7.439169e-3	1.370045e+0	species	BP
+stabilization of membrane potential	7.490528e-3	9.248845e+1	species	BP
+positive regulation of dendritic cell chemotaxis	7.610196e-3	1.376853e+1	species	BP
+negative regulation of immune system process	7.659689e-3	1.676916e+0	species	BP
+negative regulation of osteoclast proliferation	7.696690e-3	9.297712e+0	species	BP
+negative regulation of interleukin-6 secretion	7.757379e-3	9.275434e+0	species	BP
+positive regulation of protein modification process	7.755284e-3	1.315047e+0	species	BP
+positive regulation of transcription from RNA polymerase II promoter in response to hypoxia	7.748249e-3	9.265352e+0	species	BP
+regulation of toll-like receptor signaling pathway	7.740878e-3	3.486990e+0	species	BP
+regulation of RNA stability	7.813242e-3	2.740396e+0	species	BP
+response to peptide	7.808725e-3	1.519552e+0	species	BP
+negative regulation of T-helper 1 cell differentiation	7.959566e-3	1.350633e+1	species	BP
+cellular macromolecule metabolic process	7.954532e-3	1.092493e+0	species	BP
+negative regulation of toll-like receptor 2 signaling pathway	8.052645e-3	9.150699e+0	species	BP
+negative regulation of cytokine-mediated signaling pathway	8.117347e-3	2.831425e+0	species	BP
+glomerular mesangial cell differentiation	8.140283e-3	9.116959e+0	species	BP
+response to reactive oxygen species	8.129379e-3	1.996269e+0	species	BP
+integrin-mediated signaling pathway	8.270240e-3	2.046856e+0	species	BP
+angiogenesis involved in wound healing	8.466232e-3	5.739042e+0	species	BP
+intracellular transport	8.626837e-3	1.302287e+0	species	BP
+cardiac vascular smooth muscle cell development	8.646951e-3	8.967422e+0	species	BP
+regulation of RNA biosynthetic process	8.641626e-3	1.137433e+0	species	BP
+positive regulation of hormone metabolic process	8.790043e-3	3.972086e+0	species	BP
+regulation of I-kappaB kinase/NF-kappaB cascade	8.826165e-3	1.757265e+0	species	BP
+phosphorus metabolic process	8.896689e-3	1.188970e+0	species	BP
+regulation of hydrolase activity	8.896463e-3	1.274703e+0	species	BP
+interaction with host	8.873128e-3	1.539552e+0	species	BP
+negative regulation of transferase activity	8.874545e-3	1.679634e+0	species	BP
+regulation of Ras protein signal transduction	8.991765e-3	1.448407e+0	species	BP
+anatomical structure development	9.061358e-3	1.104743e+0	species	BP
+negative regulation of metabolic process	9.066293e-3	1.199353e+0	species	BP
+deadenylation-dependent decapping of nuclear-transcribed mRNA	9.142614e-3	6.799833e+0	species	BP
+leukocyte proliferation	9.160620e-3	2.120967e+0	species	BP
+coronary vein morphogenesis	9.189740e-3	1.277916e+1	species	BP
+positive regulation of glycogen (starch) synthase activity	9.246083e-3	1.274875e+1	species	BP
+regulation of transcription, DNA-dependent	9.254692e-3	1.136353e+0	species	BP
+negative regulation of fat cell differentiation	9.535808e-3	2.324925e+0	species	BP
+cardiovascular system development	9.582698e-3	1.268286e+0	species	BP
+multicellular organismal development	9.598037e-3	1.101421e+0	species	BP
+cellular response to peptide hormone stimulus	9.627035e-3	1.598621e+0	species	BP
+glucose homeostasis	1.018240e-2	1.825074e+0	species	BP
+positive regulation of glomerular filtration	1.033118e-2	1.231234e+1	species	BP
+homeostatic process	1.050362e-2	1.267415e+0	species	BP
+negative regulation of bone resorption	1.056116e-2	3.849237e+0	species	BP
+blood vessel morphogenesis	1.069797e-2	1.385261e+0	species	BP
+interleukin-3-mediated signaling pathway	1.080071e-2	2.206737e+1	species	BP
+endoplasmic reticulum unfolded protein response	1.103753e-2	2.473545e+0	species	BP
+regulation of nitrogen compound metabolic process	1.100843e-2	1.114993e+0	species	BP
+negative regulation of molecular function	1.100647e-2	1.315534e+0	species	BP
+T cell receptor signaling pathway	1.098379e-2	2.089011e+0	species	BP
+cellular homeostasis	1.103952e-2	1.385672e+0	species	BP
+regulation of immune effector process	1.118661e-2	1.676469e+0	species	BP
+negative regulation of interleukin-2 production	1.125236e-2	4.174865e+0	species	BP
+positive regulation of natural killer cell differentiation	1.130381e-2	5.375488e+0	species	BP
+negative regulation of protein import into nucleus, translocation	1.139179e-2	1.188175e+1	species	BP
+single-organism developmental process	1.144787e-2	1.113871e+0	species	BP
+plasma membrane organization	1.153792e-2	1.991454e+0	species	BP
+negative regulation of phosphate metabolic process	1.155311e-2	1.479589e+0	species	BP
+microspike assembly	1.173255e-2	8.188144e+0	species	BP
+response to extracellular stimulus	1.175218e-2	1.534238e+0	species	BP
+regulation of MAPK cascade	1.191358e-2	1.349460e+0	species	BP
+negative regulation of endopeptidase activity	1.208941e-2	1.853416e+0	species	BP
+cellular nitrogen compound metabolic process	1.282219e-2	1.111701e+0	species	BP
+glomerular mesangium development	1.279641e-2	8.008101e+0	species	BP
+regulation of toll-like receptor 2 signaling pathway	1.292337e-2	7.985865e+0	species	BP
+transforming growth factor beta receptor signaling pathway	1.326013e-2	1.825295e+0	species	BP
+positive regulation of focal adhesion assembly	1.328357e-2	4.057024e+0	species	BP
+hematopoietic or lymphoid organ development	1.348229e-2	1.376066e+0	species	BP
+positive regulation of transferase activity	1.362712e-2	1.384663e+0	species	BP
+immunoglobulin production	1.362369e-2	2.659342e+0	species	BP
+cellular catabolic process	1.371431e-2	1.235371e+0	species	BP
+cellular response to unfolded protein	1.370344e-2	2.415370e+0	species	BP
+positive regulation of leukocyte proliferation	1.376421e-2	1.819678e+0	species	BP
+negative regulation of cysteine-type endopeptidase activity involved in apoptotic process	1.430178e-2	2.191308e+0	species	BP
+regulation of peptidase activity	1.426923e-2	1.531340e+0	species	BP
+positive regulation of signaling	1.436429e-2	1.253737e+0	species	BP
+lymphocyte proliferation	1.462402e-2	2.144844e+0	species	BP
+regulation of apoptotic signaling pathway	1.481638e-2	1.679318e+0	species	BP
+negative regulation of macromolecule metabolic process	1.484575e-2	1.196922e+0	species	BP
+lymphocyte mediated immunity	1.485468e-2	2.333114e+0	species	BP
+catabolic process	1.492990e-2	1.207605e+0	species	BP
+positive regulation of protein phosphorylation	1.493021e-2	1.329462e+0	species	BP
+regulation of T cell proliferation	1.494798e-2	1.843616e+0	species	BP
+positive regulation of T-helper 2 cell differentiation	1.504910e-2	7.635948e+0	species	BP
+regulation of natural killer cell differentiation	1.535323e-2	5.032281e+0	species	BP
+mononuclear cell proliferation	1.548972e-2	2.132277e+0	species	BP
+protein targeting to plasma membrane	1.585048e-2	3.596520e+0	species	BP
+membrane protein proteolysis	1.589970e-2	3.337662e+0	species	BP
+regulation of lymphocyte proliferation	1.598204e-2	1.660795e+0	species	BP
+granulocyte chemotaxis	1.615192e-2	2.372603e+0	species	BP
+granuloma formation	1.642176e-2	5.500077e+1	species	BP
+cellular response to glucose stimulus	1.647739e-2	2.510990e+0	species	BP
+regulation of RNA metabolic process	1.668902e-2	1.125951e+0	species	BP
+dUMP metabolic process	1.685328e-2	1.041166e+1	species	BP
+negative regulation of catalytic activity	1.685904e-2	1.354245e+0	species	BP
+cellular response to transforming growth factor beta stimulus	1.704933e-2	1.644638e+0	species	BP
+regulation of protein kinase B signaling cascade	1.704657e-2	1.884599e+0	species	BP
+regulation of ARF GTPase activity	1.706052e-2	2.935600e+0	species	BP
+cellular response to topologically incorrect protein	1.704840e-2	2.357201e+0	species	BP
+receptor-mediated endocytosis	1.702976e-2	1.929417e+0	species	BP
+response to nutrient levels	1.715744e-2	1.532998e+0	species	BP
+vascular smooth muscle cell development	1.760889e-2	5.788039e+0	species	BP
+regulation of interleukin-2 production	1.788152e-2	2.286800e+0	species	BP
+cellular response to hexose stimulus	1.785569e-2	2.485741e+0	species	BP
+multicellular organismal process	1.783898e-2	1.074347e+0	species	BP
+iron-sulfur cluster assembly	1.854932e-2	7.198830e+0	species	BP
+macromolecule modification	1.863676e-2	1.160485e+0	species	BP
+positive regulation of macromolecule biosynthetic process	1.867137e-2	1.201605e+0	species	BP
+cellular response to cold	1.886724e-2	7.159903e+0	species	BP
+regulation of extrinsic apoptotic signaling pathway via death domain receptors	1.909195e-2	3.482855e+0	species	BP
+negative regulation of cellular metabolic process	1.914475e-2	1.190876e+0	species	BP
+T cell costimulation	1.922422e-2	2.547611e+0	species	BP
+nucleobase-containing compound metabolic process	1.919210e-2	1.112393e+0	species	BP
+heart trabecula morphogenesis	1.927088e-2	3.233619e+0	species	BP
+ER-nucleus signaling pathway	1.935971e-2	2.214578e+0	species	BP
+DNA replication-dependent nucleosome organization	1.937431e-2	1.695728e+1	species	BP
+cellular response to interferon-alpha	1.937843e-2	5.642120e+0	species	BP
+leukocyte mediated immunity	1.948567e-2	2.016211e+0	species	BP
+negative regulation of response to external stimulus	1.951836e-2	1.639075e+0	species	BP
+cellular aromatic compound metabolic process	1.962541e-2	1.108259e+0	species	BP
+positive regulation of intracellular protein kinase cascade	1.979212e-2	1.338176e+0	species	BP
+negative regulation of secretion	1.976465e-2	1.714581e+0	species	BP
+heart trabecula formation	1.980772e-2	4.166849e+0	species	BP
+lymphocyte costimulation	1.997733e-2	2.531331e+0	species	BP
+deoxyribonucleoside monophosphate metabolic process	2.048951e-2	9.682260e+0	species	BP
+negative regulation of cysteine-type endopeptidase activity	2.079906e-2	2.109543e+0	species	BP
+pyrimidine nucleotide-sugar transmembrane transport	2.077754e-2	1.640510e+1	species	BP
+positive regulation of mononuclear cell proliferation	2.087186e-2	1.796506e+0	species	BP
+cellular response to reactive oxygen species	2.113245e-2	2.067907e+0	species	BP
+inflammatory cell apoptotic process	2.143391e-2	5.499885e+0	species	BP
+cellular response to monosaccharide stimulus	2.149451e-2	2.428917e+0	species	BP
+establishment of localization	2.207501e-2	1.130587e+0	species	BP
+platelet aggregation	2.208323e-2	3.687050e+0	species	BP
+response to transforming growth factor beta stimulus	2.222124e-2	1.616821e+0	species	BP
+transport	2.254553e-2	1.132157e+0	species	BP
+organic cyclic compound metabolic process	2.255781e-2	1.103172e+0	species	BP
+platelet degranulation	2.252513e-2	2.055211e+0	species	BP
+positive regulation of T cell activation	2.349119e-2	1.660617e+0	species	BP
+establishment of localization in cell	2.356465e-2	1.215606e+0	species	BP
+regulation of transport	2.392416e-2	1.205263e+0	species	BP
+organic substance transport	2.436340e-2	1.204253e+0	species	BP
+organic cyclic compound biosynthetic process	2.432506e-2	1.137237e+0	species	BP
+response to interferon-alpha	2.479387e-2	4.523037e+0	species	BP
+heterocycle biosynthetic process	2.486630e-2	1.140481e+0	species	BP
+response to oxygen levels	2.512373e-2	1.558083e+0	species	BP
+positive regulation of phosphorylation	2.520326e-2	1.302976e+0	species	BP
+cellular response to carbohydrate stimulus	2.524636e-2	2.256258e+0	species	BP
+regulation of phagocytosis	2.552269e-2	2.546777e+0	species	BP
+proteolysis	2.560310e-2	1.292515e+0	species	BP
+regulation of circadian sleep/wake cycle, non-REM sleep	2.604337e-2	8.933738e+0	species	BP
+positive regulation of kinase activity	2.601266e-2	1.361122e+0	species	BP
+protein targeting to membrane	2.654063e-2	1.906858e+0	species	BP
+tolerance induction	2.662680e-2	5.217516e+0	species	BP
+positive regulation of chemokine production	2.700256e-2	2.890862e+0	species	BP
+cellular protein modification process	2.707354e-2	1.156465e+0	species	BP
+nucleobase-containing small molecule metabolic process	2.703648e-2	1.319911e+0	species	BP
+secretion	2.765731e-2	1.351286e+0	species	BP
+positive regulation of cysteine-type endopeptidase activity	2.797620e-2	1.898184e+0	species	BP
+response to unfolded protein	2.848818e-2	1.921244e+0	species	BP
+positive regulation of steroid biosynthetic process	2.847646e-2	3.882970e+0	species	BP
+retinal cell programmed cell death	2.880957e-2	8.634406e+0	species	BP
+regulation of peptidyl-tyrosine phosphorylation	2.890573e-2	1.582857e+0	species	BP
+circadian sleep/wake cycle process	2.923033e-2	3.862813e+0	species	BP
+transmembrane receptor protein tyrosine kinase signaling pathway	2.982550e-2	1.292895e+0	species	BP
+regulation of cellular ketone metabolic process by regulation of transcription from RNA polymerase II promoter	2.994188e-2	5.071725e+0	species	BP
+isotype switching	3.017894e-2	3.839161e+0	species	BP
+T cell activation via T cell receptor contact with antigen bound to MHC molecule on antigen presenting cell	3.037288e-2	3.692717e+1	species	BP
+regulation of adaptive immune response	3.035682e-2	1.884593e+0	species	BP
+negative regulation of cell activation	3.060890e-2	1.762270e+0	species	BP
+Notch signaling pathway	3.068903e-2	1.701806e+0	species	BP
+anatomical structure formation involved in morphogenesis	3.082227e-2	1.235071e+0	species	BP
+negative regulation of bone remodeling	3.098286e-2	3.202029e+0	species	BP
+response to starvation	3.100016e-2	1.880456e+0	species	BP
+mRNA stabilization	3.304429e-2	3.171902e+0	species	BP
+lymphocyte chemotaxis	3.307597e-2	3.771502e+0	species	BP
+response to hydrogen peroxide	3.309613e-2	2.054165e+0	species	BP
+regulation of interleukin-1 beta production	3.311227e-2	2.670397e+0	species	BP
+regulation of store-operated calcium entry	3.306161e-2	6.088383e+0	species	BP
+negative regulation of protein ubiquitination involved in ubiquitin-dependent protein catabolic process	3.328530e-2	1.337688e+1	species	BP
+response to fungicide	3.328780e-2	1.336706e+1	species	BP
+somatic hypermutation of immunoglobulin genes	3.374569e-2	6.051237e+0	species	BP
+Genes involved in Immune System	3.431671e-6	1.598477e+0	species	Msig
+Cytokine-cytokine receptor interaction	1.781704e-4	1.992092e+0	species	Msig
+Keratinocyte Differentiation	1.389216e-4	3.346737e+0	species	Msig
+Genes involved in Cytokine Signaling in Immune system	1.366491e-4	1.979118e+0	species	Msig
+Genes involved in Signaling by Interleukins	1.881620e-4	2.468981e+0	species	Msig
+Dorso-ventral axis formation	2.321818e-4	4.255479e+0	species	Msig
+Genes involved in Toll Receptor Cascades	2.875760e-4	2.273316e+0	species	Msig
+Genes involved in Innate Immune System	4.085883e-4	1.942952e+0	species	Msig
+CD40L Signaling Pathway	6.929745e-4	5.830266e+0	species	Msig
+IL 6 signaling pathway	6.385863e-4	4.850018e+0	species	Msig
+Genes involved in Interleukin-6 signaling	6.186170e-4	6.475498e+0	species	Msig
+Fc gamma R-mediated phagocytosis	9.318475e-4	2.334995e+0	species	Msig
+Genes involved in Activated TLR4 signalling	9.860180e-4	2.354109e+0	species	Msig
+TNFR2 Signaling Pathway	1.065777e-3	4.839848e+0	species	Msig
+HIV-I Nef: negative effector of Fas and TNF	1.089010e-3	3.121905e+0	species	Msig
+Bladder cancer	1.260211e-3	3.314264e+0	species	Msig
+STAT3 Pathway	1.228811e-3	6.438223e+0	species	Msig
+Direct p53 effectors	1.220143e-3	2.075512e+0	species	Msig
+IL-10 Anti-inflammatory Signaling Pathway	1.308618e-3	7.326821e+0	species	Msig
+Genes involved in Regulated proteolysis of p75NTR	2.190954e-3	1.027520e+1	species	Msig
+TNF receptor signaling pathway	2.194376e-3	2.995468e+0	species	Msig
+Signaling events mediated by VEGFR1 and VEGFR2	2.323732e-3	2.466028e+0	species	Msig
+Regulation of CDC42 activity	2.530193e-3	3.315989e+0	species	Msig
+Regulation of RhoA activity	2.493592e-3	2.841237e+0	species	Msig
+Leukocyte transendothelial migration	2.430126e-3	2.065947e+0	species	Msig
+Genes involved in MyD88:Mal cascade initiated on plasma membrane	2.757948e-3	2.248863e+0	species	Msig
+NF-kB Signaling Pathway	3.205313e-3	3.759440e+0	species	Msig
+Genes involved in TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation	3.597975e-3	2.278328e+0	species	Msig
+IL27-mediated signaling events	3.790714e-3	3.669119e+0	species	Msig
+Genes involved in Hemostasis	3.682815e-3	1.500973e+0	species	Msig
+Genes involved in Signaling by NOTCH	3.626003e-3	2.002995e+0	species	Msig
+Genes involved in Signalling by NGF	3.934661e-3	1.686129e+0	species	Msig
+Beta2 integrin cell surface interactions	4.167612e-3	5.024651e+0	species	Msig
+Integrin Signaling Pathway	4.069556e-3	2.198525e+0	species	Msig
+Interleukin 4 (IL-4) Pathway	4.119154e-3	4.490520e+0	species	Msig
+IL 3 signaling pathway	4.354717e-3	6.593689e+0	species	Msig
+Pathways in cancer	4.416984e-3	1.487577e+0	species	Msig
+Notch signaling pathway	4.559002e-3	2.326810e+0	species	Msig
+METS affect on Macrophage Differentiation	4.767271e-3	3.705043e+0	species	Msig
+NOD-like receptor signaling pathway	4.793755e-3	2.680110e+0	species	Msig
+Genes involved in NGF signalling via TRKA from the plasma membrane	4.839822e-3	1.856418e+0	species	Msig
+Notch signaling pathway	4.773893e-3	2.973293e+0	species	Msig
+IL22 Soluble Receptor Signaling Pathway	4.805626e-3	6.300324e+0	species	Msig
+Pancreatic cancer	5.151165e-3	2.242756e+0	species	Msig
+Genes involved in Signaling by NOTCH4	5.119805e-3	5.300551e+0	species	Msig
+Signaling events mediated by focal adhesion kinase	5.015805e-3	2.240129e+0	species	Msig
+Genes involved in ERKs are inactivated	5.512997e-3	5.208120e+0	species	Msig
+Genes involved in RIG-I/MDA5 mediated induction of IFN-alpha/beta pathways	5.653596e-3	2.784212e+0	species	Msig
+Arf1 pathway	5.862705e-3	5.964907e+0	species	Msig
+Genes involved in Interferon Signaling	5.863345e-3	2.069973e+0	species	Msig
+Genes involved in Downstream signal transduction	5.907523e-3	2.096529e+0	species	Msig
+IFN-gamma pathway	5.907873e-3	2.661417e+0	species	Msig
+Adhesion and Diapedesis of Granulocytes	6.210570e-3	7.074983e+0	species	Msig
+amb2 Integrin signaling	7.124578e-3	3.219634e+0	species	Msig
+Apoptosis	7.220784e-3	2.287853e+0	species	Msig
+Toll-like receptor signaling pathway	7.615848e-3	2.188521e+0	species	Msig
+Genes involved in Signaling by Robo receptor	7.522717e-3	2.673772e+0	species	Msig
+Endocytosis	7.412651e-3	1.773213e+0	species	Msig
+Genes involved in Nuclear Events (kinase and transcription factor activation)	7.449695e-3	3.015284e+0	species	Msig
+Signaling events mediated by TCPTP	8.249692e-3	2.480049e+0	species	Msig
+Genes involved in Signaling by NOTCH1	8.309636e-3	2.028961e+0	species	Msig
+Genes involved in ERK/MAPK targets	8.251490e-3	3.122562e+0	species	Msig
+IL6-mediated signaling events	8.799866e-3	2.332940e+0	species	Msig
+Genes involved in MAPK targets/ Nuclear events mediated by MAP kinases	1.064269e-2	2.655205e+0	species	Msig
+GMCSF-mediated signaling events	1.078082e-2	2.752225e+0	species	Msig
+Monocyte and its Surface Molecules	1.138535e-2	5.069392e+0	species	Msig
+CD40/CD40L signaling	1.178913e-2	2.838046e+0	species	Msig
+Genes involved in Interleukin-2 signaling	1.259359e-2	2.814077e+0	species	Msig
+Epithelial cell signaling in Helicobacter pylori infection	1.308633e-2	2.423397e+0	species	Msig
+Signal transduction through IL1R	1.328602e-2	2.924756e+0	species	Msig
+VEGF signaling pathway	1.325677e-2	2.236449e+0	species	Msig
+IL 4 signaling pathway	1.337314e-2	5.757779e+0	species	Msig
+Interleukin 13 (IL-13) Pathway	1.327408e-2	5.750643e+0	species	Msig
+Interleukin 13 (IL-13) Pathway	1.327408e-2	5.750643e+0	species	Msig
+IL 17 Signaling Pathway	1.302910e-2	4.249379e+0	species	Msig
+Angiopoietin receptor Tie2-mediated signaling	1.308196e-2	2.278930e+0	species	Msig
+Presenilin action in Notch and Wnt signaling	1.297786e-2	2.277960e+0	species	Msig
+PDGF Signaling Pathway	1.367756e-2	2.638472e+0	species	Msig
+Genes involved in Interferon alpha/beta signaling	1.355724e-2	3.035933e+0	species	Msig
+Genes involved in Signaling by NOTCH3	1.357282e-2	4.756844e+0	species	Msig
+IL-2 Receptor Beta Chain in T cell Activation	1.379982e-2	2.735849e+0	species	Msig
+Role of Calcineurin-dependent NFAT signaling in lymphocytes	1.470174e-2	2.298379e+0	species	Msig
+CTL mediated immune response against target cells	1.493532e-2	5.479825e+0	species	Msig
+Genes involved in Chemokine receptors bind chemokines	1.668598e-2	2.793296e+0	species	Msig
+Neuropeptides VIP and PACAP inhibit the apoptosis of activated T cells	1.672331e-2	2.666269e+0	species	Msig
+HIF-2-alpha transcription factor network	1.680985e-2	2.557731e+0	species	Msig
+Genes involved in NRIF signals cell death from the nucleus	1.854867e-2	5.201569e+0	species	Msig
+Genes involved in Factors involved in megakaryocyte development and platelet production	1.875339e-2	1.901123e+0	species	Msig
+Genes involved in TRIF mediated TLR3 signaling	2.007145e-2	2.040831e+0	species	Msig
+AKT Signaling Pathway	1.988489e-2	2.855201e+0	species	Msig
+Syndecan-3-mediated signaling events	1.967031e-2	3.023843e+0	species	Msig
+Regulation of actin cytoskeleton	2.067926e-2	1.553707e+0	species	Msig
+PDGFR-beta signaling pathway	2.067117e-2	1.777436e+0	species	Msig
+ATF-2 transcription factor network	2.138950e-2	2.100375e+0	species	Msig
+Chemokine signaling pathway	2.171422e-2	1.680517e+0	species	Msig
+Genes involved in Signaling by NOTCH2	2.157515e-2	4.245150e+0	species	Msig
+Genes involved in Signaling by EGFR in Cancer	2.349977e-2	1.794399e+0	species	Msig
+Natural killer cell mediated cytotoxicity	2.430252e-2	1.902684e+0	species	Msig
+Genes involved in Adaptive Immune System	2.432260e-2	1.387046e+0	species	Msig
+Genes involved in Interferon gamma signaling	2.501173e-2	2.336303e+0	species	Msig
+Glucocorticoid receptor regulatory network	2.492756e-2	1.952682e+0	species	Msig
+T cell receptor signaling pathway	2.518467e-2	1.799474e+0	species	Msig
+Regulation of cytoplasmic and nuclear SMAD2/3 signaling	2.532352e-2	3.311379e+0	species	Msig
+Genes involved in Signaling by PDGF	2.611923e-2	1.722144e+0	species	Msig
+IL23-mediated signaling events	2.707752e-2	2.697589e+0	species	Msig
+Neurotrophin signaling pathway	2.983250e-2	1.690588e+0	species	Msig
+Cytosolic DNA-sensing pathway	3.120945e-2	3.189590e+0	species	Msig
+Hematopoietic cell lineage	3.195132e-2	2.045346e+0	species	Msig
+ErbB1 downstream signaling	3.283948e-2	1.777713e+0	species	Msig
+Genes involved in Metabolism of lipids and lipoproteins	3.406072e-2	1.369892e+0	species	Msig
+EGF Signaling Pathway	3.459787e-2	2.483800e+0	species	Msig
+Genes involved in Androgen biosynthesis	3.657436e-2	5.194822e+0	species	Msig
+Notch-mediated HES/HEY network	3.700448e-2	2.009893e+0	species	Msig
+C-MYB transcription factor network	3.685885e-2	1.738363e+0	species	Msig
+Genes involved in Interleukin receptor SHC signaling	3.656624e-2	2.868257e+0	species	Msig
+Role of ERBB2 in Signal Transduction and Oncology	3.732042e-2	2.448192e+0	species	Msig
+Role of MAL in Rho-Mediated Activation of SRF	3.711614e-2	3.710915e+0	species	Msig
+IL-7 Signal Transduction	3.737799e-2	2.848606e+0	species	Msig
+Tumor Necrosis Factor Pathway.	3.755323e-2	2.843218e+0	species	Msig
+Genes involved in Activation of Chaperone Genes by XBP1(S)	3.741284e-2	3.047527e+0	species	Msig
+Genes involved in Signaling by ERBB4	3.722210e-2	1.789258e+0	species	Msig
+IL4-mediated signaling events	3.805579e-2	2.079063e+0	species	Msig
+Regulation of hematopoiesis by cytokines	3.891933e-2	4.171175e+0	species	Msig
+Integrin-linked kinase signaling	4.106072e-2	2.235168e+0	species	Msig
+Genes involved in Cell surface interactions at the vascular wall	4.085531e-2	1.934816e+0	species	Msig
+Signaling events mediated by Hepatocyte Growth Factor Receptor (c-Met)	4.150997e-2	1.839102e+0	species	Msig
+Prostate cancer	4.179074e-2	1.765666e+0	species	Msig
+RIG-I-like receptor signaling pathway	4.186387e-2	2.220504e+0	species	Msig
+Genes involved in CD28 dependent Vav1 pathway	4.325171e-2	4.816669e+0	species	Msig
+Genes involved in MAP kinase activation in TLR cascade	4.317995e-2	1.994249e+0	species	Msig
+Genes involved in Interleukin-1 signaling	4.299566e-2	2.282174e+0	species	Msig
+S1P1 pathway	4.274314e-2	2.937080e+0	species	Msig
+Osteopontin-mediated events	4.542292e-2	2.448496e+0	species	Msig
+Genes involved in NOTCH1 Intracellular Domain Regulates Transcription	4.600037e-2	1.902072e+0	species	Msig
+Genes involved in Signaling by ERBB2	4.569928e-2	1.745079e+0	species	Msig
+ERK1/ERK2 MAPK Pathway	4.664660e-2	2.334028e+0	species	Msig
+Influence of Ras and Rho proteins on G1 to S Transition	4.631937e-2	2.883129e+0	species	Msig
+Inhibition of Cellular Proliferation by Gleevec	4.896541e-2	2.529793e+0	species	Msig
+B Lymphocyte Cell Surface Molecules	4.863059e-2	4.599213e+0	species	Msig
+BCR signaling pathway	4.938041e-2	1.916370e+0	species	Msig
+Genes involved in NFkB and MAP kinases activation mediated by TLR4 signaling repertoire	4.937401e-2	1.849864e+0	species	Msig
+Graft-versus-host disease	4.963360e-2	3.068091e+0	species	Msig
+Antigen Dependent B Cell Activation	4.967265e-2	4.544386e+0	species	Msig
+p73 transcription factor network	5.048851e-2	1.986160e+0	species	Msig
+Cells and Molecules involved in local acute inflammatory response	5.035567e-2	3.361663e+0	species	Msig
+Genes involved in Interleukin-3, 5 and GM-CSF signaling	5.017149e-2	2.290648e+0	species	Msig
+Genes involved in Integrin cell surface interactions	5.010162e-2	1.903644e+0	species	Msig
+Genes involved in Sulfur amino acid metabolism	5.007562e-2	2.809847e+0	species	Msig
+Adhesion and Diapedesis of Lymphocytes	4.977605e-2	3.793228e+0	species	Msig
+IL 2 signaling pathway	5.011987e-2	3.338915e+0	species	Msig
+Vibrio cholerae infection	4.997202e-2	2.134622e+0	species	Msig
+FAS (CD95) signaling pathway	5.003879e-2	2.279978e+0	species	Msig
+Tight junction	5.048383e-2	1.617331e+0	species	Msig
+Genes involved in Degradation of the extracellular matrix	5.098727e-2	3.007910e+0	species	Msig
+Rac 1 cell motility signaling pathway	5.093385e-2	2.473301e+0	species	Msig
+Effects of calcineurin in Keratinocyte Differentiation	5.100677e-2	2.470590e+0	species	Msig
+Viral myocarditis	5.086800e-2	2.011318e+0	species	Msig
+Genes involved in Negative regulators of RIG-I/MDA5 signaling	5.468013e-2	2.958162e+0	species	Msig
+S1P4 pathway	5.575931e-2	3.651575e+0	species	Msig
+GnRH signaling pathway	5.546964e-2	1.713848e+0	species	Msig
+Genes involved in Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	5.519800e-2	2.432364e+0	species	Msig
+Signaling events mediated by HDAC Class I	5.702348e-2	2.085360e+0	species	Msig
+Jak-STAT signaling pathway	5.679630e-2	1.584151e+0	species	Msig
+Genes involved in NOD1/2 Signaling Pathway	5.688312e-2	2.545159e+0	species	Msig
+Genes involved in IRAK1 recruits IKK complex	5.670823e-2	4.242420e+0	species	Msig
+Ceramide signaling pathway	5.721082e-2	2.142537e+0	species	Msig
+Focal adhesion	5.800417e-2	1.445225e+0	species	Msig
+Genes involved in Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol	5.800403e-2	4.200273e+0	species	Msig
+Adherens junction	5.769369e-2	1.681547e+0	species	Msig
+Genes involved in Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways	5.969947e-2	2.198042e+0	species	Msig
+Human Cytomegalovirus and Map Kinase Pathways	5.953168e-2	2.669605e+0	species	Msig
+Genes involved in Costimulation by the CD28 family	5.932720e-2	2.123842e+0	species	Msig
+Genes involved in Diabetes pathways	6.110665e-2	1.709088e+0	species	Msig
+IL3-mediated signaling events	6.145198e-2	2.648216e+0	species	Msig
+fMLP induced chemokine gene expression in HMC-1 cells	6.182083e-2	2.180047e+0	species	Msig
+IL12-mediated signaling events	6.396552e-2	1.984682e+0	species	Msig
+Fas Signaling Pathway	6.365895e-2	2.098062e+0	species	Msig
+Genes involved in PKA-mediated phosphorylation of CREB	6.557990e-2	2.610213e+0	species	Msig
+Genes involved in Signaling by TGF-beta Receptor Complex	6.673267e-2	1.925597e+0	species	Msig
+Genes involved in Downstream signaling of activated FGFR	6.683512e-2	1.652653e+0	species	Msig
+Genes involved in Platelet activation, signaling and aggregation	6.661958e-2	1.472322e+0	species	Msig
+CXCR4-mediated signaling events	6.776326e-2	1.707166e+0	species	Msig
+Genes involved in Regulation of Insulin Secretion by Glucagon-like Peptide-1	6.924744e-2	2.135645e+0	species	Msig
+Genes involved in DAG and IP3 signaling	7.177897e-2	2.124064e+0	species	Msig
+Cytokines can induce activation of matrix metalloproteinases, which degrade extracellular matrix.	7.157584e-2	3.346897e+0	species	Msig
+The 4-1BB-dependent immune response	7.200832e-2	2.985324e+0	species	Msig
+Granule Cell Survival Pathway is a specific case of more general PAC1 Receptor Pathway.	7.456170e-2	2.392628e+0	species	Msig
+VEGFR1 specific signals	7.500796e-2	2.183148e+0	species	Msig
+Erythropoietin mediated neuroprotection through NF-kB	7.738939e-2	3.795337e+0	species	Msig
+G alpha 13 Pathway	7.767877e-2	2.169310e+0	species	Msig
+Genes involved in Interleukin-7 signaling	7.774219e-2	2.685726e+0	species	Msig
+Hypoxia-Inducible Factor in the Cardiovascular System	7.822960e-2	2.918039e+0	species	Msig
+Leishmania infection	8.064855e-2	1.911788e+0	species	Msig
+Jak-STAT Pathway	8.031607e-2	3.735095e+0	species	Msig
+B Cell Antigen Receptor	8.075123e-2	2.238815e+0	species	Msig
+Genes involved in Signaling by SCF-KIT	8.350427e-2	1.759021e+0	species	Msig
+Members of the BCR signaling pathway	8.686230e-2	1.937063e+0	species	Msig
+Beta3 integrin cell surface interactions	8.648944e-2	1.990164e+0	species	Msig
+ErbB2/ErbB3 signaling events	8.610314e-2	2.051751e+0	species	Msig
+Genes involved in Signaling by FGFR in disease	8.664944e-2	1.546773e+0	species	Msig
+Actions of Nitric Oxide in the Heart	8.643926e-2	2.120077e+0	species	Msig
+MAPKinase Signaling Pathway	8.647385e-2	1.696460e+0	species	Msig
+Renal cell carcinoma	8.696875e-2	1.718853e+0	species	Msig
+Validated targets of C-MYC transcriptional repression	8.785266e-2	1.742617e+0	species	Msig
+Urokinase-type plasminogen activator (uPA) and uPAR-mediated signaling	9.045552e-2	2.184682e+0	species	Msig
+MAPK signaling pathway	9.272759e-2	1.341720e+0	species	Msig
+Acetylation and Deacetylation of RelA in The Nucleus	9.238282e-2	3.544546e+0	species	Msig
+Genes related to IL4 rceptor signaling in B lymphocytes	9.245393e-2	2.172715e+0	species	Msig
+Calcium signaling in the CD4+ TCR pathway	9.205198e-2	2.273570e+0	species	Msig
+Endothelins	9.376583e-2	1.676572e+0	species	Msig
+FoxO family signaling	9.400259e-2	1.818469e+0	species	Msig
+EGF receptor (ErbB1) signaling pathway	9.387581e-2	2.079394e+0	species	Msig
+Cdk2, 4, and 6 bind cyclin D in G1, while cdk2/cyclin E promotes the G1/S transition.	9.469723e-2	4.261079e+0	species	Msig
+Ras Signaling Pathway	9.460428e-2	2.536418e+0	species	Msig
+Genes involved in TRAF6 mediated IRF7 activation	1.003249e-1	2.999927e+0	species	Msig
+Genes involved in PIP3 activates AKT signaling	1.010107e-1	2.500978e+0	species	Msig
+Genes involved in Signaling by Rho GTPases	1.035390e-1	1.526272e+0	species	Msig
+Mechanism of Gene Regulation by Peroxisome Proliferators via PPARa(alpha)	1.032578e-1	1.728412e+0	species	Msig
+Systemic lupus erythematosus	1.038016e-1	1.974055e+0	species	Msig
+Genes involved in Ca-dependent events	1.034482e-1	2.039409e+0	species	Msig
+Visual signal transduction: Rods	1.039019e-1	2.957273e+0	species	Msig
+Genes involved in TRAF6 mediated NF-kB activation	1.047065e-1	2.948975e+0	species	Msig
+Syndecan-2-mediated signaling events	1.076085e-1	2.100328e+0	species	Msig
+Genes related to regulation of the actin cytoskeleton	1.075320e-1	2.307206e+0	species	Msig
+Genes involved in Regulation of IFNA signaling	1.081551e-1	3.329434e+0	species	Msig
+Antigen binding to B cell receptors activates protein tyrosine kinases, such as the Src family, which ultimate activate MAP kinases.	1.082614e-1	2.186320e+0	species	Msig
+Genes involved in Pre-NOTCH Expression and Processing	1.078852e-1	2.017678e+0	species	Msig
+Genes involved in Peptide hormone biosynthesis	1.092182e-1	2.902531e+0	species	Msig
+Type I Interferon (alpha/beta IFN) Pathway	1.094824e-1	3.986218e+0	species	Msig
+T Cell Receptor Signaling Pathway	1.094797e-1	1.845352e+0	species	Msig
+Class I PI3K signaling events mediated by Akt	1.120026e-1	2.166251e+0	species	Msig
+mCalpain and friends in Cell motility	1.118580e-1	2.277065e+0	species	Msig
+Retinol metabolism	1.137497e-1	2.068149e+0	species	Msig
+Regulation of transcriptional activity by PML	1.146175e-1	2.852960e+0	species	Msig
+Genes involved in Regulation of IFNG signaling	1.141661e-1	2.852772e+0	species	Msig
+Genes involved in Nephrin interactions	1.166161e-1	2.144125e+0	species	Msig
+Hypoxic and oxygen homeostasis regulation of HIF-1-alpha	1.162974e-1	2.834886e+0	species	Msig
+Fc Epsilon Receptor I Signaling in Mast Cells	1.168089e-1	1.867086e+0	species	Msig
+Genes involved in GAB1 signalosome	1.163898e-1	2.052553e+0	species	Msig
+Genes involved in Tight junction interactions	1.161513e-1	2.387000e+0	species	Msig
+Autoimmune thyroid disease	1.159503e-1	2.385897e+0	species	Msig
+Validated transcriptional targets of TAp63 isoforms	1.180124e-1	1.860304e+0	species	Msig
+Genes involved in Sema4D induced cell migration and growth-cone collapse	1.180734e-1	2.808450e+0	species	Msig
+Thromboxane A2 receptor signaling	1.176476e-1	1.859021e+0	species	Msig
+Genes involved in Glucagon signaling in metabolic regulation	1.180438e-1	2.126483e+0	species	Msig
+Genes involved in Activated NOTCH1 Transmits Signal to the Nucleus	1.176191e-1	2.369932e+0	species	Msig
+BCR Signaling Pathway	1.208503e-1	2.029863e+0	species	Msig
+Vascular smooth muscle contraction	1.205151e-1	1.489611e+0	species	Msig
+Genes involved in Activation of the AP-1 family of transcription factors	1.236719e-1	3.128379e+0	species	Msig
+Stabilization and expansion of the E-cadherin adherens junction	1.253633e-1	1.836860e+0	species	Msig
+Th1/Th2 Differentiation	1.264665e-1	2.742419e+0	species	Msig
+Apoptosis is mediated by caspases, cysteine proteases arranged in a proteolytic cascade.	1.265262e-1	2.739547e+0	species	Msig
+Genes involved in Antiviral mechanism by IFN-stimulated genes	1.265485e-1	1.880953e+0	species	Msig
+Repression of Pain Sensation by the Transcriptional Regulator DREAM	1.266682e-1	2.733724e+0	species	Msig
+Regulation of BAD phosphorylation	1.276948e-1	2.001968e+0	species	Msig
+Cytokines and Inflammatory Response	1.282360e-1	2.183050e+0	species	Msig
+Role of MEF2D in T-cell Apoptosis	1.358647e-1	2.284395e+0	species	Msig
+Aurora A signaling	1.359539e-1	2.448091e+0	species	Msig
+IL2 signaling events mediated by STAT5	1.357019e-1	2.156009e+0	species	Msig
+Intestinal immune network for IgA production	1.355422e-1	2.056423e+0	species	Msig
+CDC42 signaling events	1.360462e-1	1.641852e+0	species	Msig
+Role of Erk5 in Neuronal Survival	1.382973e-1	2.267757e+0	species	Msig
+FAS signaling pathway ( CD95 )	1.388721e-1	2.043840e+0	species	Msig
+Genes involved in Synthesis of PC	1.403008e-1	2.643401e+0	species	Msig
+Mismatch repair	1.400278e-1	2.418519e+0	species	Msig
+Genes involved in Signaling by FGFR	1.405741e-1	1.494423e+0	species	Msig
+EPO Signaling Pathway	1.400708e-1	2.968625e+0	species	Msig
+B cell receptor signaling pathway	1.398693e-1	1.656706e+0	species	Msig
+Protein export	1.394335e-1	2.412942e+0	species	Msig
+Genes involved in TRAF3-dependent IRF activation pathway	1.391956e-1	3.511079e+0	species	Msig
+Genes involved in Synthesis and interconversion of nucleotide di- and triphosphates	1.388900e-1	2.963529e+0	species	Msig
+p53 signaling pathway	1.391952e-1	1.654728e+0	species	Msig
+Genes involved in Unfolded Protein Response	1.400364e-1	1.950802e+0	species	Msig
+TRAIL signaling pathway	1.404765e-1	2.240758e+0	species	Msig
+Arf6 trafficking events	1.420075e-1	1.706974e+0	species	Msig
+mTOR signaling pathway	1.427203e-1	1.779395e+0	species	Msig
+Glioma	1.438757e-1	1.671830e+0	species	Msig
+Nongenotropic Androgen signaling	1.453591e-1	1.933188e+0	species	Msig
+Genes involved in Activation of Rac	1.477166e-1	2.210280e+0	species	Msig
+Oxidative Stress Induced Gene Expression Via Nrf2	1.488590e-1	2.881929e+0	species	Msig
+VEGF, Hypoxia, and Angiogenesis	1.495918e-1	2.085848e+0	species	Msig
+Genes involved in Fatty acid, triacylglycerol, and ketone body metabolism	1.497003e-1	1.401564e+0	species	Msig
+Genes involved in Amino acid transport across the plasma membrane	1.496767e-1	2.082874e+0	species	Msig
+Genes involved in Resolution of AP sites via the multiple-nucleotide patch replacement pathway	1.502485e-1	4.366241e+0	species	Msig
+Genes involved in Pre-NOTCH Transcription and Translation	1.499986e-1	2.079303e+0	species	Msig
+Genes involved in Thrombin signalling through proteinase activated receptors (PARs)	1.534143e-1	2.331545e+0	species	Msig
+Genes involved in Opioid Signalling	1.594059e-1	1.553117e+0	species	Msig
+Genes involved in Regulation of Hypoxia-inducible Factor (HIF) by Oxygen	1.605692e-1	2.304528e+0	species	Msig
+Validated transcriptional targets of deltaNp63 isoforms	1.618962e-1	1.699260e+0	species	Msig
+Allograft rejection	1.620281e-1	2.296367e+0	species	Msig
+Pathogenic Escherichia coli infection	1.619904e-1	1.776701e+0	species	Msig
+PDGFR-alpha signaling pathway	1.656364e-1	2.139607e+0	species	Msig
+Genes involved in PLC beta mediated events	1.690795e-1	1.721863e+0	species	Msig
+PI3K Pathway	1.697473e-1	1.934977e+0	species	Msig
+Role of nicotinic acetylcholine receptors in the regulation of apoptosis	1.704428e-1	2.261858e+0	species	Msig
+Genes involved in mRNA Decay by 3' to 5' Exoribonuclease	1.781703e-1	6.356911e+0	species	Msig
+EPHB forward signaling	1.814894e-1	1.700697e+0	species	Msig
+Alpha-synuclein signaling	1.814518e-1	2.090871e+0	species	Msig
+Genes involved in Lipid digestion, mobilization, and transport	1.810170e-1	1.988021e+0	species	Msig
+Genes involved in Biological oxidations	1.810098e-1	1.540874e+0	species	Msig
+Signaling events mediated by HDAC Class III	1.814303e-1	2.086590e+0	species	Msig
+HIV Induced T Cell Apoptosis	1.811010e-1	3.951000e+0	species	Msig
+SHP2 signaling	1.820854e-1	1.557581e+0	species	Msig
+Regulation of nuclear SMAD2/3 signaling	1.826843e-1	1.473665e+0	species	Msig
+Sphingolipid metabolism	1.844510e-1	1.893627e+0	species	Msig
+Validated transcriptional targets of AP1 family members Fra1 and Fra2	1.838995e-1	1.893538e+0	species	Msig
+PTEN dependent cell cycle arrest and apoptosis	1.853143e-1	2.199564e+0	species	Msig
+Genes involved in Base Excision Repair	1.867291e-1	3.870917e+0	species	Msig
+Canonical NF-kappaB pathway	1.862548e-1	2.193785e+0	species	Msig
+LPA4-mediated signaling events	1.872894e-1	2.060084e+0	species	Msig
+S1P3 pathway	1.910355e-1	1.952372e+0	species	Msig
+Genes involved in Endogenous sterols	1.919737e-1	2.603284e+0	species	Msig
+Genes involved in Metabolism of nucleotides	1.940590e-1	1.637790e+0	species	Msig
+JNK MAPK Pathway	1.958413e-1	1.705417e+0	species	Msig
+IL5-mediated signaling events	1.973883e-1	2.325903e+0	species	Msig
+p38 MAPK Pathway	1.990119e-1	1.793957e+0	species	Msig
+Genes involved in Bile acid and bile salt metabolism	1.984710e-1	2.149380e+0	species	Msig
+Fc epsilon RI signaling pathway	1.979649e-1	1.575383e+0	species	Msig
+Genes involved in Regulation of Insulin Secretion	2.016614e-1	1.463280e+0	species	Msig
+Genes involved in Signalling to RAS	2.012980e-1	2.305024e+0	species	Msig
+Posttranslational regulation of adherens junction stability and dissassembly	2.012879e-1	1.569869e+0	species	Msig
+Cellular roles of Anthrax toxin	2.008464e-1	2.302693e+0	species	Msig
+Genes related to the insulin receptor pathway	2.004340e-1	1.622771e+0	species	Msig
+HIF-1-alpha transcription factor network	2.049088e-1	1.541918e+0	species	Msig
+Noncanonical Wnt signaling pathway	2.068501e-1	1.773139e+0	species	Msig
+Genes involved in Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	2.086247e-1	1.828593e+0	species	Msig
+Genes involved in Steroid hormones	2.137737e-1	2.097378e+0	species	Msig
+TPO Signaling Pathway	2.131853e-1	1.980268e+0	species	Msig
+Genes involved in Pyruvate metabolism	2.157956e-1	2.478452e+0	species	Msig
+Genes involved in Synthesis of bile acids and bile salts	2.197268e-1	2.463199e+0	species	Msig
+LPA receptor mediated events	2.248759e-1	1.518733e+0	species	Msig
+Validated nuclear estrogen receptor alpha network	2.244216e-1	1.499531e+0	species	Msig
+Cell Cycle: G2/M Checkpoint	2.248871e-1	2.439985e+0	species	Msig
+Base excision repair	2.257176e-1	2.435195e+0	species	Msig
+Angiotensin II mediated activation of JNK Pathway via Pyk2 dependent signaling	2.269794e-1	1.734751e+0	species	Msig
+Ceramide Signaling Pathway	2.267765e-1	2.207017e+0	species	Msig
+NFAT and Hypertrophy of the heart (Transcription in the broken heart)	2.289843e-1	1.581287e+0	species	Msig
+Genes involved in Post NMDA receptor activation events	2.302717e-1	1.681469e+0	species	Msig
+Genes involved in Response to elevated platelet cytosolic Ca2+	2.318349e-1	1.528244e+0	species	Msig
+FOXM1 transcription factor network	2.351044e-1	1.773561e+0	species	Msig
+Regulation of eIF2	2.353608e-1	3.370982e+0	species	Msig
+Genes involved in Extrinsic Pathway for Apoptosis	2.388626e-1	3.345856e+0	species	Msig
+Genes involved in TCR signaling	2.388107e-1	1.628685e+0	species	Msig
+Map Kinase Inactivation of SMRT Corepressor	2.386978e-1	2.164051e+0	species	Msig
+Genes involved in Synthesis, Secretion, and Deacylation of Ghrelin	2.388058e-1	2.162138e+0	species	Msig
+Class I PI3K signaling events	2.449025e-1	1.657049e+0	species	Msig
+Links between Pyk2 and Map Kinases	2.447567e-1	1.897933e+0	species	Msig
+Chronic myeloid leukemia	2.491541e-1	1.487665e+0	species	Msig
+Primary immunodeficiency	2.500706e-1	1.989477e+0	species	Msig
+Genes involved in RAF/MAP kinase cascade	2.496823e-1	3.251493e+0	species	Msig
+Genes involved in Termination of O-glycan biosynthesis	2.500379e-1	2.126122e+0	species	Msig
+Signaling mediated by p38-gamma and p38-delta	2.561346e-1	2.623375e+0	species	Msig
+ALK2 signaling events	2.556289e-1	2.622598e+0	species	Msig
+Chaperones modulate interferon Signaling Pathway	2.554964e-1	2.306617e+0	species	Msig
+Beta1 integrin cell surface interactions	2.549928e-1	1.478864e+0	species	Msig
+Hypoxia and p53 in the Cardiovascular system	2.546934e-1	2.107671e+0	species	Msig
+IL2 signaling events mediated by PI3K	2.558976e-1	1.790016e+0	species	Msig
+Histidine metabolism	2.600007e-1	1.958582e+0	species	Msig
+Acute myeloid leukemia	2.606299e-1	1.562407e+0	species	Msig
+Genes involved in Chylomicron-mediated lipid transport	2.618339e-1	2.582782e+0	species	Msig
+Genes involved in Downregulation of SMAD2/3:SMAD4 transcriptional activity	2.612881e-1	1.952238e+0	species	Msig
+Genes involved in Base-free sugar-phosphate removal via the single-nucleotide replacement pathway	2.635967e-1	4.540915e+0	species	Msig
+Integrin family cell surface interactions	2.635821e-1	1.945424e+0	species	Msig
+Genes involved in CD28 co-stimulation	2.635838e-1	1.846853e+0	species	Msig
+Sphingosine 1-phosphate (S1P) pathway	2.668991e-1	2.067264e+0	species	Msig
+IL1-mediated signaling events	2.664680e-1	1.765639e+0	species	Msig
+Genes involved in Regulation of Insulin Secretion by Acetylcholine	2.675685e-1	2.062807e+0	species	Msig
+Genes involved in Regulation of pyruvate dehydrogenase (PDH) complex	2.678476e-1	2.542389e+0	species	Msig
+Insulin signaling pathway	2.700102e-1	1.351217e+0	species	Msig
+Signaling Pathway from G-Protein Families	2.704984e-1	1.649466e+0	species	Msig
+Trk receptor signaling mediated by PI3K and PLC-gamma	2.704209e-1	1.755113e+0	species	Msig
+DNA replication	2.697617e-1	1.828143e+0	species	Msig
+The TNF-type receptor Fas induces apoptosis on ligand binding.	2.693151e-1	3.062773e+0	species	Msig
+Genes involved in Metabolism of steroid hormones and vitamins A and D	2.689851e-1	1.921566e+0	species	Msig
+Bioactive Peptide Induced Signaling Pathway	2.683021e-1	1.754069e+0	species	Msig
+Ras signaling in the CD4+ TCR pathway	2.685207e-1	2.520886e+0	species	Msig
+Genes involved in Class B/2 (Secretin family receptors)	2.680269e-1	1.456323e+0	species	Msig
+HIV-1 Nef: Negative effector of Fas and TNF-alpha	2.714281e-1	1.912225e+0	species	Msig
+Genes involved in RNA Polymerase I Promoter Opening	2.711855e-1	2.504962e+0	species	Msig
+Pyrimidine metabolism	2.732156e-1	1.510905e+0	species	Msig
+Genes involved in Lipoprotein metabolism	2.783903e-1	2.019847e+0	species	Msig
+G alpha i Pathway	2.777511e-1	1.677799e+0	species	Msig
+Interferon gamma pathway.	2.788618e-1	2.470815e+0	species	Msig
+Progesterone-mediated oocyte maturation	2.798198e-1	1.400201e+0	species	Msig
+TNFR1 Signaling Pathway	2.855054e-1	1.879587e+0	species	Msig
+Prion diseases	2.855380e-1	1.720198e+0	species	Msig
+Genes involved in SHC1 events in EGFR signaling	2.859032e-1	2.439661e+0	species	Msig
+Genes involved in Phospholipase C-mediated cascade	2.863673e-1	1.473163e+0	species	Msig
+Genes involved in Oxygen-dependent Proline Hydroxylation of Hypoxia-inducible Factor Alpha	2.865079e-1	2.163728e+0	species	Msig
+Genes involved in Sema4D in semaphorin signaling	2.860791e-1	1.991847e+0	species	Msig
+Oocyte meiosis	2.904121e-1	1.348123e+0	species	Msig
+Genes involved in Integration of energy metabolism	2.913716e-1	1.347176e+0	species	Msig
+G alpha q Pathway	2.941977e-1	1.855770e+0	species	Msig
+Genes involved in Synthesis of PE	2.934631e-1	2.401183e+0	species	Msig
+Genes involved in Meiosis	2.990998e-1	1.561596e+0	species	Msig
+Integrin Signaling Pathway	3.045207e-1	1.686875e+0	species	Msig
+Genes involved in PI3K/AKT activation	3.070163e-1	1.631059e+0	species	Msig
+Toll-Like Receptor Pathway	3.072736e-1	1.681684e+0	species	Msig
+Genes involved in Phospholipid metabolism	3.066637e-1	1.276587e+0	species	Msig
+p38 MAPK signaling pathway	3.118973e-1	1.738008e+0	species	Msig
+Genes involved in Signal regulatory protein (SIRP) family interactions	3.137141e-1	2.328383e+0	species	Msig
+IL2-mediated signaling events	3.144883e-1	1.512224e+0	species	Msig
+Genes involved in mTORC1-mediated signalling	3.151538e-1	2.762679e+0	species	Msig
+IL12 signaling mediated by STAT4	3.165703e-1	1.808471e+0	species	Msig
+Selective expression of chemokine receptors during T-cell polarization	3.184499e-1	1.804553e+0	species	Msig
+IL12 and Stat4 Dependent Signaling Pathway in Th1 Development	3.185134e-1	1.910939e+0	species	Msig
+Genes involved in Nuclear signaling by ERBB4	3.182432e-1	1.505694e+0	species	Msig
+Genes involved in Resolution of AP sites via the single-nucleotide replacement pathway	3.184006e-1	3.785297e+0	species	Msig
+Genes involved in Triglyceride Biosynthesis	3.186579e-1	1.608525e+0	species	Msig
+Glycerolipid metabolism	3.222956e-1	1.500297e+0	species	Msig
+Growth Hormone Signaling Pathway	3.244880e-1	1.710590e+0	species	Msig
+Genes involved in Regulation of Water Balance by Renal Aquaporins	3.242602e-1	1.600201e+0	species	Msig
+Genes involved in Tryptophan catabolism	3.237849e-1	2.276519e+0	species	Msig
+Genes involved in Glycerophospholipid biosynthesis	3.245487e-1	1.449109e+0	species	Msig
+Genes involved in Phase 1 - Functionalization of compounds	3.245247e-1	1.557487e+0	species	Msig
+p38 MAPK Signaling Pathway	3.238519e-1	1.523782e+0	species	Msig
+Adipocytokine signaling pathway	3.247877e-1	1.447195e+0	species	Msig
+Glycerophospholipid metabolism	3.259278e-1	1.445773e+0	species	Msig
+Beta5 beta6 beta7 and beta8 integrin cell surface interactions	3.252154e-1	1.882588e+0	species	Msig
+Genes involved in Generation of second messenger molecules	3.281486e-1	2.022892e+0	species	Msig
+Genes involved in Unwinding of DNA	3.294037e-1	3.639337e+0	species	Msig
+E-cadherin signaling in the nascent adherens junction	3.369982e-1	1.579176e+0	species	Msig
+mTOR signaling pathway	3.364711e-1	1.480226e+0	species	Msig
+CARM1 and Regulation of the Estrogen Receptor	3.371097e-1	1.506699e+0	species	Msig
+Genes involved in G alpha (i) signalling events	3.402873e-1	1.245578e+0	species	Msig
+Non-small cell lung cancer	3.416832e-1	1.474146e+0	species	Msig
+CXCR3-mediated signaling events	3.434323e-1	1.614690e+0	species	Msig
+Genes involved in Effects of PIP2 hydrolysis	3.442729e-1	1.612928e+0	species	Msig
+Genes involved in Signaling by FGFR1 fusion mutants	3.451469e-1	1.837820e+0	species	Msig
+Genes involved in PPARA Activates Gene Expression	3.495739e-1	1.348626e+0	species	Msig
+Genes involved in Opsins	3.502179e-1	3.456575e+0	species	Msig
+Amyotrophic lateral sclerosis (ALS)	3.526143e-1	1.488285e+0	species	Msig
+Genes involved in p38MAPK events	3.523608e-1	2.542540e+0	species	Msig
+Regulation of p38-alpha and p38-beta	3.578142e-1	1.648276e+0	species	Msig
+Primary bile acid biosynthesis	3.576690e-1	2.150605e+0	species	Msig
+PTEN is a tumor suppressor that dephosphorylates the lipid messenger phosphatidylinositol triphosphate.	3.570329e-1	2.150190e+0	species	Msig
+Stress Induction of HSP Regulation	3.607548e-1	2.139827e+0	species	Msig
+Genes involved in Meiotic Recombination	3.609405e-1	1.710193e+0	species	Msig
+Calcineurin-regulated NFAT-dependent transcription in lymphocytes	3.654757e-1	1.425542e+0	species	Msig
+Arf6 signaling events	3.652954e-1	1.537989e+0	species	Msig
+Signaling mediated by p38-alpha and p38-beta	3.672276e-1	1.500208e+0	species	Msig
+Genes involved in Mitochondrial Protein Import	3.668539e-1	1.698526e+0	species	Msig
+Melanogenesis	3.666631e-1	1.275383e+0	species	Msig
+Genes involved in TGF-beta receptor signaling activates SMADs	3.665974e-1	1.696777e+0	species	Msig
+T Cell Signal Transduction	3.678852e-1	1.531814e+0	species	Msig
+G alpha 12 Pathway	3.684362e-1	1.909426e+0	species	Msig
+Genes involved in Cytochrome P450 - arranged by substrate type	3.678367e-1	1.624981e+0	species	Msig
+Genes involved in Transport of inorganic cations/anions and amino acids/oligopeptides	3.677268e-1	1.341819e+0	species	Msig
+Genes involved in Facilitative Na+-independent glucose transporters	3.682490e-1	2.449800e+0	species	Msig
+TNF/Stress Related Signaling	3.676390e-1	1.778618e+0	species	Msig
+Control of skeletal myogenesis by HDAC and calcium/calmodulin-dependent kinase (CaMK)	3.683004e-1	1.492337e+0	species	Msig
+Netrin-mediated signaling events	3.675685e-1	1.492270e+0	species	Msig
+Purine metabolism	3.677201e-1	1.271361e+0	species	Msig
+Transcription Regulation by Methyltransferase of CARM1	3.686248e-1	2.091373e+0	species	Msig
+Glycine, serine and threonine metabolism	3.733676e-1	1.764552e+0	species	Msig
+Genes involved in p75 NTR receptor-mediated signalling	3.725890e-1	1.360832e+0	species	Msig
+Glutathione metabolism	3.723527e-1	1.763678e+0	species	Msig
+Cell cycle	3.724139e-1	1.313744e+0	species	Msig
+Genes related to CD40 signaling	3.718807e-1	1.609755e+0	species	Msig
+GATA3 participate in activating the Th2 cytokine genes expression	3.738846e-1	1.758043e+0	species	Msig
+Genes involved in PI3K events in ERBB2 signaling	3.734728e-1	1.481170e+0	species	Msig
+Genes involved in Pre-NOTCH Processing in Golgi	3.756720e-1	2.062101e+0	species	Msig
+Melanoma	3.751446e-1	1.310267e+0	species	Msig
+Genes involved in Aquaporin-mediated transport	3.771532e-1	1.509374e+0	species	Msig
+Fc-epsilon receptor I signaling in mast cells	3.785636e-1	1.383467e+0	species	Msig
+Genes involved in PI3K events in ERBB4 signaling	3.783664e-1	1.506844e+0	species	Msig
+Genes involved in DARPP-32 events	3.792132e-1	1.658106e+0	species	Msig
+Alzheimer's disease	3.889015e-1	1.269762e+0	species	Msig
+Genes involved in G alpha (z) signalling events	3.885323e-1	1.463458e+0	species	Msig
+LKB1 signaling events	3.917240e-1	1.530972e+0	species	Msig
+Insulin Pathway	3.968509e-1	1.428821e+0	species	Msig
+Genes involved in Signalling to ERKs	3.969170e-1	1.632342e+0	species	Msig
+Genes involved in Rap1 signalling	3.999386e-1	1.820480e+0	species	Msig
+Genes involved in Notch-HLH transcription pathway	4.016053e-1	1.988649e+0	species	Msig
+Genes involved in Metabolism of polyamines	4.007725e-1	2.292358e+0	species	Msig
+Alpha9 beta1 integrin signaling events	4.016937e-1	1.623026e+0	species	Msig
+Genes involved in Adenylate cyclase activating pathway	4.016418e-1	1.812561e+0	species	Msig
+Antigen processing and presentation	4.011546e-1	1.700686e+0	species	Msig
+Retinoic acid receptors-mediated signaling	4.116205e-1	1.551100e+0	species	Msig
+Genes involved in Phase II conjugation	4.128659e-1	1.503863e+0	species	Msig
+Hemoglobin's Chaperone	4.133355e-1	2.911585e+0	species	Msig
+Genes involved in PD-1 signaling	4.183724e-1	2.885372e+0	species	Msig
+Erk1/Erk2 Mapk Signaling pathway	4.179264e-1	1.598293e+0	species	Msig
+Genes involved in Striated Muscle Contraction	4.170787e-1	1.779960e+0	species	Msig
+Genes involved in RNA Polymerase I Transcription	4.170541e-1	1.672691e+0	species	Msig
+Genes involved in Hormone-sensitive lipase (HSL)-mediated triacylglycerol hydrolysis	4.174770e-1	2.223220e+0	species	Msig
+Genes involved in Sphingolipid metabolism	4.181396e-1	1.403741e+0	species	Msig
+Genes involved in SHC-mediated signalling	4.205054e-1	2.211055e+0	species	Msig
+Glycolysis / Gluconeogenesis	4.197449e-1	1.534777e+0	species	Msig
+Ether lipid metabolism	4.221561e-1	1.660982e+0	species	Msig
+T Helper Cell Surface Molecules	4.213574e-1	2.202342e+0	species	Msig
+NFkB activation by Nontypeable Hemophilus influenzae	4.224810e-1	1.584965e+0	species	Msig
+Genes involved in Downstream TCR signaling	4.220309e-1	1.529268e+0	species	Msig
+Nicotinate and nicotinamide metabolism	4.244628e-1	1.653901e+0	species	Msig
+Genes involved in Proteolytic cleavage of SNARE complex proteins	4.239134e-1	2.187245e+0	species	Msig
+Genes involved in NF-kB activation through FADD/RIP-1 pathway mediated by caspase-8 and -10	4.236760e-1	2.810361e+0	species	Msig
+Genes involved in O-linked glycosylation of mucins	4.230047e-1	1.339568e+0	species	Msig
+Neurotrophic factor-mediated Trk receptor signaling	4.268492e-1	1.336808e+0	species	Msig
