@@ -11,6 +11,10 @@ library(ggrepel)
 library(magrittr)
 library(RColorBrewer)
 library(dplyr)
+library(tidyverse)
+library(Rmpfr)
+library(imputeTS)
+library(pheatmap)
 
 theme_slides <- theme(
   axis.title.x = element_text(size=18),
@@ -52,7 +56,7 @@ ggplot(all.species.rela.repeat.overlap.table, aes(x=type,y=numbers,fill=repeats)
   geom_bar(stat="identity",position="fill")+
   facet_grid(~species)+
   theme_slides+
-  scale_x_discrete(labels=c("rela"="RELA sites","bg"="Whole genome"))+
+  scale_x_discrete(labels=c("rela"="RELA","bg"="Genome"))+
   theme(axis.text.x = element_text(size=11))+
   labs(x="",y="Percentage of elements with TEs")+
   scale_fill_manual(values=set2[c(1:5,8)])
@@ -277,7 +281,7 @@ for (i in 1:nrow(tmp.mx)) {
   num_value <- rank_with_na(tmp.mx[i,]) %>% unique %>% na.omit %>% length
   tmp.mx[i,] <- max_val/num_value * rank_with_na(tmp.mx[i,])
 }
-tmp.mx %<>% replace_na(0)
+tmp.mx %<>% na_replace(0)
 btau_te_tf_top_rank.mx <- tmp.mx %>% t
 
 pheatmap(
