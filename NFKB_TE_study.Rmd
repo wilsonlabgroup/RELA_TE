@@ -1,9 +1,12 @@
 ---
-title: "Supplementary scripts"
+title: "Multi-sepcies RELA ChIP-seq and Transposon Enrichment/Evolutionary Analysis – Supplementary Reproducible Script"
 author: "Liangxi Wang"
 date: "28/09/2022"
 output: html_document
 ---
+
+This R Markdown file reproduces key analyses and figures from our recent study on RELA, a core subunit of the NF-κB transcription factor, with a particular focus on the involvement of transposable elements (TEs) across human, mouse, and cow. It includes integration of repeat annotations, statistical modeling, TE enrichment and evolutionary analyses, as well as enhanced visualizations suitable for publication, with addition of publicly available datasets and fully reproducible R code.
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -35,7 +38,7 @@ set2 <- brewer.pal(n=8,name="Set2")
 
 ## Fig 2
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 ###########
 #2A
 ###########
@@ -86,7 +89,7 @@ plot_sigTE <- function(TE_table,title,repeat_table="hg19_repeat_form.txt",size=1
   coord_flip()+
   scale_fill_manual(values=set2)+
   geom_text(size=3)+
-  theme_slides+
+  #theme_slides+
   labs(x="",y="Log2 fold change of observed/expected",title=title)
   
   print(p1)
@@ -116,16 +119,16 @@ ggplot(temp.dt,aes(y=annotation,estimated.age,color=repClass))+
   geom_point(stat="identity",size=4)+ 
   geom_vline(aes(xintercept=90),linetype="dashed",size=2,color="gray")+
   geom_vline(aes(xintercept=96),linetype="dashed",size=2,color="gray")+
-  theme(
-        axis.title.x = element_text(size=18), 
-        axis.title.y = element_text(size=18), 
-        axis.text.x = element_text(size=15), 
-        axis.text.y  = element_text(size=18), 
-        plot.title = element_text(size=18,hjust=0.5),
-        legend.text = element_text(size=18),
-        strip.text.x = element_text(size=16),
-        legend.title=element_blank()
-          )+
+  # theme(
+  #       axis.title.x = element_text(size=18), 
+  #       axis.title.y = element_text(size=18), 
+  #       axis.text.x = element_text(size=15), 
+  #       axis.text.y  = element_text(size=18), 
+  #       plot.title = element_text(size=18,hjust=0.5),
+  #       legend.text = element_text(size=18),
+  #       strip.text.x = element_text(size=16),
+  #       legend.title=element_blank()
+  #         )+
   labs(x="Estimated age(million years ago)",y="")+
   scale_color_manual(values=set2)
 
@@ -146,7 +149,7 @@ heatmap.2(heatmap.table %>% as.matrix,col=colorRampPalette(c("white","darkred"),
 
 ## Fig 3
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 ###########
 #3B
 ###########
@@ -224,15 +227,15 @@ rbind(old_group_great_table,species_group_great_table,conserved_group_great_tabl
   ggplot(aes(x=type,y=desc,color=-log10(fdr),size=fold))+
   geom_point()+
   labs(x="", y="")+
-  scale_colour_gradient2(low = "lightblue",mid="#FF7F00", high="brown", midpoint = 12)+ #low = "lightblue", high="#67000D" high=""#E41A1C""
-  theme_slides
+  scale_colour_gradient2(low = "lightblue",mid="#FF7F00", high="brown", midpoint = 12) #low = "lightblue", high="#67000D" high=""#E41A1C""
+  #theme_slides
 
 
 ```
 
 ## Fig 5
 
-```{r}
+```{r, message=FALSE, warning=FALSE, results='hide'}
 ###########
 #5A & 5B
 ###########
@@ -347,9 +350,9 @@ bov_ta_sub_pop_df %>% gather("type","perc",3:6) %>% mutate(type=factor(type, lev
 
 ```
 
-##Fig 6
+## Fig 6
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 ###########
 #6C
 ###########
@@ -394,7 +397,7 @@ luc_native_full_table %>% arrange(construct, condition) %>% group_by(construct, 
 
 ```
 
-##Fig 7
+## Fig 7
 
 ```{r}
 ###########
@@ -418,16 +421,16 @@ ggplot(mer81_evo_table,aes(y=num,x=genomes, fill=type))+
   geom_bar(stat="identity",position="stack")+
   scale_fill_manual(values=c("#C0C0C0",set2[2]),labels=c("total number", "with motifs"))+
   labs(x="",y="number of MER81 copies", fill="")+
-  theme(
-  axis.title.x = element_text(size=26),
-  axis.title.y = element_text(size=22),
-  axis.text.x = element_text(size=22),
-  axis.text.y  = element_text(size=24),
-  plot.title = element_text(size=22,hjust=0.5),
-  legend.text = element_text(size=22),
-  strip.text.x = element_text(size=22),
-  legend.title=element_blank()
-)+
+#   theme(
+#   axis.title.x = element_text(size=26),
+#   axis.title.y = element_text(size=22),
+#   axis.text.x = element_text(size=22),
+#   axis.text.y  = element_text(size=24),
+#   plot.title = element_text(size=22,hjust=0.5),
+#   legend.text = element_text(size=22),
+#   strip.text.x = element_text(size=22),
+#   legend.title=element_blank()
+# )+
   coord_flip()
 
 ###########
@@ -621,7 +624,7 @@ bov_ta_word_df %>% mutate(word1=word1/total_num, word2=word2/total_num, word3=wo
   select(-total_num) %>% gather("type","perc",2:5) %>% ggplot(aes(x=type, y=perc,group=name, color=name)) +
   geom_line(size=2)+
   scale_color_manual(values=brewer.pal(3,"Set2"))+
-  labs(x="",y="Fraction of each word from the corresponding instances")+
+  labs(x="",y="Fraction of the corresponding instances")+
   theme_slides
 
 
@@ -643,8 +646,8 @@ mer81_great_table <- rbind(mer81_great_msigdb %>% mutate(ontology="MSigDB Pathwa
 ggplot(mer81_great_table, aes(-log10(binomial_p), reorder(term,-binomial_p), fill=ontology))+
   geom_bar(stat="identity")+
   labs(x="-log10(Binomial p value)",y="")+
-  scale_fill_manual(values=brewer.pal(n=8,name="Set3")[c(5,3)])+
-  theme_slides
+  scale_fill_manual(values=brewer.pal(n=8,name="Set3")[c(5,3)])
+  #theme_slides
 
 ```
 
