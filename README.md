@@ -5,4 +5,4 @@ This repository contains supplementary scripts for a comparative genomics study 
 See `NFKB_TE_study.Rmd` for detailed reproducible code.
 See `NFKB_TE_study.html` for generated figures.
 
-[View interactive HTML report](https://yourusername.github.io/your-repo-name/)
+[View interactive HTML report](https://wilsonlabgroup.github.io/NFKB-Transposon-Analysis/)
